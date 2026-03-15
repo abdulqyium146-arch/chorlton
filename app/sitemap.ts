@@ -2,7 +2,7 @@ import type { MetadataRoute } from 'next'
 import { SERVICES } from '@/lib/theme'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://chorltonlocksmiths.co.uk'
+  const baseUrl = 'https://chorltonlocksmiths.com'
   const lastModified = new Date()
 
   const staticPages: MetadataRoute.Sitemap = [

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description:
     'Chorlton Locksmiths covers all of Greater Manchester. Emergency locksmith, auto locksmith, residential & commercial services in Chorlton, Didsbury, Salford, Trafford, Stockport, Wythenshawe and 20+ more areas.',
   alternates: {
-    canonical: 'https://chorltonlocksmiths.co.uk/areas-we-cover',
+    canonical: 'https://chorltonlocksmiths.com/areas-we-cover',
   },
 }
 

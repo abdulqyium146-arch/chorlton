@@ -5,14 +5,14 @@ export const generateLocalBusinessSchema = () => {
   return {
     '@context': 'https://schema.org',
     '@type': 'Locksmith',
-    '@id': 'https://chorltonlocksmiths.co.uk/#business',
+    '@id': 'https://chorltonlocksmiths.com/#business',
     name: BUSINESS.name,
     description:
       'Professional emergency locksmith services in Chorlton, Manchester. Available 24/7 for residential, commercial, and auto locksmith needs across all of Greater Manchester.',
-    url: 'https://chorltonlocksmiths.co.uk',
+    url: 'https://chorltonlocksmiths.com',
     telephone: BUSINESS.phone,
     email: BUSINESS.email,
-    image: 'https://chorltonlocksmiths.co.uk/og-image.jpg',
+    image: 'https://chorltonlocksmiths.com/og-image.jpg',
     priceRange: '££',
     address: {
       '@type': 'PostalAddress',
@@ -63,13 +63,13 @@ export const generateLocalBusinessSchema = () => {
       '@type': 'OfferCatalog',
       name: 'Locksmith Services',
       itemListElement: [
-        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Emergency Locksmith', url: 'https://chorltonlocksmiths.co.uk/services/emergency-locksmith-manchester' } },
-        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Auto Locksmith — Car & Van', url: 'https://chorltonlocksmiths.co.uk/services/auto-locksmith-manchester' } },
-        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Residential Locksmith', url: 'https://chorltonlocksmiths.co.uk/services/residential-locksmith-manchester' } },
-        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Commercial Locksmith', url: 'https://chorltonlocksmiths.co.uk/services/commercial-locksmith-manchester' } },
-        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Lock Repair', url: 'https://chorltonlocksmiths.co.uk/services/lock-repair-manchester' } },
-        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Lock Replacement', url: 'https://chorltonlocksmiths.co.uk/services/lock-replacement-manchester' } },
-        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'uPVC Door Locks', url: 'https://chorltonlocksmiths.co.uk/services/upvc-door-lock-specialist' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Emergency Locksmith', url: 'https://chorltonlocksmiths.com/services/emergency-locksmith-manchester' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Auto Locksmith — Car & Van', url: 'https://chorltonlocksmiths.com/services/auto-locksmith-manchester' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Residential Locksmith', url: 'https://chorltonlocksmiths.com/services/residential-locksmith-manchester' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Commercial Locksmith', url: 'https://chorltonlocksmiths.com/services/commercial-locksmith-manchester' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Lock Repair', url: 'https://chorltonlocksmiths.com/services/lock-repair-manchester' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Lock Replacement', url: 'https://chorltonlocksmiths.com/services/lock-replacement-manchester' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'uPVC Door Locks', url: 'https://chorltonlocksmiths.com/services/upvc-door-lock-specialist' } },
       ],
     },
   }
@@ -135,7 +135,7 @@ export const generateBreadcrumbSchema = (
       '@type': 'ListItem',
       position: index + 1,
       name: item.name,
-      item: `https://chorltonlocksmiths.co.uk${item.url}`,
+      item: `https://chorltonlocksmiths.com${item.url}`,
     })),
   }
 }
@@ -156,13 +156,13 @@ export const generateServiceSchema = (
     provider: {
       '@type': 'Locksmith',
       name: BUSINESS.name,
-      url: 'https://chorltonlocksmiths.co.uk',
+      url: 'https://chorltonlocksmiths.com',
     },
     areaServed: {
       '@type': 'City',
       name: 'Manchester',
     },
-    url: `https://chorltonlocksmiths.co.uk${serviceData.url}`,
+    url: `https://chorltonlocksmiths.com${serviceData.url}`,
     telephone: BUSINESS.phone,
   }
 }
@@ -193,8 +193,8 @@ export const generateOrganizationSchema = () => {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: BUSINESS.name,
-    url: 'https://chorltonlocksmiths.co.uk',
-    logo: 'https://chorltonlocksmiths.co.uk/logo.png',
+    url: 'https://chorltonlocksmiths.com',
+    logo: 'https://chorltonlocksmiths.com/logo.png',
     sameAs: [
       'https://www.google.com/maps/place/Chorlton+Locksmiths',
     ],

@@ -34,11 +34,11 @@ export const metadata: Metadata = {
     title: 'Auto Locksmith Manchester | Car & Van Lockout Service',
     description:
       'Locked out of your car or van? Mobile auto locksmith covering all of Greater Manchester. Fast 30–60 min response. Call 07388 789881.',
-    url: 'https://chorltonlocksmiths.co.uk/services/auto-locksmith-manchester',
+    url: 'https://chorltonlocksmiths.com/services/auto-locksmith-manchester',
     type: 'website',
   },
   alternates: {
-    canonical: 'https://chorltonlocksmiths.co.uk/services/auto-locksmith-manchester',
+    canonical: 'https://chorltonlocksmiths.com/services/auto-locksmith-manchester',
   },
 }
 

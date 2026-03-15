@@ -19,7 +19,7 @@ const geist = Geist({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://chorltonlocksmiths.co.uk'),
+  metadataBase: new URL('https://chorltonlocksmiths.com'),
   title: {
     default: 'Emergency Locksmith in Chorlton Manchester | Chorlton Locksmiths',
     template: '%s | Chorlton Locksmiths',
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     title: 'Emergency Locksmith in Chorlton Manchester | Chorlton Locksmiths',
     description:
       'Fast, reliable locksmith services in Manchester. 24/7 emergency, auto, residential & commercial. Call 07388 789881.',
-    url: 'https://chorltonlocksmiths.co.uk',
+    url: 'https://chorltonlocksmiths.com',
     siteName: 'Chorlton Locksmiths',
     type: 'website',
     locale: 'en_GB',
@@ -72,7 +72,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://chorltonlocksmiths.co.uk',
+    canonical: 'https://chorltonlocksmiths.com',
   },
   verification: {
     google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION ?? '',

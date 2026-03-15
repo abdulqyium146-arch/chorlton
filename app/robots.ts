@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/admin', '/api'],
     },
-    sitemap: 'https://chorltonlocksmiths.co.uk/sitemap.xml',
+    sitemap: 'https://chorltonlocksmiths.com/sitemap.xml',
   }
 }
