@@ -8,7 +8,7 @@ import { TestimonialSection } from '@/components/testimonials/TestimonialSection
 import { TrustBadges } from '@/components/trust/TrustBadges'
 import { CTAButton } from '@/components/cta/CTAButton'
 import { QuoteForm } from '@/components/forms/QuoteForm'
-import { generateFAQSchema, generateBreadcrumbSchema } from '@/lib/schema'
+import { generateFAQSchema, generateBreadcrumbSchema, generateWebPageSchema } from '@/lib/schema'
 import { BUSINESS, SERVICE_AREAS } from '@/lib/theme'
 import { Phone, Shield, Zap, MapPin, Award } from 'lucide-react'
 
@@ -103,21 +103,27 @@ const faqSchema = generateFAQSchema(faqs)
 const breadcrumbSchema = generateBreadcrumbSchema([
   { name: 'Home', url: '/' },
 ])
+const webPageSchema = generateWebPageSchema({
+  url: '/',
+  name: 'Emergency Locksmith Chorlton Manchester | 24/7 Fast Response',
+  description: 'Trusted emergency locksmith in Chorlton and Manchester. 30–60 min response, available 24/7 including weekends. Lock repair, auto locksmith, uPVC specialists. Call 07388 789881.',
+  speakableSelectors: ['h1', 'h2', '.speakable'],
+})
 
 export default function Home() {
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(faqSchema),
-        }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(breadcrumbSchema),
-        }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
       />
 
       {/* Hero Section - Optimized for Conversions */}
@@ -133,6 +139,7 @@ export default function Home() {
             title="Why Trust Chorlton Locksmiths? Manchester's #1 Local Emergency Locksmith"
             subtitle="Trusted by 150+ Manchester residents. Serving Chorlton, Didsbury, Stretford, Sale, Fallowfield, Whalley Range, Moss Side, Old Trafford, and Manchester City Centre with professional, affordable locksmith services. 24/7 Available. Fully Insured. Fast Response."
             centered
+            className="speakable"
           />
           <TrustBadges />
         </Container>

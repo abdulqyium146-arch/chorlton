@@ -11,6 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified,
       changeFrequency: 'weekly',
       priority: 1,
+      images: [`${baseUrl}/chorlton-locksmith-hero-main.webp`],
     },
     {
       url: `${baseUrl}/about`,

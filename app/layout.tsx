@@ -3,7 +3,7 @@ import { Inter, Geist } from 'next/font/google'
 import { Header } from '@/components/layout/Header'
 import { Footer } from '@/components/layout/Footer'
 import { MobileCallButton } from '@/components/cta/MobileCallButton'
-import { generateLocalBusinessSchema } from '@/lib/schema'
+import { generateLocalBusinessSchema, generateImageObjectSchema } from '@/lib/schema'
 import '@/styles/globals.css'
 
 const inter = Inter({
@@ -21,44 +21,51 @@ const geist = Geist({
 export const metadata: Metadata = {
   metadataBase: new URL('https://chorltonlocksmiths.com'),
   title: {
-    default: 'Emergency Locksmith in Chorlton Manchester | Chorlton Locksmiths',
+    default: 'Emergency Locksmith Chorlton Manchester | 24/7 Fast Response | Chorlton Locksmiths',
     template: '%s | Chorlton Locksmiths',
   },
   description:
-    'Fast, reliable locksmith services in Chorlton, Manchester. Available 24/7 for emergency lockouts, lock repair, auto locksmith, and residential/commercial services. Call 07388 789881.',
+    'Trusted emergency locksmith in Chorlton, Manchester. 30–60 min response, 24/7 including weekends & bank holidays. Lock repair, auto locksmith, uPVC specialists. Fully insured. Call 07388 789881.',
   keywords: [
     'locksmith manchester',
-    'emergency locksmith',
-    'chorlton locksmith',
+    'emergency locksmith manchester',
+    'locksmith chorlton',
+    '24/7 locksmith manchester',
     'auto locksmith manchester',
     'car lockout manchester',
-    'lock repair manchester',
-    'residential locksmith',
-    'commercial locksmith',
-    '24/7 locksmith',
+    'lock repair chorlton',
+    'upvc door lock repair manchester',
+    'residential locksmith manchester',
+    'commercial locksmith manchester',
+    'locksmith didsbury',
+    'locksmith stretford',
+    'locksmith sale',
+    'locked out manchester',
+    'cheap locksmith manchester',
   ],
   openGraph: {
-    title: 'Emergency Locksmith in Chorlton Manchester | Chorlton Locksmiths',
+    title: 'Emergency Locksmith Chorlton Manchester | 24/7 | Chorlton Locksmiths',
     description:
-      'Fast, reliable locksmith services in Manchester. 24/7 emergency, auto, residential & commercial. Call 07388 789881.',
+      'Trusted 24/7 emergency locksmith in Chorlton & Manchester. 30–60 min response, lock repair, auto locksmith, uPVC specialists. Fully insured. Call 07388 789881.',
     url: 'https://chorltonlocksmiths.com',
     siteName: 'Chorlton Locksmiths',
     type: 'website',
     locale: 'en_GB',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/chorlton-locksmith-hero-main.webp',
         width: 1200,
         height: 630,
-        alt: 'Chorlton Locksmiths — Emergency Locksmith Manchester',
+        alt: 'Chorlton Locksmiths — Emergency Locksmith in Manchester available 24/7',
+        type: 'image/webp',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Chorlton Locksmiths — Emergency Locksmith Manchester',
-    description: 'Emergency locksmith services available 24/7 across Greater Manchester. Call 07388 789881.',
-    images: ['/og-image.jpg'],
+    title: 'Emergency Locksmith Chorlton Manchester | 24/7 Fast Response',
+    description: 'Trusted 24/7 emergency locksmith in Chorlton & Manchester. Call 07388 789881 — 30–60 min response guaranteed.',
+    images: ['/chorlton-locksmith-hero-main.webp'],
   },
   robots: {
     index: true,
@@ -80,6 +87,7 @@ export const metadata: Metadata = {
 }
 
 const localBusinessSchema = generateLocalBusinessSchema()
+const imageObjectSchema = generateImageObjectSchema()
 
 export default function RootLayout({
   children,
@@ -94,13 +102,40 @@ export default function RootLayout({
     >
       <head>
         <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
         <meta name="theme-color" content="#0F172A" />
+
+        {/* iOS / PWA meta */}
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="apple-mobile-web-app-title" content="Chorlton Locksmiths" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="format-detection" content="telephone=no" />
+
+        {/* Geo meta tags — local SEO signals for Bing, directories & aggregators */}
+        <meta name="geo.region" content="GB-MAN" />
+        <meta name="geo.placename" content="Chorlton-cum-Hardy, Manchester" />
+        <meta name="geo.position" content="53.4404;-2.2703" />
+        <meta name="ICBM" content="53.4404, -2.2703" />
+
+        {/* Open Graph geo extension */}
+        <meta property="place:location:latitude" content="53.4404" />
+        <meta property="place:location:longitude" content="-2.2703" />
+        <meta property="business:contact_data:street_address" content="615b Wilbraham Rd" />
+        <meta property="business:contact_data:locality" content="Chorlton-cum-Hardy" />
+        <meta property="business:contact_data:region" content="Greater Manchester" />
+        <meta property="business:contact_data:postal_code" content="M21 9AN" />
+        <meta property="business:contact_data:country_name" content="United Kingdom" />
+        <meta property="business:contact_data:phone_number" content="+447388789881" />
 
         {/* Schema Markup */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(imageObjectSchema) }}
         />
 
         {/* Google Analytics — only loads when GA ID is configured */}

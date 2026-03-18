@@ -4,16 +4,33 @@ import { BUSINESS } from './theme'
 export const generateLocalBusinessSchema = () => {
   return {
     '@context': 'https://schema.org',
-    '@type': 'Locksmith',
+    '@type': ['Locksmith', 'EmergencyService', 'LocalBusiness'],
     '@id': 'https://chorltonlocksmiths.com/#business',
     name: BUSINESS.name,
+    alternateName: 'Chorlton Locksmiths',
+    slogan: '24/7 Emergency Locksmith in Chorlton & Manchester',
     description:
-      'Professional emergency locksmith services in Chorlton, Manchester. Available 24/7 for residential, commercial, and auto locksmith needs across all of Greater Manchester.',
+      'Professional emergency locksmith services in Chorlton, Manchester. Available 24/7 for residential, commercial, and auto locksmith needs across all of Greater Manchester. 30–60 minute response time. Fully insured.',
     url: 'https://chorltonlocksmiths.com',
     telephone: BUSINESS.phone,
     email: BUSINESS.email,
-    image: 'https://chorltonlocksmiths.com/og-image.jpg',
+    image: {
+      '@type': 'ImageObject',
+      url: 'https://chorltonlocksmiths.com/chorlton-locksmith-hero-main.webp',
+      width: 1200,
+      height: 630,
+      caption: 'Chorlton Locksmiths — Emergency Locksmith in Chorlton and Manchester available 24/7',
+    },
+    logo: {
+      '@type': 'ImageObject',
+      url: 'https://chorltonlocksmiths.com/chorlton-locksmith-hero-main.webp',
+      caption: 'Chorlton Locksmiths Limited — Manchester Emergency Locksmith',
+    },
     priceRange: '££',
+    currenciesAccepted: 'GBP',
+    paymentAccepted: 'Cash, Credit Card, Debit Card, Bank Transfer',
+    foundingDate: '2009',
+    hasMap: 'https://maps.google.com/?q=615b+Wilbraham+Rd+Chorlton+Manchester+M21+9AN',
     address: {
       '@type': 'PostalAddress',
       streetAddress: '615b Wilbraham Rd',
@@ -27,6 +44,29 @@ export const generateLocalBusinessSchema = () => {
       latitude: BUSINESS.coordinates.lat,
       longitude: BUSINESS.coordinates.lng,
     },
+    contactPoint: [
+      {
+        '@type': 'ContactPoint',
+        telephone: BUSINESS.phone,
+        contactType: 'emergency',
+        contactOption: 'TollFree',
+        areaServed: 'GB',
+        availableLanguage: 'English',
+        hoursAvailable: {
+          '@type': 'OpeningHoursSpecification',
+          dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+          opens: '00:00',
+          closes: '23:59',
+        },
+      },
+      {
+        '@type': 'ContactPoint',
+        telephone: BUSINESS.phone,
+        contactType: 'customer service',
+        areaServed: 'GB',
+        availableLanguage: 'English',
+      },
+    ],
     areaServed: [
       'Chorlton', 'Didsbury', 'Fallowfield', 'Withington', 'Rusholme',
       'Whalley Range', 'Moss Side', 'Hulme', 'Old Trafford', 'Stretford',
@@ -34,7 +74,7 @@ export const generateLocalBusinessSchema = () => {
       'Worsley', 'Levenshulme', 'Gorton', 'Longsight', 'Ancoats',
       'Wythenshawe', 'Northenden', 'Stockport', 'Cheadle',
       'Manchester City Centre', 'Deansgate', 'Castlefield',
-    ].map((name) => ({ '@type': 'City', name, '@id': `https://www.wikidata.org/wiki/${encodeURIComponent(name)}` })),
+    ].map((name) => ({ '@type': 'City', name })),
     aggregateRating: {
       '@type': 'AggregateRating',
       ratingValue: BUSINESS.rating,
@@ -43,7 +83,7 @@ export const generateLocalBusinessSchema = () => {
       worstRating: '1',
     },
     sameAs: [
-      'https://www.google.com/maps/place/Chorlton+Locksmiths',
+      'https://www.google.com/maps/search/Chorlton+Locksmiths+615b+Wilbraham+Rd+Manchester',
     ],
     openingHoursSpecification: [
       {
@@ -59,18 +99,96 @@ export const generateLocalBusinessSchema = () => {
         closes: '22:00',
       },
     ],
+    knowsAbout: [
+      'Emergency Locksmith', 'Lock Repair', 'Lock Replacement', 'uPVC Door Locks',
+      'Euro Cylinder Locks', 'Multipoint Locks', 'Auto Locksmith', 'Key Cutting',
+      'Residential Security', 'Commercial Security', 'Anti-Snap Locks',
+    ],
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
-      name: 'Locksmith Services',
+      name: 'Locksmith Services Manchester',
       itemListElement: [
-        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Emergency Locksmith', url: 'https://chorltonlocksmiths.com/services/emergency-locksmith-manchester' } },
-        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Auto Locksmith — Car & Van', url: 'https://chorltonlocksmiths.com/services/auto-locksmith-manchester' } },
-        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Residential Locksmith', url: 'https://chorltonlocksmiths.com/services/residential-locksmith-manchester' } },
-        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Commercial Locksmith', url: 'https://chorltonlocksmiths.com/services/commercial-locksmith-manchester' } },
-        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Lock Repair', url: 'https://chorltonlocksmiths.com/services/lock-repair-manchester' } },
-        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Lock Replacement', url: 'https://chorltonlocksmiths.com/services/lock-replacement-manchester' } },
-        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'uPVC Door Locks', url: 'https://chorltonlocksmiths.com/services/upvc-door-lock-specialist' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Emergency Locksmith Manchester', url: 'https://chorltonlocksmiths.com/services/emergency-locksmith-manchester' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Auto Locksmith Manchester — Car & Van', url: 'https://chorltonlocksmiths.com/services/auto-locksmith-manchester' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Residential Locksmith Manchester', url: 'https://chorltonlocksmiths.com/services/residential-locksmith-manchester' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Commercial Locksmith Manchester', url: 'https://chorltonlocksmiths.com/services/commercial-locksmith-manchester' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Lock Repair Manchester', url: 'https://chorltonlocksmiths.com/services/lock-repair-manchester' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Lock Replacement Manchester', url: 'https://chorltonlocksmiths.com/services/lock-replacement-manchester' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'uPVC Door Lock Specialist Manchester', url: 'https://chorltonlocksmiths.com/services/upvc-door-lock-specialist' } },
       ],
+    },
+  }
+}
+
+// ImageObject Schema — helps Google Images rank and attribute the hero image
+export const generateImageObjectSchema = () => {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ImageObject',
+    '@id': 'https://chorltonlocksmiths.com/#hero-image',
+    contentUrl: 'https://chorltonlocksmiths.com/chorlton-locksmith-hero-main.webp',
+    url: 'https://chorltonlocksmiths.com/chorlton-locksmith-hero-main.webp',
+    name: 'Chorlton Locksmiths — Emergency Locksmith in Manchester 24/7',
+    caption: 'Professional emergency locksmith services in Chorlton and Manchester. Available 24/7, 30–60 minute response time.',
+    description: 'Chorlton Locksmiths provides 24/7 emergency locksmith services across Manchester and Greater Manchester including Chorlton, Didsbury, Stretford, Sale, and Manchester City Centre.',
+    representativeOfPage: true,
+    width: { '@type': 'QuantitativeValue', value: 1200 },
+    height: { '@type': 'QuantitativeValue', value: 630 },
+    encodingFormat: 'image/webp',
+    license: 'https://chorltonlocksmiths.com',
+    acquireLicensePage: 'https://chorltonlocksmiths.com/contact',
+    creditText: 'Chorlton Locksmiths Limited',
+    creator: {
+      '@type': 'Organization',
+      name: 'Chorlton Locksmiths Limited',
+      url: 'https://chorltonlocksmiths.com',
+    },
+    locationCreated: {
+      '@type': 'Place',
+      name: 'Chorlton-cum-Hardy, Manchester',
+      geo: {
+        '@type': 'GeoCoordinates',
+        latitude: 53.4404,
+        longitude: -2.2703,
+      },
+    },
+  }
+}
+
+// WebPage Schema with Speakable — AEO optimized for voice search & AI answer engines
+export const generateWebPageSchema = (data: {
+  url: string
+  name: string
+  description: string
+  speakableSelectors?: string[]
+}) => {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    '@id': `https://chorltonlocksmiths.com${data.url}#webpage`,
+    url: `https://chorltonlocksmiths.com${data.url}`,
+    name: data.name,
+    description: data.description,
+    inLanguage: 'en-GB',
+    isPartOf: {
+      '@type': 'WebSite',
+      '@id': 'https://chorltonlocksmiths.com/#website',
+      url: 'https://chorltonlocksmiths.com',
+      name: 'Chorlton Locksmiths',
+      description: '24/7 Emergency Locksmith in Chorlton and Manchester',
+      publisher: {
+        '@id': 'https://chorltonlocksmiths.com/#business',
+      },
+    },
+    about: {
+      '@id': 'https://chorltonlocksmiths.com/#business',
+    },
+    speakable: {
+      '@type': 'SpeakableSpecification',
+      cssSelector: data.speakableSelectors ?? ['h1', 'h2', '.speakable'],
+    },
+    primaryImageOfPage: {
+      '@id': 'https://chorltonlocksmiths.com/#hero-image',
     },
   }
 }

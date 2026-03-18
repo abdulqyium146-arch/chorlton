@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { BUSINESS } from '@/lib/theme'
 import { Container } from '@/components/layout/Container'
 import { CTAButton } from '@/components/cta/CTAButton'
@@ -35,8 +36,18 @@ export function HeroSection({
 
   return (
     <section className="relative w-full text-white overflow-hidden">
-      {/* Premium gradient background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-slate-950 via-slate-900 to-blue-950"></div>
+      {/* Hero background image */}
+      <Image
+        src="/chorlton-locksmith-hero-main.webp"
+        alt="Emergency locksmith in Chorlton Manchester — Chorlton Locksmiths available 24/7 for residential, commercial and auto locksmith services"
+        fill
+        priority
+        className="object-cover object-center"
+        quality={90}
+      />
+
+      {/* Dark overlay for text readability */}
+      <div className="absolute inset-0 bg-gradient-to-br from-slate-950/90 via-slate-900/80 to-blue-950/75"></div>
 
       {/* Animated accent elements */}
       <div className="absolute -top-40 -right-40 w-80 h-80 bg-amber-400 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse"></div>
