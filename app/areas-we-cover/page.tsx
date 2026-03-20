@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 import { HeroSection } from '@/components/hero/HeroSection'
 import { Section } from '@/components/layout/Section'
 import { Container } from '@/components/layout/Container'
@@ -206,6 +207,47 @@ export default function AreasWeCoverPage() {
                 {service.name}
               </a>
             ))}
+          </div>
+        </Container>
+      </Section>
+
+      {/* Stockport Partner Callout */}
+      <Section>
+        <Container>
+          <div className="max-w-4xl mx-auto bg-slate-950 text-white rounded-2xl p-8 flex flex-col lg:flex-row gap-8 items-start lg:items-center">
+            <div className="flex-1">
+              <p className="text-amber-400 text-xs font-bold uppercase tracking-widest mb-2">Specialist Partner — Stockport</p>
+              <h2 className="text-xl font-bold mb-3">Car Key Cutting & Programming in Stockport</h2>
+              <p className="text-slate-300 text-sm leading-relaxed">
+                For specialist <strong className="text-white">car key cutting, transponder programming, and auto locksmith
+                services in Stockport</strong>, we work alongside our trusted partner{' '}
+                <a
+                  href="https://carkeysinstockport.co.uk/"
+                  target="_blank"
+                  rel="noopener"
+                  className="text-amber-400 hover:text-amber-300 font-semibold underline underline-offset-2"
+                >
+                  Car Keys in Stockport
+                </a>
+                {' '}— covering Stockport, Cheadle, Bramhall, Hazel Grove, and surrounding areas with a fully mobile service.
+              </p>
+            </div>
+            <div className="flex flex-wrap gap-3 flex-shrink-0">
+              <a
+                href="https://carkeysinstockport.co.uk/"
+                target="_blank"
+                rel="noopener"
+                className="inline-flex items-center gap-2 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold px-5 py-3 rounded-xl transition-colors text-sm"
+              >
+                Visit Partner Site
+              </a>
+              <Link
+                href="/partners"
+                className="inline-flex items-center gap-2 border border-white/20 hover:border-amber-400 text-white hover:text-amber-400 font-semibold px-5 py-3 rounded-xl transition-colors text-sm"
+              >
+                Our Partners →
+              </Link>
+            </div>
           </div>
         </Container>
       </Section>

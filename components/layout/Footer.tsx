@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { Phone, Mail, MapPin, Clock } from 'lucide-react'
+import { Phone, Mail, MapPin, Clock, ExternalLink } from 'lucide-react'
 import { BUSINESS, SERVICE_AREAS } from '@/lib/theme'
 import { Container } from './Container'
 import { generateOrganizationSchema } from '@/lib/schema'
@@ -145,6 +145,39 @@ export function Footer() {
                   <p>Emergency: 24/7 Available</p>
                   <p className="text-slate-500">Call anytime</p>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Trusted Partners */}
+        <div className="py-8 border-t border-slate-800">
+          <h4 className="font-semibold text-white mb-4 text-sm">Trusted Partners</h4>
+          <div className="flex flex-wrap gap-4 items-center">
+            <div className="bg-slate-800 rounded-xl px-5 py-4 flex flex-col sm:flex-row sm:items-center gap-3">
+              <div>
+                <p className="text-white font-semibold text-sm">Car Keys in Stockport</p>
+                <p className="text-slate-400 text-xs mt-0.5">
+                  Specialist car key cutting &amp; programming — Stockport &amp; Greater Manchester
+                </p>
+              </div>
+              <div className="flex gap-3 flex-shrink-0">
+                <a
+                  href="https://carkeysinstockport.co.uk/"
+                  target="_blank"
+                  rel="noopener"
+                  className="inline-flex items-center gap-1.5 text-xs bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold px-3 py-2 rounded-lg transition-colors"
+                  aria-label="Visit Car Keys in Stockport"
+                >
+                  <ExternalLink size={12} />
+                  carkeysinstockport.co.uk
+                </a>
+                <Link
+                  href="/partners"
+                  className="inline-flex items-center gap-1.5 text-xs border border-slate-600 hover:border-amber-400 text-slate-400 hover:text-amber-400 font-medium px-3 py-2 rounded-lg transition-colors"
+                >
+                  Learn More
+                </Link>
               </div>
             </div>
           </div>

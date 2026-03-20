@@ -10,7 +10,8 @@ import { CTAButton } from '@/components/cta/CTAButton'
 import { QuoteForm } from '@/components/forms/QuoteForm'
 import { generateFAQSchema, generateBreadcrumbSchema, generateWebPageSchema } from '@/lib/schema'
 import { BUSINESS, SERVICE_AREAS } from '@/lib/theme'
-import { Phone, Shield, Zap, MapPin, Award } from 'lucide-react'
+import { Phone, Shield, Zap, MapPin, Award, ExternalLink } from 'lucide-react'
+import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Emergency Locksmith Chorlton Manchester | 24/7 Fast Response | Insured',
@@ -314,6 +315,54 @@ export default function Home() {
                 </p>
               </details>
             ))}
+          </div>
+        </Container>
+      </Section>
+
+      {/* Trusted Partners Strip */}
+      <Section>
+        <Container>
+          <div className="border border-slate-200 rounded-2xl p-6 lg:p-8">
+            <div className="flex flex-col lg:flex-row lg:items-center gap-6">
+              <div className="flex-1">
+                <p className="text-amber-600 font-bold text-xs uppercase tracking-widest mb-1">Trusted Partner Network</p>
+                <h2 className="text-xl font-bold text-slate-950 mb-2">
+                  Need Car Keys in Stockport? We Know the Best
+                </h2>
+                <p className="text-slate-600 text-sm leading-relaxed">
+                  For specialist <strong>car key cutting and programming in Stockport</strong>, we refer our
+                  customers to our trusted partner{' '}
+                  <a
+                    href="https://carkeysinstockport.co.uk/"
+                    target="_blank"
+                    rel="noopener"
+                    className="text-amber-600 hover:text-amber-700 font-semibold underline underline-offset-2"
+                  >
+                    Car Keys in Stockport
+                  </a>
+                  {' '}— mobile specialists covering Stockport and all of Greater Manchester.
+                  Together we make sure every driver in the region is covered.
+                </p>
+              </div>
+              <div className="flex flex-wrap gap-3 flex-shrink-0">
+                <a
+                  href="https://carkeysinstockport.co.uk/"
+                  target="_blank"
+                  rel="noopener"
+                  className="inline-flex items-center gap-2 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold px-5 py-3 rounded-xl transition-colors text-sm"
+                  aria-label="Visit Car Keys in Stockport"
+                >
+                  <ExternalLink size={15} />
+                  carkeysinstockport.co.uk
+                </a>
+                <Link
+                  href="/partners"
+                  className="inline-flex items-center gap-2 border border-slate-300 hover:border-amber-400 text-slate-700 hover:text-amber-600 font-semibold px-5 py-3 rounded-xl transition-colors text-sm"
+                >
+                  Our Partners →
+                </Link>
+              </div>
+            </div>
           </div>
         </Container>
       </Section>

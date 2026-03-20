@@ -8,9 +8,9 @@ import { Car, Key, MapPin, ShieldCheck, Star, ExternalLink, Phone, Wrench, Clock
 // ─── Metadata ────────────────────────────────────────────────────────────────
 
 export const metadata: Metadata = {
-  title: 'Trusted Partners | Car Keys Stockport — Auto Locksmith Manchester & Stockport | Chorlton Locksmiths',
+  title: 'Car Keys Stockport — Trusted Partner | Chorlton Locksmiths',
   description:
-    'Chorlton Locksmiths proudly partners with Car Keys in Stockport — the leading specialist for car key cutting, programming, and auto locksmith services across Manchester and Stockport. Fast, affordable, mobile service.',
+    'Chorlton Locksmiths partners with Car Keys in Stockport — specialists in car key cutting, transponder programming, and auto locksmith services across Stockport and Greater Manchester.',
   keywords: [
     'car keys Stockport',
     'car key specialist Stockport',
@@ -26,17 +26,29 @@ export const metadata: Metadata = {
     'trusted locksmith partners Manchester',
   ],
   openGraph: {
-    title: 'Trusted Partners | Car Keys Stockport — Auto Locksmith Manchester & Stockport',
+    title: 'Car Keys Stockport — Trusted Auto Locksmith Partner',
     description:
-      'We partner with Car Keys in Stockport — specialists in car key cutting, programming & auto locksmith services across Manchester and Stockport. Call for fast, mobile service.',
+      'Chorlton Locksmiths partners with Car Keys in Stockport — mobile specialists in car key cutting, transponder programming & auto locksmith across Stockport and Manchester.',
     url: 'https://chorltonlocksmiths.com/partners',
+    siteName: 'Chorlton Locksmiths',
     type: 'website',
+    locale: 'en_GB',
+    images: [
+      {
+        url: 'https://chorltonlocksmiths.com/chorlton-locksmith-hero-main.webp',
+        width: 1200,
+        height: 630,
+        alt: 'Car Keys in Stockport — Trusted Partner of Chorlton Locksmiths',
+        type: 'image/webp',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Trusted Partners | Car Keys Stockport — Auto Locksmith Manchester & Stockport',
+    title: 'Car Keys Stockport — Trusted Auto Locksmith Partner',
     description:
-      'Chorlton Locksmiths partners with Car Keys in Stockport for specialist car key and auto locksmith services across Greater Manchester.',
+      'Chorlton Locksmiths partners with Car Keys in Stockport for specialist car key cutting and programming across Stockport and Greater Manchester.',
+    images: ['https://chorltonlocksmiths.com/chorlton-locksmith-hero-main.webp'],
   },
   alternates: {
     canonical: 'https://chorltonlocksmiths.com/partners',
@@ -64,7 +76,7 @@ const breadcrumbSchema = generateBreadcrumbSchema([
 // Partner organisation schema
 const partnerSchema = {
   '@context': 'https://schema.org',
-  '@type': 'LocalBusiness',
+  '@type': ['AutomotiveBusiness', 'LocalBusiness'],
   '@id': 'https://carkeysinstockport.co.uk/#business',
   name: 'Car Keys in Stockport',
   description:
@@ -106,13 +118,6 @@ const partnershipSchema = {
     '@id': 'https://chorltonlocksmiths.com/#business',
     name: 'Chorlton Locksmiths Limited',
     url: 'https://chorltonlocksmiths.com',
-  },
-  breadcrumb: {
-    '@type': 'BreadcrumbList',
-    itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://chorltonlocksmiths.com' },
-      { '@type': 'ListItem', position: 2, name: 'Partners', item: 'https://chorltonlocksmiths.com/partners' },
-    ],
   },
   speakable: {
     '@type': 'SpeakableSpecification',
@@ -288,29 +293,22 @@ export default function PartnersPage() {
       <Section>
         <Container>
           <nav aria-label="Breadcrumb" className="text-sm text-slate-500 mb-10">
-            <ol className="flex gap-2" itemScope itemType="https://schema.org/BreadcrumbList">
+            <ol className="flex gap-2">
               {[
                 { name: 'Home', href: '/' },
                 { name: 'Partners', href: '/partners' },
               ].map((crumb, i, arr) => (
-                <li
-                  key={i}
-                  itemProp="itemListElement"
-                  itemScope
-                  itemType="https://schema.org/ListItem"
-                  className="flex items-center gap-2"
-                >
+                <li key={i} className="flex items-center gap-2">
                   {i < arr.length - 1 ? (
                     <>
-                      <a href={crumb.href} itemProp="item" className="hover:text-amber-500 transition-colors">
-                        <span itemProp="name">{crumb.name}</span>
+                      <a href={crumb.href} className="hover:text-amber-500 transition-colors">
+                        {crumb.name}
                       </a>
                       <span aria-hidden="true">/</span>
                     </>
                   ) : (
-                    <span itemProp="name" className="text-slate-950 font-medium">{crumb.name}</span>
+                    <span className="text-slate-950 font-medium">{crumb.name}</span>
                   )}
-                  <meta itemProp="position" content={String(i + 1)} />
                 </li>
               ))}
             </ol>
@@ -622,27 +620,19 @@ export default function PartnersPage() {
             subtitle="Common questions about car key services in Stockport and our partnership"
             centered
           />
-          <div className="max-w-3xl mx-auto space-y-4" itemScope itemType="https://schema.org/FAQPage">
+          <div className="max-w-3xl mx-auto space-y-4">
             {faqs.map((faq, idx) => (
               <details
                 key={idx}
                 className="group border border-slate-200 bg-white rounded-xl p-5 hover:border-amber-400 transition-colors"
-                itemProp="mainEntity"
-                itemScope
-                itemType="https://schema.org/Question"
               >
-                <summary
-                  className="cursor-pointer font-semibold text-slate-950 group-open:text-amber-600 transition-colors list-none flex justify-between items-center"
-                  itemProp="name"
-                >
+                <summary className="cursor-pointer font-semibold text-slate-950 group-open:text-amber-600 transition-colors list-none flex justify-between items-center">
                   {faq.question}
                   <span className="ml-4 text-amber-500 group-open:rotate-45 transition-transform inline-block text-xl leading-none">+</span>
                 </summary>
-                <div itemProp="acceptedAnswer" itemScope itemType="https://schema.org/Answer">
-                  <p className="mt-3 text-slate-600 text-sm leading-relaxed" itemProp="text">
-                    {faq.answer}
-                  </p>
-                </div>
+                <p className="mt-3 text-slate-600 text-sm leading-relaxed">
+                  {faq.answer}
+                </p>
               </details>
             ))}
           </div>
