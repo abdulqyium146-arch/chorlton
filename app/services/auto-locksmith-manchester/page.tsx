@@ -472,6 +472,36 @@ export default function AutoLocksmithPage() {
         </Container>
       </Section>
 
+      {/* Partner callout — internal link to /partners */}
+      <Section backgroundVariant="accent">
+        <Container>
+          <div className="max-w-3xl mx-auto p-6 bg-white rounded-xl border border-slate-200 shadow-sm flex flex-col sm:flex-row gap-6 items-start sm:items-center">
+            <div className="flex-1">
+              <p className="text-xs text-amber-600 font-bold uppercase tracking-widest mb-1">Trusted Partner — Stockport</p>
+              <h3 className="text-lg font-bold text-slate-950 mb-1">Need Car Keys in Stockport?</h3>
+              <p className="text-slate-600 text-sm">
+                For specialist car key cutting and programming in Stockport, we recommend our trusted partner{' '}
+                <a
+                  href="https://carkeysinstockport.co.uk/"
+                  target="_blank"
+                  rel="noopener"
+                  className="text-amber-600 hover:text-amber-700 font-medium underline underline-offset-2"
+                >
+                  Car Keys in Stockport
+                </a>{' '}
+                — mobile, fast, and significantly cheaper than any main dealer.
+              </p>
+            </div>
+            <a
+              href="/partners"
+              className="flex-shrink-0 inline-flex items-center gap-2 bg-slate-950 hover:bg-slate-800 text-white font-bold px-5 py-3 rounded-xl transition-colors text-sm"
+            >
+              View Our Partners
+            </a>
+          </div>
+        </Container>
+      </Section>
+
       {/* Bottom CTA strip */}
       <Section>
         <Container>
