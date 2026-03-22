@@ -18,7 +18,7 @@ export function Footer() {
       />
 
       <Container className="py-12 sm:py-16 lg:py-20">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mb-12">
           {/* Company Info */}
           <div>
             <h3 className="font-bold text-lg mb-4">{BUSINESS.name}</h3>
@@ -68,6 +68,43 @@ export function Footer() {
               <li>
                 <Link href="/services/upvc-door-lock-specialist" className="text-slate-400 hover:text-amber-400 transition-colors">
                   uPVC Door Locks
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Auto Locksmith Chorlton */}
+          <div>
+            <h4 className="font-semibold text-white mb-4">Auto Locksmith Chorlton</h4>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <Link href="/auto-locksmith-chorlton" className="text-slate-400 hover:text-amber-400 transition-colors">
+                  Auto Locksmith Chorlton
+                </Link>
+              </li>
+              <li>
+                <Link href="/car-key-replacement-chorlton" className="text-slate-400 hover:text-amber-400 transition-colors">
+                  Car Key Replacement
+                </Link>
+              </li>
+              <li>
+                <Link href="/car-lockout-chorlton" className="text-slate-400 hover:text-amber-400 transition-colors">
+                  Car Lockout
+                </Link>
+              </li>
+              <li>
+                <Link href="/lost-car-keys-chorlton" className="text-slate-400 hover:text-amber-400 transition-colors">
+                  Lost Car Keys
+                </Link>
+              </li>
+              <li>
+                <Link href="/24-hour-auto-locksmith-chorlton" className="text-slate-400 hover:text-amber-400 transition-colors">
+                  24 Hour Auto Locksmith
+                </Link>
+              </li>
+              <li>
+                <Link href="/van-locksmith-chorlton" className="text-slate-400 hover:text-amber-400 transition-colors">
+                  Van Locksmith
                 </Link>
               </li>
             </ul>

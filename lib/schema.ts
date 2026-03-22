@@ -115,6 +115,14 @@ export const generateLocalBusinessSchema = () => {
         { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Lock Repair Manchester', url: 'https://chorltonlocksmiths.com/services/lock-repair-manchester' } },
         { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Lock Replacement Manchester', url: 'https://chorltonlocksmiths.com/services/lock-replacement-manchester' } },
         { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'uPVC Door Lock Specialist Manchester', url: 'https://chorltonlocksmiths.com/services/upvc-door-lock-specialist' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Auto Locksmith Chorlton', url: 'https://chorltonlocksmiths.com/auto-locksmith-chorlton' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Car Key Replacement Chorlton', url: 'https://chorltonlocksmiths.com/car-key-replacement-chorlton' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Car Lockout Chorlton', url: 'https://chorltonlocksmiths.com/car-lockout-chorlton' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Lost Car Keys Chorlton', url: 'https://chorltonlocksmiths.com/lost-car-keys-chorlton' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Car Key Programming Chorlton', url: 'https://chorltonlocksmiths.com/car-key-programming-chorlton' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: '24 Hour Auto Locksmith Chorlton', url: 'https://chorltonlocksmiths.com/24-hour-auto-locksmith-chorlton' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Van Locksmith Chorlton', url: 'https://chorltonlocksmiths.com/van-locksmith-chorlton' } },
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Ignition Repair Chorlton', url: 'https://chorltonlocksmiths.com/ignition-repair-chorlton' } },
       ],
     },
   }
@@ -258,30 +266,116 @@ export const generateBreadcrumbSchema = (
   }
 }
 
-// Service Schema (for individual service pages)
+// Shared area-served list for all auto/Chorlton service pages
+export const CHORLTON_AREA_SERVED = [
+  'Chorlton', 'Chorlton-cum-Hardy', 'Didsbury', 'Stretford', 'Sale',
+  'Whalley Range', 'Fallowfield', 'Withington', 'Hulme', 'Old Trafford',
+  'Moss Side', 'Rusholme', 'Salford', 'Urmston', 'Northenden',
+  'Manchester City Centre', 'Trafford', 'Wythenshawe',
+].map((name) => ({ '@type': 'City', name }))
+
+// Service Schema (for individual service pages) — full, rich version
 export const generateServiceSchema = (
   serviceData: {
     name: string
     description: string
     url: string
+    serviceType?: string
   }
 ) => {
   return {
     '@context': 'https://schema.org',
     '@type': 'Service',
+    '@id': `https://chorltonlocksmiths.com${serviceData.url}#service`,
     name: serviceData.name,
     description: serviceData.description,
+    serviceType: serviceData.serviceType ?? 'Auto Locksmith Service',
     provider: {
       '@type': 'Locksmith',
+      '@id': 'https://chorltonlocksmiths.com/#business',
       name: BUSINESS.name,
       url: 'https://chorltonlocksmiths.com',
+      telephone: BUSINESS.phone,
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: '615b Wilbraham Rd',
+        addressLocality: 'Chorlton-cum-Hardy',
+        addressRegion: 'Greater Manchester',
+        postalCode: 'M21 9AN',
+        addressCountry: 'GB',
+      },
+      geo: {
+        '@type': 'GeoCoordinates',
+        latitude: BUSINESS.coordinates.lat,
+        longitude: BUSINESS.coordinates.lng,
+      },
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: String(BUSINESS.rating),
+        reviewCount: String(BUSINESS.reviews),
+        bestRating: '5',
+        worstRating: '1',
+      },
     },
-    areaServed: {
-      '@type': 'City',
-      name: 'Manchester',
-    },
+    areaServed: CHORLTON_AREA_SERVED,
     url: `https://chorltonlocksmiths.com${serviceData.url}`,
     telephone: BUSINESS.phone,
+    availableChannel: {
+      '@type': 'ServiceChannel',
+      serviceType: 'Mobile',
+      serviceLocation: {
+        '@type': 'Place',
+        name: 'Chorlton, Manchester',
+        geo: {
+          '@type': 'GeoCoordinates',
+          latitude: BUSINESS.coordinates.lat,
+          longitude: BUSINESS.coordinates.lng,
+        },
+      },
+    },
+    offers: {
+      '@type': 'Offer',
+      priceCurrency: 'GBP',
+      availability: 'https://schema.org/InStock',
+      areaServed: 'Chorlton, Manchester, UK',
+    },
+  }
+}
+
+// WebPage schema with Speakable — for AEO / voice search / AI answer engines
+export const generateServicePageSchema = (data: {
+  url: string
+  name: string
+  description: string
+  dateModified?: string
+}) => {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    '@id': `https://chorltonlocksmiths.com${data.url}#webpage`,
+    url: `https://chorltonlocksmiths.com${data.url}`,
+    name: data.name,
+    description: data.description,
+    inLanguage: 'en-GB',
+    dateModified: data.dateModified ?? new Date().toISOString().split('T')[0],
+    isPartOf: {
+      '@type': 'WebSite',
+      '@id': 'https://chorltonlocksmiths.com/#website',
+      url: 'https://chorltonlocksmiths.com',
+      name: 'Chorlton Locksmiths',
+    },
+    about: { '@id': 'https://chorltonlocksmiths.com/#business' },
+    speakable: {
+      '@type': 'SpeakableSpecification',
+      cssSelector: ['h1', '.speakable', '.faq-answer'],
+    },
+    breadcrumb: {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://chorltonlocksmiths.com' },
+        { '@type': 'ListItem', position: 2, name: data.name, item: `https://chorltonlocksmiths.com${data.url}` },
+      ],
+    },
   }
 }
 
