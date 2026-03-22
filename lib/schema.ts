@@ -369,13 +369,6 @@ export const generateServicePageSchema = (data: {
       '@type': 'SpeakableSpecification',
       cssSelector: ['h1', '.speakable', '.faq-answer'],
     },
-    breadcrumb: {
-      '@type': 'BreadcrumbList',
-      itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://chorltonlocksmiths.com' },
-        { '@type': 'ListItem', position: 2, name: data.name, item: `https://chorltonlocksmiths.com${data.url}` },
-      ],
-    },
   }
 }
 
@@ -406,7 +399,7 @@ export const generateOrganizationSchema = () => {
     '@type': 'Organization',
     name: BUSINESS.name,
     url: 'https://chorltonlocksmiths.com',
-    logo: 'https://chorltonlocksmiths.com/logo.png',
+    logo: 'https://chorltonlocksmiths.com/chorlton-locksmith-hero-main.webp',
     sameAs: [
       'https://www.google.com/maps/place/Chorlton+Locksmiths',
     ],

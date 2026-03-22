@@ -8,7 +8,7 @@ import { LocalNAP } from '@/components/local/LocalNAP'
 import { NearbyAreas } from '@/components/local/NearbyAreas'
 import {
   generateServiceSchema, generateFAQSchema, generateBreadcrumbSchema,
-  generateHowToSchema, generateLocalBusinessSchema, generateServicePageSchema,
+  generateHowToSchema, generateServicePageSchema,
 } from '@/lib/schema'
 import { Key, Car, Phone, ShieldCheck, Star } from 'lucide-react'
 
@@ -39,7 +39,6 @@ const breadcrumbSchema = generateBreadcrumbSchema([
   { name: 'Auto Locksmith Chorlton', url: '/auto-locksmith-chorlton' },
   { name: 'Car Key Replacement Chorlton', url: '/car-key-replacement-chorlton' },
 ])
-const localBusinessSchema = generateLocalBusinessSchema()
 const pageSchema = generateServicePageSchema({
   url: '/car-key-replacement-chorlton',
   name: 'Car Key Replacement Chorlton | Chorlton Locksmiths',
@@ -52,6 +51,7 @@ const serviceSchema = generateServiceSchema({
   description:
     'On-site car key replacement service in Chorlton, Manchester. We cut and programme replacement car keys for all major makes and models including BMW, Ford, Audi, VW, Mercedes, and Vauxhall.',
   url: '/car-key-replacement-chorlton',
+  serviceType: 'Car Key Replacement',
 })
 
 const howToSchema = generateHowToSchema({
@@ -103,7 +103,6 @@ export default function CarKeyReplacementChorltonPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }} />
 
       {/* Hero */}
@@ -272,7 +271,7 @@ export default function CarKeyReplacementChorltonPage() {
                   <span className="ml-4 text-amber-500 group-open:rotate-45 transition-transform inline-block text-xl leading-none">+</span>
                 </summary>
                 <div itemProp="acceptedAnswer" itemScope itemType="https://schema.org/Answer">
-                  <p className="mt-3 text-slate-600 text-sm leading-relaxed" itemProp="text">{faq.answer}</p>
+                  <p className="faq-answer mt-3 text-slate-600 text-sm leading-relaxed" itemProp="text">{faq.answer}</p>
                 </div>
               </details>
             ))}
