@@ -208,6 +208,7 @@ export const generateReviewSchema = (
   return {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
+    '@id': 'https://chorltonlocksmiths.com/#business',
     name: BUSINESS.name,
     aggregateRating: {
       '@type': 'AggregateRating',
@@ -290,6 +291,13 @@ export const generateServiceSchema = (
     name: serviceData.name,
     description: serviceData.description,
     serviceType: serviceData.serviceType ?? 'Auto Locksmith Service',
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: String(BUSINESS.rating),
+      reviewCount: String(BUSINESS.reviews),
+      bestRating: '5',
+      worstRating: '1',
+    },
     provider: {
       '@type': 'Locksmith',
       '@id': 'https://chorltonlocksmiths.com/#business',

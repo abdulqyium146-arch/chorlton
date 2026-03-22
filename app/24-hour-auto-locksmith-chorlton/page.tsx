@@ -7,7 +7,7 @@ import { QuoteForm } from '@/components/forms/QuoteForm'
 import { LocalNAP } from '@/components/local/LocalNAP'
 import {
   generateServiceSchema, generateFAQSchema, generateBreadcrumbSchema,
-  generateHowToSchema, generateLocalBusinessSchema, generateServicePageSchema,
+  generateHowToSchema, generateServicePageSchema,
 } from '@/lib/schema'
 import { Clock, Phone, Car, ShieldCheck, Star } from 'lucide-react'
 
@@ -38,7 +38,6 @@ const breadcrumbSchema = generateBreadcrumbSchema([
   { name: 'Auto Locksmith Chorlton', url: '/auto-locksmith-chorlton' },
   { name: '24 Hour Auto Locksmith Chorlton', url: '/24-hour-auto-locksmith-chorlton' },
 ])
-const localBusinessSchema = generateLocalBusinessSchema()
 const pageSchema = generateServicePageSchema({
   url: '/24-hour-auto-locksmith-chorlton',
   name: '24 Hour Auto Locksmith Chorlton | Chorlton Locksmiths',
@@ -50,6 +49,7 @@ const serviceSchema = generateServiceSchema({
   name: '24 Hour Auto Locksmith Chorlton',
   description: 'Emergency 24 hour auto locksmith service in Chorlton, Manchester. Car lockouts, lost keys, and key programming available any time of day or night. Fast response, mobile, all major makes.',
   url: '/24-hour-auto-locksmith-chorlton',
+  serviceType: '24 Hour Auto Locksmith',
 })
 
 const howToSchema = generateHowToSchema({
@@ -101,7 +101,6 @@ export default function TwentyFourHourAutoLocksmithChorltonPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }} />
 
       {/* Hero — urgent, emergency tone */}
@@ -247,15 +246,15 @@ export default function TwentyFourHourAutoLocksmithChorltonPage() {
       <Section backgroundVariant="accent">
         <Container>
           <SectionHeading title="24 Hour Auto Locksmith Chorlton — FAQs" centered />
-          <div className="max-w-3xl mx-auto space-y-4" itemScope itemType="https://schema.org/FAQPage">
+          <div className="max-w-3xl mx-auto space-y-4">
             {faqs.map((faq, idx) => (
-              <details key={idx} className="group border border-slate-200 bg-white rounded-xl p-5 hover:border-amber-400 transition-colors" itemProp="mainEntity" itemScope itemType="https://schema.org/Question">
-                <summary className="cursor-pointer font-semibold text-slate-950 group-open:text-amber-600 transition-colors list-none flex justify-between items-center" itemProp="name">
+              <details key={idx} className="group border border-slate-200 bg-white rounded-xl p-5 hover:border-amber-400 transition-colors">
+                <summary className="cursor-pointer font-semibold text-slate-950 group-open:text-amber-600 transition-colors list-none flex justify-between items-center">
                   {faq.question}
                   <span className="ml-4 text-amber-500 group-open:rotate-45 transition-transform inline-block text-xl leading-none">+</span>
                 </summary>
-                <div itemProp="acceptedAnswer" itemScope itemType="https://schema.org/Answer">
-                  <p className="mt-3 text-slate-600 text-sm leading-relaxed" itemProp="text">{faq.answer}</p>
+                <div>
+                  <p className="faq-answer mt-3 text-slate-600 text-sm leading-relaxed">{faq.answer}</p>
                 </div>
               </details>
             ))}

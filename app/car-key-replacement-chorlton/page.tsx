@@ -263,15 +263,15 @@ export default function CarKeyReplacementChorltonPage() {
       <Section>
         <Container>
           <SectionHeading title="Car Key Replacement Chorlton — FAQs" centered />
-          <div className="max-w-3xl mx-auto space-y-4" itemScope itemType="https://schema.org/FAQPage">
+          <div className="max-w-3xl mx-auto space-y-4">
             {faqs.map((faq, idx) => (
-              <details key={idx} className="group border border-slate-200 bg-white rounded-xl p-5 hover:border-amber-400 transition-colors" itemProp="mainEntity" itemScope itemType="https://schema.org/Question">
-                <summary className="cursor-pointer font-semibold text-slate-950 group-open:text-amber-600 transition-colors list-none flex justify-between items-center" itemProp="name">
+              <details key={idx} className="group border border-slate-200 bg-white rounded-xl p-5 hover:border-amber-400 transition-colors">
+                <summary className="cursor-pointer font-semibold text-slate-950 group-open:text-amber-600 transition-colors list-none flex justify-between items-center">
                   {faq.question}
                   <span className="ml-4 text-amber-500 group-open:rotate-45 transition-transform inline-block text-xl leading-none">+</span>
                 </summary>
-                <div itemProp="acceptedAnswer" itemScope itemType="https://schema.org/Answer">
-                  <p className="faq-answer mt-3 text-slate-600 text-sm leading-relaxed" itemProp="text">{faq.answer}</p>
+                <div>
+                  <p className="faq-answer mt-3 text-slate-600 text-sm leading-relaxed">{faq.answer}</p>
                 </div>
               </details>
             ))}

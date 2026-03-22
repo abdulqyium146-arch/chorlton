@@ -6,7 +6,7 @@ import { SectionHeading } from '@/components/layout/SectionHeading'
 import { QuoteForm } from '@/components/forms/QuoteForm'
 import {
   generateServiceSchema, generateFAQSchema, generateBreadcrumbSchema,
-  generateHowToSchema, generateLocalBusinessSchema, generateServicePageSchema,
+  generateHowToSchema, generateServicePageSchema,
 } from '@/lib/schema'
 import { Wrench, Phone, ShieldCheck, Clock } from 'lucide-react'
 
@@ -42,6 +42,7 @@ const serviceSchema = generateServiceSchema({
   name: 'Broken Car Key Extraction Chorlton',
   description: 'Professional broken car key extraction service in Chorlton, Manchester. We remove snapped keys from car door locks and ignition barrels without causing damage, then provide a replacement key if required.',
   url: '/broken-car-key-chorlton',
+  serviceType: 'Broken Key Extraction',
 })
 
 const howToSchema = generateHowToSchema({
@@ -85,7 +86,6 @@ const faqs = [
 ]
 
 const faqSchema = generateFAQSchema(faqs)
-const localBusinessSchema = generateLocalBusinessSchema()
 const pageSchema = generateServicePageSchema({
   url: '/broken-car-key-chorlton',
   name: 'Broken Car Key Chorlton | Chorlton Locksmiths',
@@ -100,7 +100,6 @@ export default function BrokenCarKeyChorltonPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }} />
 
       <section className="bg-slate-950 text-white py-16 md:py-24">
@@ -228,15 +227,15 @@ export default function BrokenCarKeyChorltonPage() {
       <Section backgroundVariant="accent">
         <Container>
           <SectionHeading title="Broken Car Key Chorlton — FAQs" centered />
-          <div className="max-w-3xl mx-auto space-y-4" itemScope itemType="https://schema.org/FAQPage">
+          <div className="max-w-3xl mx-auto space-y-4">
             {faqs.map((faq, idx) => (
-              <details key={idx} className="group border border-slate-200 bg-white rounded-xl p-5 hover:border-amber-400 transition-colors" itemProp="mainEntity" itemScope itemType="https://schema.org/Question">
-                <summary className="cursor-pointer font-semibold text-slate-950 group-open:text-amber-600 transition-colors list-none flex justify-between items-center" itemProp="name">
+              <details key={idx} className="group border border-slate-200 bg-white rounded-xl p-5 hover:border-amber-400 transition-colors">
+                <summary className="cursor-pointer font-semibold text-slate-950 group-open:text-amber-600 transition-colors list-none flex justify-between items-center">
                   {faq.question}
                   <span className="ml-4 text-amber-500 group-open:rotate-45 transition-transform inline-block text-xl leading-none">+</span>
                 </summary>
-                <div itemProp="acceptedAnswer" itemScope itemType="https://schema.org/Answer">
-                  <p className="mt-3 text-slate-600 text-sm leading-relaxed" itemProp="text">{faq.answer}</p>
+                <div>
+                  <p className="faq-answer mt-3 text-slate-600 text-sm leading-relaxed">{faq.answer}</p>
                 </div>
               </details>
             ))}
