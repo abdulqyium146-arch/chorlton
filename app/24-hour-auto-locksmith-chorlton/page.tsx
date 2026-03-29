@@ -12,13 +12,13 @@ import {
 import { Clock, Phone, Car, ShieldCheck, Star } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: '24 Hour Auto Locksmith Chorlton | Emergency | 07388 789881',
+  title: '24 Hour Auto Locksmith Chorlton | Emergency | 07309 903243',
   description:
-    '24 hour emergency auto locksmith in Chorlton, Manchester. Car lockouts, lost keys & key programming any time. Call 07388 789881 now.',
+    '24 hour emergency auto locksmith in Chorlton, Manchester. Car lockouts, lost keys & key programming any time. Call 07309 903243 now.',
   keywords: ['24 hour auto locksmith Chorlton', 'emergency locksmith Chorlton', '24/7 car locksmith Manchester', 'urgent car unlock service'],
   openGraph: {
     title: '24 Hour Auto Locksmith Chorlton | Any Time Emergency Help',
-    description: '24 hour emergency auto locksmith in Chorlton — car lockouts, lost keys, key programming. Call 07388 789881 any time.',
+    description: '24 hour emergency auto locksmith in Chorlton — car lockouts, lost keys, key programming. Call 07309 903243 any time.',
     url: 'https://chorltonlocksmiths.com/24-hour-auto-locksmith-chorlton',
     type: 'website',
     siteName: 'Chorlton Locksmiths',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: '24 Hour Auto Locksmith Chorlton | Emergency Line',
-    description: 'Locked out at night in Chorlton? 24 hour emergency auto locksmith — we dispatch immediately. Call 07388 789881.',
+    description: 'Locked out at night in Chorlton? 24 hour emergency auto locksmith — we dispatch immediately. Call 07309 903243.',
   },
   alternates: { canonical: 'https://chorltonlocksmiths.com/24-hour-auto-locksmith-chorlton' },
   robots: { index: true, follow: true },
@@ -56,7 +56,7 @@ const howToSchema = generateHowToSchema({
   name: 'How to Get an Emergency Auto Locksmith in Chorlton at Any Hour',
   description: 'Our 24 hour emergency auto locksmith process.',
   steps: [
-    { name: 'Call 07388 789881', text: 'Ring any time — day or night. We answer emergency calls around the clock.' },
+    { name: 'Call 07309 903243', text: 'Ring any time — day or night. We answer emergency calls around the clock.' },
     { name: 'Give your location', text: 'Tell us where you are and your vehicle make and model.' },
     { name: 'We dispatch immediately', text: 'Emergency locksmith dispatched straight to you — ETA confirmed on the call.' },
     { name: 'Vehicle opened or key replaced', text: 'Professional non-destructive entry or key replacement on-site.' },
@@ -68,7 +68,7 @@ const faqs = [
   {
     question: 'Are you available 24 hours for car lockouts in Chorlton?',
     answer:
-      'Yes. We provide an emergency auto locksmith service for car and van lockouts in Chorlton and Greater Manchester. Call 07388 789881 any time — day or night — and we will dispatch a locksmith to you.',
+      'Yes. We provide an emergency auto locksmith service for car and van lockouts in Chorlton and Greater Manchester. Call 07309 903243 any time — day or night — and we will dispatch a locksmith to you.',
   },
   {
     question: 'How long does a 24 hour auto locksmith take to arrive in Chorlton?',
@@ -124,12 +124,12 @@ export default function TwentyFourHourAutoLocksmithChorltonPage() {
             </h1>
             <p className="text-slate-300 text-lg mb-8 leading-relaxed">
               Locked out of your car at 2am? Lost your keys late at night in Chorlton? Chorlton Locksmiths provides
-              an emergency auto locksmith service available when you need it — day or night. Call 07388 789881 now
+              an emergency auto locksmith service available when you need it — day or night. Call 07309 903243 now
               and we will dispatch immediately.
             </p>
-            <a href="tel:+447388789881" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
+            <a href="tel:+447309903243" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
               <Phone size={22} />
-              Call Now — 07388 789881
+              Call Now — 07309 903243
             </a>
           </div>
         </Container>
@@ -193,7 +193,7 @@ export default function TwentyFourHourAutoLocksmithChorltonPage() {
               <SectionHeading title="How Our 24 Hour Service Works in Chorlton" />
               <ol className="space-y-5">
                 {[
-                  { step: '1', title: 'Call 07388 789881', desc: 'Call any time — day or night. We answer and dispatch immediately.' },
+                  { step: '1', title: 'Call 07309 903243', desc: 'Call any time — day or night. We answer and dispatch immediately.' },
                   { step: '2', title: 'ETA Confirmed', desc: 'We give you a precise arrival time based on your location. Usually 30–60 minutes in Chorlton.' },
                   { step: '3', title: 'Fixed Quote', desc: 'Upfront pricing confirmed before we start — including any out-of-hours premium.' },
                   { step: '4', title: 'Emergency Resolved', desc: 'Vehicle opened, key replaced, or ignition repaired on-site.' },
@@ -227,7 +227,7 @@ export default function TwentyFourHourAutoLocksmithChorltonPage() {
               <p className="text-slate-400 text-sm mb-6">Call our emergency line — we dispatch immediately, any hour</p>
               <div className="mb-6">
                 <p className="text-xs text-slate-400 mb-1 uppercase tracking-wider">24 Hour Line</p>
-                <a href="tel:+447388789881" className="text-3xl font-bold text-amber-400 hover:text-amber-300 transition-colors">07388 789881</a>
+                <a href="tel:+447309903243" className="text-3xl font-bold text-amber-400 hover:text-amber-300 transition-colors">07309 903243</a>
               </div>
               <div className="space-y-2 text-sm text-slate-300 mb-8">
                 <p>✓ Emergency response any hour</p>
@@ -268,9 +268,9 @@ export default function TwentyFourHourAutoLocksmithChorltonPage() {
           <div className="text-center py-4">
             <h2 className="text-2xl font-bold text-slate-950 mb-3">Emergency Auto Locksmith in Chorlton — Call Now</h2>
             <p className="text-slate-600 mb-6 max-w-xl mx-auto">We dispatch immediately at any hour. Fixed price, no damage, professional service.</p>
-            <a href="tel:+447388789881" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
+            <a href="tel:+447309903243" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
               <Phone size={24} />
-              07388 789881
+              07309 903243
             </a>
           </div>
         </Container>

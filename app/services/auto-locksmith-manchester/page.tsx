@@ -17,7 +17,7 @@ import { Car, MapPin, Clock, Key, Wrench, ShieldCheck } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Auto Locksmith Manchester | Car & Van Lockout — 30 Min Response | Chorlton Locksmiths',
   description:
-    'Locked out of your car or van in Manchester? Our mobile auto locksmith covers all of Greater Manchester. Non-destructive entry, key cutting & programming, broken key extraction. Call 07388 789881 now.',
+    'Locked out of your car or van in Manchester? Our mobile auto locksmith covers all of Greater Manchester. Non-destructive entry, key cutting & programming, broken key extraction. Call 07309 903243 now.',
   keywords: [
     'auto locksmith Manchester',
     'car lockout Manchester',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Auto Locksmith Manchester | Car & Van Lockout Service',
     description:
-      'Locked out of your car or van? Mobile auto locksmith covering all of Greater Manchester. Fast 30–60 min response. Call 07388 789881.',
+      'Locked out of your car or van? Mobile auto locksmith covering all of Greater Manchester. Fast 30–60 min response. Call 07309 903243.',
     url: 'https://chorltonlocksmiths.com/services/auto-locksmith-manchester',
     type: 'website',
   },
@@ -64,7 +64,7 @@ const howToSchema = generateHowToSchema({
   steps: [
     {
       name: 'Call our auto locksmith hotline',
-      text: 'Ring 07388 789881 and tell us your location and the make/model of your vehicle. We cover all of Greater Manchester.',
+      text: 'Ring 07309 903243 and tell us your location and the make/model of your vehicle. We cover all of Greater Manchester.',
     },
     {
       name: 'Receive an ETA',
@@ -99,7 +99,7 @@ const faqs = [
   {
     question: 'How long will it take you to arrive?',
     answer:
-      'We aim to reach you within 30–60 minutes anywhere across Greater Manchester. Call 07388 789881 and we will give you a precise ETA based on your location.',
+      'We aim to reach you within 30–60 minutes anywhere across Greater Manchester. Call 07309 903243 and we will give you a precise ETA based on your location.',
   },
   {
     question: 'Do you cover the whole of Greater Manchester?',
@@ -124,7 +124,7 @@ const faqs = [
   {
     question: 'How much does an auto locksmith cost in Manchester?',
     answer:
-      'Pricing depends on the vehicle make, model, and the specific service required. We always provide a fixed quote before starting any work. Call 07388 789881 for a quick price estimate.',
+      'Pricing depends on the vehicle make, model, and the specific service required. We always provide a fixed quote before starting any work. Call 07309 903243 for a quick price estimate.',
   },
 ]
 
@@ -324,7 +324,7 @@ export default function AutoLocksmithPage() {
                 {[
                   {
                     step: '1',
-                    title: 'Call Us on 07388 789881',
+                    title: 'Call Us on 07309 903243',
                     desc: 'Tell us your location and vehicle make/model. We cover all of Greater Manchester.',
                   },
                   {
@@ -382,11 +382,11 @@ export default function AutoLocksmithPage() {
               <div className="mb-6">
                 <p className="text-xs text-slate-400 mb-1 uppercase tracking-wider">Auto Locksmith Hotline</p>
                 <a
-                  href="tel:+447388789881"
+                  href="tel:+447309903243"
                   className="text-3xl font-bold text-amber-400 hover:text-amber-300 transition-colors"
                   aria-label="Call auto locksmith Manchester"
                 >
-                  07388 789881
+                  07309 903243
                 </a>
               </div>
               <div className="space-y-2 text-sm text-slate-300 mb-8">
@@ -514,12 +514,12 @@ export default function AutoLocksmithPage() {
               Upfront pricing, no damage, all makes and models.
             </p>
             <a
-              href="tel:+447388789881"
+              href="tel:+447309903243"
               className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors"
               aria-label="Call auto locksmith now"
             >
               <Car size={24} />
-              07388 789881
+              07309 903243
             </a>
           </div>
         </Container>

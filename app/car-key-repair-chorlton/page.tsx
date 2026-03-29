@@ -11,13 +11,13 @@ import {
 import { Wrench, Phone, ShieldCheck, Key } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Car Key Repair Chorlton | Damaged Key Fixed On-Site | 07388 789881',
+  title: 'Car Key Repair Chorlton | Damaged Key Fixed On-Site | 07309 903243',
   description:
-    'Car key damaged or not working in Chorlton? We repair worn blades, broken shells, and faulty remotes on-site. Call 07388 789881.',
+    'Car key damaged or not working in Chorlton? We repair worn blades, broken shells, and faulty remotes on-site. Call 07309 903243.',
   keywords: ['car key repair Chorlton', 'damaged car key fix Manchester', 'broken remote key repair', 'key shell replacement'],
   openGraph: {
     title: 'Car Key Repair Chorlton | Worn or Broken Key Fixed On-Site',
-    description: 'Car key damaged in Chorlton? We repair worn keys, broken shells, and faulty remotes on-site. Call 07388 789881.',
+    description: 'Car key damaged in Chorlton? We repair worn keys, broken shells, and faulty remotes on-site. Call 07309 903243.',
     url: 'https://chorltonlocksmiths.com/car-key-repair-chorlton',
     type: 'website',
     siteName: 'Chorlton Locksmiths',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Car Key Repair Chorlton | Worn or Damaged Key Fixed',
-    description: 'Car key worn or broken in Chorlton? We repair or replace on-site — all makes. Call 07388 789881.',
+    description: 'Car key worn or broken in Chorlton? We repair or replace on-site — all makes. Call 07309 903243.',
   },
   alternates: { canonical: 'https://chorltonlocksmiths.com/car-key-repair-chorlton' },
   robots: { index: true, follow: true },
@@ -49,7 +49,7 @@ const howToSchema = generateHowToSchema({
   name: 'How We Repair a Damaged Car Key in Chorlton',
   description: 'Our car key repair process in Chorlton.',
   steps: [
-    { name: 'Call with key fault details', text: 'Ring 07388 789881 and describe the damage — blade, shell, or fob.' },
+    { name: 'Call with key fault details', text: 'Ring 07309 903243 and describe the damage — blade, shell, or fob.' },
     { name: 'We arrive', text: 'Mobile locksmith reaches Chorlton in ~30 minutes.' },
     { name: 'Fault assessed', text: 'We inspect the key to determine if repair or replacement is best.' },
     { name: 'Repair carried out', text: 'New blade cut, shell replaced, or fob repaired on-site.' },
@@ -81,7 +81,7 @@ const faqs = [
   {
     question: 'How much does car key repair cost in Chorlton?',
     answer:
-      'Pricing varies depending on the type of repair. A new blade cut is relatively inexpensive; shell replacement and fob repair cost more. We always quote before starting. Call 07388 789881 for an estimate.',
+      'Pricing varies depending on the type of repair. A new blade cut is relatively inexpensive; shell replacement and fob repair cost more. We always quote before starting. Call 07309 903243 for an estimate.',
   },
 ]
 
@@ -122,9 +122,9 @@ export default function CarKeyRepairChorltonPage() {
               across Chorlton and Greater Manchester — repairing or replacing worn blades, broken shells, and faulty remotes on-site
               for all major vehicle makes and models.
             </p>
-            <a href="tel:+447388789881" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
+            <a href="tel:+447309903243" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
               <Phone size={22} />
-              Call 07388 789881
+              Call 07309 903243
             </a>
           </div>
         </Container>
@@ -179,7 +179,7 @@ export default function CarKeyRepairChorltonPage() {
               <SectionHeading title="How Car Key Repair Works in Chorlton" />
               <ol className="space-y-5">
                 {[
-                  { step: '1', title: 'Call 07388 789881', desc: 'Describe the key fault. We advise and confirm our ETA.' },
+                  { step: '1', title: 'Call 07309 903243', desc: 'Describe the key fault. We advise and confirm our ETA.' },
                   { step: '2', title: 'We Arrive (~30 Minutes)', desc: 'Mobile locksmith dispatched to your location in Chorlton.' },
                   { step: '3', title: 'Damage Assessed', desc: 'We inspect the key and recommend the best repair approach.' },
                   { step: '4', title: 'Fixed Quote', desc: 'Upfront price before any work starts.' },
@@ -210,7 +210,7 @@ export default function CarKeyRepairChorltonPage() {
               <p className="text-slate-400 text-sm mb-6">We repair or replace on-site — mobile, same day</p>
               <div className="mb-6">
                 <p className="text-xs text-slate-400 mb-1 uppercase tracking-wider">Call Now</p>
-                <a href="tel:+447388789881" className="text-3xl font-bold text-amber-400 hover:text-amber-300 transition-colors">07388 789881</a>
+                <a href="tel:+447309903243" className="text-3xl font-bold text-amber-400 hover:text-amber-300 transition-colors">07309 903243</a>
               </div>
               <div className="space-y-2 text-sm text-slate-300 mb-8">
                 <p>✓ Damage assessed honestly on-site</p>
@@ -249,9 +249,9 @@ export default function CarKeyRepairChorltonPage() {
           <div className="text-center py-4">
             <h2 className="text-2xl font-bold text-slate-950 mb-3">Car Key Damaged in Chorlton? Call Us Now</h2>
             <p className="text-slate-600 mb-6 max-w-xl mx-auto">We arrive in ~30 minutes and repair or replace your key on-site before it fails completely.</p>
-            <a href="tel:+447388789881" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
+            <a href="tel:+447309903243" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
               <Phone size={24} />
-              07388 789881
+              07309 903243
             </a>
           </div>
         </Container>

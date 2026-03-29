@@ -11,13 +11,13 @@ import {
 import { Wrench, Phone, ShieldCheck, Clock } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Ignition Replacement Chorlton | New Ignition Barrel | 07388 789881',
+  title: 'Ignition Replacement Chorlton | New Ignition Barrel | 07309 903243',
   description:
-    'Ignition barrel beyond repair in Chorlton? We replace car ignition barrels on-site for all major makes. Mobile, fast. Call 07388 789881.',
+    'Ignition barrel beyond repair in Chorlton? We replace car ignition barrels on-site for all major makes. Mobile, fast. Call 07309 903243.',
   keywords: ['ignition replacement Chorlton', 'replace car ignition Manchester', 'ignition switch replacement', 'faulty ignition repair'],
   openGraph: {
     title: 'Ignition Replacement Chorlton | Barrel Replaced On-Site',
-    description: 'Need a new ignition barrel in Chorlton? We replace it on-site for all major car makes. Call 07388 789881.',
+    description: 'Need a new ignition barrel in Chorlton? We replace it on-site for all major car makes. Call 07309 903243.',
     url: 'https://chorltonlocksmiths.com/ignition-replacement-chorlton',
     type: 'website',
     siteName: 'Chorlton Locksmiths',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Ignition Replacement Chorlton | New Barrel Fitted On-Site',
-    description: 'Need a new ignition barrel in Chorlton? We supply, fit, and key on-site. Call 07388 789881.',
+    description: 'Need a new ignition barrel in Chorlton? We supply, fit, and key on-site. Call 07309 903243.',
   },
   alternates: { canonical: 'https://chorltonlocksmiths.com/ignition-replacement-chorlton' },
   robots: { index: true, follow: true },
@@ -49,7 +49,7 @@ const howToSchema = generateHowToSchema({
   name: 'How We Replace a Car Ignition Barrel in Chorlton',
   description: 'Our ignition replacement process.',
   steps: [
-    { name: 'Call with vehicle details', text: 'Ring 07388 789881 with your make, model, and year. We source the correct barrel.' },
+    { name: 'Call with vehicle details', text: 'Ring 07309 903243 with your make, model, and year. We source the correct barrel.' },
     { name: 'We arrive', text: 'Mobile locksmith reaches Chorlton in ~30 minutes.' },
     { name: 'Old barrel removed', text: 'Faulty ignition barrel removed cleanly without causing further damage.' },
     { name: 'New barrel fitted', text: 'Replacement barrel installed and aligned correctly.' },
@@ -76,7 +76,7 @@ const faqs = [
   {
     question: 'How much does ignition replacement cost in Chorlton?',
     answer:
-      'Cost depends on the vehicle make and model and the barrel specification. We always quote upfront. Call 07388 789881 for an estimate — we are generally significantly cheaper than a main dealer.',
+      'Cost depends on the vehicle make and model and the barrel specification. We always quote upfront. Call 07309 903243 for an estimate — we are generally significantly cheaper than a main dealer.',
   },
   {
     question: 'How long does ignition replacement take?',
@@ -122,9 +122,9 @@ export default function IgnitionReplacementChorltonPage() {
               provides a complete mobile ignition replacement service. We source the correct barrel, fit it at your location in Chorlton,
               and cut and programme a new key on-site. No dealer, no tow truck required.
             </p>
-            <a href="tel:+447388789881" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
+            <a href="tel:+447309903243" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
               <Phone size={22} />
-              Call 07388 789881
+              Call 07309 903243
             </a>
           </div>
         </Container>
@@ -182,7 +182,7 @@ export default function IgnitionReplacementChorltonPage() {
               <SectionHeading title="How Ignition Replacement Works in Chorlton" />
               <ol className="space-y-5">
                 {[
-                  { step: '1', title: 'Call 07388 789881', desc: 'Give us your vehicle make, model, and year so we can source the correct barrel.' },
+                  { step: '1', title: 'Call 07309 903243', desc: 'Give us your vehicle make, model, and year so we can source the correct barrel.' },
                   { step: '2', title: 'We Arrive (~30 Minutes)', desc: 'Mobile locksmith arrives at your Chorlton location promptly.' },
                   { step: '3', title: 'Old Barrel Removed', desc: 'Faulty barrel removed cleanly using specialist automotive tools.' },
                   { step: '4', title: 'New Barrel Fitted', desc: 'Replacement barrel installed and correctly aligned.' },
@@ -213,7 +213,7 @@ export default function IgnitionReplacementChorltonPage() {
               <p className="text-slate-400 text-sm mb-6">We supply, fit, and key on-site in Chorlton</p>
               <div className="mb-6">
                 <p className="text-xs text-slate-400 mb-1 uppercase tracking-wider">Call Now</p>
-                <a href="tel:+447388789881" className="text-3xl font-bold text-amber-400 hover:text-amber-300 transition-colors">07388 789881</a>
+                <a href="tel:+447309903243" className="text-3xl font-bold text-amber-400 hover:text-amber-300 transition-colors">07309 903243</a>
               </div>
               <div className="space-y-2 text-sm text-slate-300 mb-8">
                 <p>✓ Correct barrel sourced for your vehicle</p>
@@ -270,9 +270,9 @@ export default function IgnitionReplacementChorltonPage() {
           <div className="text-center py-4">
             <h2 className="text-2xl font-bold text-slate-950 mb-3">Need a New Ignition in Chorlton?</h2>
             <p className="text-slate-600 mb-6 max-w-xl mx-auto">Call us — we arrive in ~30 minutes, fit the new barrel, and programme your key on-site.</p>
-            <a href="tel:+447388789881" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
+            <a href="tel:+447309903243" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
               <Phone size={24} />
-              07388 789881
+              07309 903243
             </a>
           </div>
         </Container>

@@ -11,13 +11,13 @@ import {
 import { Key, Phone, Wrench, ShieldCheck } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Key Fob Repair Chorlton | Car Remote Fix | 07388 789881',
+  title: 'Key Fob Repair Chorlton | Car Remote Fix | 07309 903243',
   description:
-    'Key fob not working in Chorlton? We repair or replace car remote key fobs on-site. All major makes. Fast response. Call 07388 789881.',
+    'Key fob not working in Chorlton? We repair or replace car remote key fobs on-site. All major makes. Fast response. Call 07309 903243.',
   keywords: ['key fob repair Chorlton', 'car remote repair Manchester', 'key fob not working fix', 'remote key replacement'],
   openGraph: {
     title: 'Key Fob Repair Chorlton | Car Remote Fixed On-Site',
-    description: 'Key fob not working in Chorlton? We diagnose, repair, or replace car fobs on-site. Call 07388 789881.',
+    description: 'Key fob not working in Chorlton? We diagnose, repair, or replace car fobs on-site. Call 07309 903243.',
     url: 'https://chorltonlocksmiths.com/car-key-fob-repair-chorlton',
     type: 'website',
     siteName: 'Chorlton Locksmiths',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Key Fob Repair Chorlton | Car Remote Fixed On-Site',
-    description: 'Key fob not working in Chorlton? We diagnose, repair or replace on-site. Call 07388 789881.',
+    description: 'Key fob not working in Chorlton? We diagnose, repair or replace on-site. Call 07309 903243.',
   },
   alternates: { canonical: 'https://chorltonlocksmiths.com/car-key-fob-repair-chorlton' },
   robots: { index: true, follow: true },
@@ -49,7 +49,7 @@ const howToSchema = generateHowToSchema({
   name: 'How We Fix a Car Key Fob in Chorlton',
   description: 'Our key fob repair process in Chorlton.',
   steps: [
-    { name: 'Call us', text: 'Ring 07388 789881 with your vehicle make, model, and the fob fault.' },
+    { name: 'Call us', text: 'Ring 07309 903243 with your vehicle make, model, and the fob fault.' },
     { name: 'Diagnosis confirmed', text: 'We confirm whether it is a battery, signal, or internal fault.' },
     { name: 'We arrive', text: 'Mobile locksmith reaches Chorlton in ~30 minutes.' },
     { name: 'Fob repaired or replaced', text: 'We repair the existing fob or supply and programme a replacement.' },
@@ -76,7 +76,7 @@ const faqs = [
   {
     question: 'How much does key fob repair cost in Chorlton?',
     answer:
-      'Costs vary depending on the fault and vehicle. Battery replacement is inexpensive; full fob replacement with programming costs more. We always quote upfront. Call 07388 789881 for a quick estimate.',
+      'Costs vary depending on the fault and vehicle. Battery replacement is inexpensive; full fob replacement with programming costs more. We always quote upfront. Call 07309 903243 for a quick estimate.',
   },
   {
     question: 'My fob works sometimes but not always — can you fix intermittent faults?',
@@ -122,9 +122,9 @@ export default function CarKeyFobRepairChorltonPage() {
               Chorlton Locksmiths diagnoses and repairs remote key fobs on-site — or supplies and programmes a replacement.
               Fast, mobile, and significantly cheaper than a main dealer.
             </p>
-            <a href="tel:+447388789881" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
+            <a href="tel:+447309903243" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
               <Phone size={22} />
-              Call 07388 789881
+              Call 07309 903243
             </a>
           </div>
         </Container>
@@ -179,7 +179,7 @@ export default function CarKeyFobRepairChorltonPage() {
               <SectionHeading title="How Key Fob Repair Works in Chorlton" />
               <ol className="space-y-5">
                 {[
-                  { step: '1', title: 'Call 07388 789881', desc: 'Describe the fob issue and your vehicle make/model. We confirm we can help.' },
+                  { step: '1', title: 'Call 07309 903243', desc: 'Describe the fob issue and your vehicle make/model. We confirm we can help.' },
                   { step: '2', title: 'We Arrive (~30 Minutes)', desc: 'Mobile locksmith dispatched to your location in Chorlton.' },
                   { step: '3', title: 'Diagnosis On-Site', desc: 'We test the fob battery, signal, and programming link to find the exact fault.' },
                   { step: '4', title: 'Repair or Replacement', desc: 'Fob repaired on-site where possible, or replacement unit supplied and programmed.' },
@@ -210,7 +210,7 @@ export default function CarKeyFobRepairChorltonPage() {
               <p className="text-slate-400 text-sm mb-6">We repair or replace in Chorlton — same day</p>
               <div className="mb-6">
                 <p className="text-xs text-slate-400 mb-1 uppercase tracking-wider">Call Now</p>
-                <a href="tel:+447388789881" className="text-3xl font-bold text-amber-400 hover:text-amber-300 transition-colors">07388 789881</a>
+                <a href="tel:+447309903243" className="text-3xl font-bold text-amber-400 hover:text-amber-300 transition-colors">07309 903243</a>
               </div>
               <div className="space-y-2 text-sm text-slate-300 mb-8">
                 <p>✓ Fault diagnosed on-site</p>
@@ -267,9 +267,9 @@ export default function CarKeyFobRepairChorltonPage() {
           <div className="text-center py-4">
             <h2 className="text-2xl font-bold text-slate-950 mb-3">Key Fob Not Working in Chorlton?</h2>
             <p className="text-slate-600 mb-6 max-w-xl mx-auto">Call us — we diagnose and fix or replace your fob on-site, same day.</p>
-            <a href="tel:+447388789881" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
+            <a href="tel:+447309903243" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
               <Phone size={24} />
-              07388 789881
+              07309 903243
             </a>
           </div>
         </Container>

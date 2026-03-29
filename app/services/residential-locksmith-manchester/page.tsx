@@ -11,7 +11,7 @@ import { Home, Shield, Key, Wrench } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Residential Locksmith in Manchester | Home Security Solutions',
   description:
-    'Professional residential locksmith services in Manchester. Lock repair, replacement, rekeying, and home security solutions. Call 07388 789881.',
+    'Professional residential locksmith services in Manchester. Lock repair, replacement, rekeying, and home security solutions. Call 07309 903243.',
 }
 
 const serviceSchema = generateServiceSchema({

@@ -9,7 +9,7 @@ import { generateServiceSchema } from '@/lib/schema'
 export const metadata: Metadata = {
   title: 'Lock Replacement Service in Manchester | Modern Security',
   description:
-    'Professional lock replacement in Manchester. Upgrade to modern security locks. Affordable pricing, expert installation. Call 07388 789881.',
+    'Professional lock replacement in Manchester. Upgrade to modern security locks. Affordable pricing, expert installation. Call 07309 903243.',
 }
 
 const serviceSchema = generateServiceSchema({

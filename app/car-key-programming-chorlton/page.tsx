@@ -11,13 +11,13 @@ import {
 import { Key, Phone, ShieldCheck, Wrench } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Car Key Programming Chorlton | Transponder & Fob | 07388 789881',
+  title: 'Car Key Programming Chorlton | Transponder & Fob | 07309 903243',
   description:
-    'Car key programming in Chorlton — transponder keys, remote fobs, proximity keys coded on-site. All major makes. Call 07388 789881.',
+    'Car key programming in Chorlton — transponder keys, remote fobs, proximity keys coded on-site. All major makes. Call 07309 903243.',
   keywords: ['car key programming Chorlton', 'key fob programming Manchester', 'transponder key programming', 'remote key coding'],
   openGraph: {
     title: 'Car Key Programming Chorlton | Coded On-Site for All Makes',
-    description: 'Transponder key and fob programming in Chorlton. We come to you. All major makes. Call 07388 789881.',
+    description: 'Transponder key and fob programming in Chorlton. We come to you. All major makes. Call 07309 903243.',
     url: 'https://chorltonlocksmiths.com/car-key-programming-chorlton',
     type: 'website',
     siteName: 'Chorlton Locksmiths',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Car Key Programming Chorlton | Transponder & Fob On-Site',
-    description: 'Transponder key and fob programming in Chorlton. We come to you — all makes. Call 07388 789881.',
+    description: 'Transponder key and fob programming in Chorlton. We come to you — all makes. Call 07309 903243.',
   },
   alternates: { canonical: 'https://chorltonlocksmiths.com/car-key-programming-chorlton' },
   robots: { index: true, follow: true },
@@ -49,7 +49,7 @@ const howToSchema = generateHowToSchema({
   name: 'How Car Key Programming Works in Chorlton',
   description: 'Our mobile car key programming process in Chorlton.',
   steps: [
-    { name: 'Call with vehicle details', text: 'Ring 07388 789881 with your car make, model, year, and key type.' },
+    { name: 'Call with vehicle details', text: 'Ring 07309 903243 with your car make, model, year, and key type.' },
     { name: 'We confirm compatibility', text: 'We verify we have the programming software for your vehicle.' },
     { name: 'We arrive on-site', text: 'Mobile locksmith reaches Chorlton in ~30 minutes.' },
     { name: 'Key programmed to ECU', text: 'Transponder chip or fob coded to your vehicle\'s system on-site.' },
@@ -76,7 +76,7 @@ const faqs = [
   {
     question: 'How much does car key programming cost in Chorlton?',
     answer:
-      'Price depends on the vehicle make, model, and key type. We always provide a fixed quote before starting. Call 07388 789881 for an estimate — we are significantly cheaper than a main dealer.',
+      'Price depends on the vehicle make, model, and key type. We always provide a fixed quote before starting. Call 07309 903243 for an estimate — we are significantly cheaper than a main dealer.',
   },
   {
     question: 'How long does key programming take?',
@@ -122,9 +122,9 @@ export default function CarKeyProgrammingChorltonPage() {
               car key programming service — we come to your location with professional automotive coding equipment and programme your key
               on-site for all major makes and models.
             </p>
-            <a href="tel:+447388789881" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
+            <a href="tel:+447309903243" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
               <Phone size={22} />
-              Call 07388 789881
+              Call 07309 903243
             </a>
           </div>
         </Container>
@@ -183,7 +183,7 @@ export default function CarKeyProgrammingChorltonPage() {
               <SectionHeading title="How Car Key Programming Works in Chorlton" />
               <ol className="space-y-5">
                 {[
-                  { step: '1', title: 'Call With Vehicle Details', desc: 'Ring 07388 789881 with make, model, year, and key type. We confirm compatibility.' },
+                  { step: '1', title: 'Call With Vehicle Details', desc: 'Ring 07309 903243 with make, model, year, and key type. We confirm compatibility.' },
                   { step: '2', title: 'We Arrive (~30 Minutes)', desc: 'Mobile locksmith dispatched to your location in Chorlton.' },
                   { step: '3', title: 'Fixed Quote Upfront', desc: 'Transparent price confirmed before we start.' },
                   { step: '4', title: 'Programming On-Site', desc: 'Transponder or fob coded to your vehicle system using professional equipment.' },
@@ -214,7 +214,7 @@ export default function CarKeyProgrammingChorltonPage() {
               <p className="text-slate-400 text-sm mb-6">All makes programmed on-site — we come to you</p>
               <div className="mb-6">
                 <p className="text-xs text-slate-400 mb-1 uppercase tracking-wider">Call Now</p>
-                <a href="tel:+447388789881" className="text-3xl font-bold text-amber-400 hover:text-amber-300 transition-colors">07388 789881</a>
+                <a href="tel:+447309903243" className="text-3xl font-bold text-amber-400 hover:text-amber-300 transition-colors">07309 903243</a>
               </div>
               <div className="space-y-2 text-sm text-slate-300 mb-8">
                 <p>✓ Transponder &amp; fob programming</p>
@@ -272,9 +272,9 @@ export default function CarKeyProgrammingChorltonPage() {
           <div className="text-center py-4">
             <h2 className="text-2xl font-bold text-slate-950 mb-3">Need Car Key Programming in Chorlton?</h2>
             <p className="text-slate-600 mb-6 max-w-xl mx-auto">We arrive in ~30 minutes and programme your key on-site. Call for a free estimate.</p>
-            <a href="tel:+447388789881" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
+            <a href="tel:+447309903243" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
               <Phone size={24} />
-              07388 789881
+              07309 903243
             </a>
           </div>
         </Container>

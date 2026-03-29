@@ -26,7 +26,7 @@ export function LocalNAP({ serviceName, compact = false }: LocalNAPProps) {
     >
       {/* Hidden microdata for crawlers */}
       <meta itemProp="name" content="Chorlton Locksmiths Limited" />
-      <meta itemProp="telephone" content="+447388789881" />
+      <meta itemProp="telephone" content="+447309903243" />
       <meta itemProp="url" content="https://chorltonlocksmiths.com" />
       <meta itemProp="priceRange" content="££" />
 
@@ -62,12 +62,12 @@ export function LocalNAP({ serviceName, compact = false }: LocalNAPProps) {
 
       {/* Phone */}
       <a
-        href="tel:+447388789881"
+        href="tel:+447309903243"
         className="flex items-center gap-2 text-amber-600 hover:text-amber-700 font-bold text-lg mb-3 transition-colors"
         aria-label="Call Chorlton Locksmiths"
       >
         <Phone size={18} aria-hidden="true" />
-        <span itemProp="telephone">07388 789881</span>
+        <span itemProp="telephone">07309 903243</span>
       </a>
 
       {/* Response time badge */}

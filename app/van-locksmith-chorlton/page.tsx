@@ -11,13 +11,13 @@ import {
 import { Car, Phone, Clock, ShieldCheck, Key } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Van Locksmith Chorlton | Transit, Sprinter & More | 07388 789881',
+  title: 'Van Locksmith Chorlton | Transit, Sprinter & More | 07309 903243',
   description:
-    'Van locksmith in Chorlton — lockouts, key replacement, programming for Ford Transit, Mercedes Sprinter, Vauxhall Vivaro and more. Call 07388 789881.',
+    'Van locksmith in Chorlton — lockouts, key replacement, programming for Ford Transit, Mercedes Sprinter, Vauxhall Vivaro and more. Call 07309 903243.',
   keywords: ['van locksmith Chorlton', 'van key replacement Manchester', 'commercial vehicle locksmith', 'van lockout service'],
   openGraph: {
     title: 'Van Locksmith Chorlton | Mobile Van Lockout & Key Service',
-    description: 'Locked out of your van in Chorlton? We cover all commercial vans — key replacement, lockouts, programming. Call 07388 789881.',
+    description: 'Locked out of your van in Chorlton? We cover all commercial vans — key replacement, lockouts, programming. Call 07309 903243.',
     url: 'https://chorltonlocksmiths.com/van-locksmith-chorlton',
     type: 'website',
     siteName: 'Chorlton Locksmiths',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Van Locksmith Chorlton | Transit & Sprinter Covered',
-    description: 'Locked out of your van in Chorlton? Mobile van locksmith — ~30 min response. Call 07388 789881.',
+    description: 'Locked out of your van in Chorlton? Mobile van locksmith — ~30 min response. Call 07309 903243.',
   },
   alternates: { canonical: 'https://chorltonlocksmiths.com/van-locksmith-chorlton' },
   robots: { index: true, follow: true },
@@ -49,7 +49,7 @@ const howToSchema = generateHowToSchema({
   name: 'How to Get Help from a Van Locksmith in Chorlton',
   description: 'Our mobile van locksmith process in Chorlton.',
   steps: [
-    { name: 'Call us', text: 'Ring 07388 789881 with your van make, model, and location in Chorlton.' },
+    { name: 'Call us', text: 'Ring 07309 903243 with your van make, model, and location in Chorlton.' },
     { name: 'We dispatch', text: 'Mobile van locksmith heads to you immediately — typically 30 minutes.' },
     { name: 'Fixed quote', text: 'Upfront price confirmed before any work starts.' },
     { name: 'Van opened or key replaced', text: 'Lockout resolved or keys replaced on-site.' },
@@ -124,9 +124,9 @@ export default function VanLocksmithChorltonPage() {
               covering all commercial vehicles — Ford Transit, Mercedes Sprinter, Vauxhall Vivaro, VW Transporter and more.
               We reach you in around 30 minutes so you can get back to work with minimal downtime.
             </p>
-            <a href="tel:+447388789881" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
+            <a href="tel:+447309903243" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
               <Phone size={22} />
-              Call 07388 789881
+              Call 07309 903243
             </a>
           </div>
         </Container>
@@ -182,7 +182,7 @@ export default function VanLocksmithChorltonPage() {
                 <span key={make} className="px-3 py-1 bg-amber-50 border border-amber-200 rounded-full text-sm text-slate-700 font-medium">{make}</span>
               ))}
             </div>
-            <p className="text-slate-500 text-sm mt-4">Don&apos;t see your van? Call 07388 789881 — we cover most commercial vehicles.</p>
+            <p className="text-slate-500 text-sm mt-4">Don&apos;t see your van? Call 07309 903243 — we cover most commercial vehicles.</p>
           </div>
         </Container>
       </Section>
@@ -194,7 +194,7 @@ export default function VanLocksmithChorltonPage() {
               <SectionHeading title="How Our Van Locksmith Service Works in Chorlton" />
               <ol className="space-y-5">
                 {[
-                  { step: '1', title: 'Call 07388 789881', desc: 'Tell us your location and van make/model. We dispatch immediately.' },
+                  { step: '1', title: 'Call 07309 903243', desc: 'Tell us your location and van make/model. We dispatch immediately.' },
                   { step: '2', title: 'We Arrive (~30 Minutes)', desc: 'Fast response — we understand that your van is your livelihood.' },
                   { step: '3', title: 'Fixed Quote Upfront', desc: 'Transparent pricing before any work starts. No hidden charges.' },
                   { step: '4', title: 'Van Opened or Keys Replaced', desc: 'Lockout resolved or replacement key programmed on-site.' },
@@ -215,7 +215,7 @@ export default function VanLocksmithChorltonPage() {
               <p className="text-slate-400 text-sm mb-6">Mobile van locksmith — ~30 min response, 7 days a week</p>
               <div className="mb-6">
                 <p className="text-xs text-slate-400 mb-1 uppercase tracking-wider">Call Now</p>
-                <a href="tel:+447388789881" className="text-3xl font-bold text-amber-400 hover:text-amber-300 transition-colors">07388 789881</a>
+                <a href="tel:+447309903243" className="text-3xl font-bold text-amber-400 hover:text-amber-300 transition-colors">07309 903243</a>
               </div>
               <div className="space-y-2 text-sm text-slate-300 mb-8">
                 <p>✓ ~30 min response in Chorlton</p>
@@ -254,9 +254,9 @@ export default function VanLocksmithChorltonPage() {
           <div className="text-center py-4">
             <h2 className="text-2xl font-bold text-slate-950 mb-3">Van Locked Out in Chorlton? Call Us Now</h2>
             <p className="text-slate-600 mb-6 max-w-xl mx-auto">~30 minute response. We open your van and get you back to work fast.</p>
-            <a href="tel:+447388789881" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
+            <a href="tel:+447309903243" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
               <Phone size={24} />
-              07388 789881
+              07309 903243
             </a>
           </div>
         </Container>

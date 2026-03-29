@@ -9,7 +9,7 @@ import { generateServiceSchema } from '@/lib/schema'
 export const metadata: Metadata = {
   title: 'uPVC Door Lock Specialist in Manchester | Expert Service',
   description:
-    'Specialist uPVC door lock repair and replacement in Manchester. Expert service for uPVC locks. Call 07388 789881 for immediate help.',
+    'Specialist uPVC door lock repair and replacement in Manchester. Expert service for uPVC locks. Call 07309 903243 for immediate help.',
 }
 
 const serviceSchema = generateServiceSchema({
@@ -126,7 +126,7 @@ export default function UPVCLockSpecialistPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+447388789881"
+                href="tel:+447309903243"
                 className="inline-block bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold px-8 py-3 rounded-lg transition-colors"
               >
                 Call Specialist Now

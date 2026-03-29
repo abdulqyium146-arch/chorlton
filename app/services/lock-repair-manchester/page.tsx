@@ -9,7 +9,7 @@ import { generateServiceSchema } from '@/lib/schema'
 export const metadata: Metadata = {
   title: 'Lock Repair Service in Manchester | Expert Locksmith',
   description:
-    'Professional lock repair services in Manchester. Broken locks, jammed locks, damaged locks - we fix them all. Call 07388 789881 for fast service.',
+    'Professional lock repair services in Manchester. Broken locks, jammed locks, damaged locks - we fix them all. Call 07309 903243 for fast service.',
 }
 
 const serviceSchema = generateServiceSchema({
@@ -93,7 +93,7 @@ export default function LockRepairPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+447388789881"
+                href="tel:+447309903243"
                 className="inline-block bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold px-8 py-3 rounded-lg transition-colors"
               >
                 Call Now

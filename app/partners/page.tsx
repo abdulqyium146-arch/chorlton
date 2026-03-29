@@ -277,7 +277,7 @@ export default function PartnersPage() {
                 Visit Car Keys in Stockport
               </a>
               <a
-                href="tel:+447388789881"
+                href="tel:+447309903243"
                 className="inline-flex items-center gap-2 border border-white/20 hover:border-amber-400 text-white hover:text-amber-400 font-semibold px-6 py-3 rounded-xl transition-colors"
                 aria-label="Call Chorlton Locksmiths"
               >
@@ -484,12 +484,12 @@ export default function PartnersPage() {
                   emergency, and uPVC door locks — Chorlton Locksmiths covers all of Greater Manchester.
                 </p>
                 <a
-                  href="tel:+447388789881"
+                  href="tel:+447309903243"
                   className="inline-flex items-center gap-2 text-amber-600 hover:text-amber-700 font-bold transition-colors"
                   aria-label="Call Chorlton Locksmiths"
                 >
                   <Phone size={16} />
-                  07388 789881
+                  07309 903243
                 </a>
               </div>
             </div>
@@ -568,12 +568,12 @@ export default function PartnersPage() {
                 ))}
               </ul>
               <a
-                href="tel:+447388789881"
+                href="tel:+447309903243"
                 className="w-full flex items-center justify-center gap-2 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold px-4 py-3 rounded-xl transition-colors"
                 aria-label="Call Chorlton Locksmiths"
               >
                 <Phone size={16} />
-                07388 789881
+                07309 903243
               </a>
             </div>
 
@@ -662,12 +662,12 @@ export default function PartnersPage() {
                 Car Keys in Stockport
               </a>
               <a
-                href="tel:+447388789881"
+                href="tel:+447309903243"
                 className="inline-flex items-center gap-2 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-lg px-8 py-4 rounded-xl transition-colors"
                 aria-label="Call Chorlton Locksmiths"
               >
                 <Phone size={20} />
-                07388 789881
+                07309 903243
               </a>
             </div>
           </div>

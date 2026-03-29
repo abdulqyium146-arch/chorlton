@@ -13,13 +13,13 @@ import {
 import { Key, Car, Phone, ShieldCheck, Star } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Car Key Replacement Chorlton | On-Site Programming | 07388 789881',
+  title: 'Car Key Replacement Chorlton | On-Site Programming | 07309 903243',
   description:
-    'Lost car key in Chorlton? We cut & programme replacement transponder keys on-site for all makes. No dealer needed. Call 07388 789881.',
+    'Lost car key in Chorlton? We cut & programme replacement transponder keys on-site for all makes. No dealer needed. Call 07309 903243.',
   keywords: ['car key replacement Chorlton', 'lost car key Chorlton', 'transponder key programming Chorlton', 'spare car key Manchester', 'replacement car keys near me'],
   openGraph: {
     title: 'Car Key Replacement Chorlton | Transponder Keys On-Site',
-    description: 'Lost your car key in Chorlton? We replace and programme transponder keys on-site for all major makes. Call 07388 789881.',
+    description: 'Lost your car key in Chorlton? We replace and programme transponder keys on-site for all major makes. Call 07309 903243.',
     url: 'https://chorltonlocksmiths.com/car-key-replacement-chorlton',
     type: 'website',
     siteName: 'Chorlton Locksmiths',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Car Key Replacement Chorlton | On-Site Key Programming',
-    description: 'Lost your car key in Chorlton with no spare? We come to you and programme a replacement on-site. Call 07388 789881.',
+    description: 'Lost your car key in Chorlton with no spare? We come to you and programme a replacement on-site. Call 07309 903243.',
   },
   alternates: { canonical: 'https://chorltonlocksmiths.com/car-key-replacement-chorlton' },
   robots: { index: true, follow: true },
@@ -58,7 +58,7 @@ const howToSchema = generateHowToSchema({
   name: 'How to Get a Replacement Car Key in Chorlton',
   description: 'Step-by-step process for car key replacement with Chorlton Locksmiths.',
   steps: [
-    { name: 'Call us', text: 'Ring 07388 789881 with your location, vehicle make, model, and year.' },
+    { name: 'Call us', text: 'Ring 07309 903243 with your location, vehicle make, model, and year.' },
     { name: 'We arrive', text: 'Our mobile locksmith reaches you in around 30 minutes in Chorlton.' },
     { name: 'Key cut on-site', text: 'We cut a new key blade to your vehicle\'s specification.' },
     { name: 'Transponder programmed', text: 'The transponder chip is programmed to your car\'s ECU on-site.' },
@@ -75,7 +75,7 @@ const faqs = [
   {
     question: 'How much does car key replacement cost in Chorlton?',
     answer:
-      'Cost depends on the vehicle make, model, and key type. We always provide a fixed, upfront quote before starting. As a guide, we are significantly cheaper than a main dealer. Call 07388 789881 for an estimate.',
+      'Cost depends on the vehicle make, model, and key type. We always provide a fixed, upfront quote before starting. As a guide, we are significantly cheaper than a main dealer. Call 07309 903243 for an estimate.',
   },
   {
     question: 'Which car brands do you cover for key replacement?',
@@ -126,9 +126,9 @@ export default function CarKeyReplacementChorltonPage() {
               we come to your location, cut a new key, and programme it to your vehicle on-site, typically within 30 minutes of your call.
               All major makes and models covered, at a fraction of main dealer prices.
             </p>
-            <a href="tel:+447388789881" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
+            <a href="tel:+447309903243" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
               <Phone size={22} />
-              Call 07388 789881
+              Call 07309 903243
             </a>
           </div>
         </Container>
@@ -213,7 +213,7 @@ export default function CarKeyReplacementChorltonPage() {
               <SectionHeading title="How Car Key Replacement Works in Chorlton" />
               <ol className="space-y-5">
                 {[
-                  { step: '1', title: 'Call 07388 789881', desc: 'Give us your location, vehicle make, model, and year. We confirm we can help and give you an ETA.' },
+                  { step: '1', title: 'Call 07309 903243', desc: 'Give us your location, vehicle make, model, and year. We confirm we can help and give you an ETA.' },
                   { step: '2', title: 'We Arrive in ~30 Minutes', desc: 'Our mobile locksmith drives to your exact location in Chorlton or nearby.' },
                   { step: '3', title: 'Fixed Price Before We Start', desc: 'We assess the job and quote you a firm price upfront — no surprises.' },
                   { step: '4', title: 'Key Cut and Programmed', desc: 'New key blade cut and transponder programmed to your vehicle on-site.' },
@@ -244,7 +244,7 @@ export default function CarKeyReplacementChorltonPage() {
               <p className="text-slate-400 text-sm mb-6">We come to you in Chorlton — on-site replacement today</p>
               <div className="mb-6">
                 <p className="text-xs text-slate-400 mb-1 uppercase tracking-wider">Call Now</p>
-                <a href="tel:+447388789881" className="text-3xl font-bold text-amber-400 hover:text-amber-300 transition-colors">07388 789881</a>
+                <a href="tel:+447309903243" className="text-3xl font-bold text-amber-400 hover:text-amber-300 transition-colors">07309 903243</a>
               </div>
               <div className="space-y-2 text-sm text-slate-300 mb-8">
                 <p>✓ ~30 min response in Chorlton</p>
@@ -305,9 +305,9 @@ export default function CarKeyReplacementChorltonPage() {
           <div className="text-center py-4">
             <h2 className="text-2xl font-bold text-slate-950 mb-3">Need a Car Key Replaced in Chorlton Today?</h2>
             <p className="text-slate-600 mb-6 max-w-xl mx-auto">Call us now — we arrive in around 30 minutes and replace your key on-site.</p>
-            <a href="tel:+447388789881" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
+            <a href="tel:+447309903243" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
               <Phone size={24} />
-              07388 789881
+              07309 903243
             </a>
           </div>
         </Container>

@@ -13,13 +13,13 @@ import {
 import { Key, Phone, ShieldCheck, Clock, Star } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Lost Car Keys Chorlton | No Spare? We Replace On-Site | 07388 789881',
+  title: 'Lost Car Keys Chorlton | No Spare? We Replace On-Site | 07309 903243',
   description:
-    'Lost car keys in Chorlton with no spare? We replace & programme transponder keys on-site. ECU & immobiliser coded. Call 07388 789881.',
+    'Lost car keys in Chorlton with no spare? We replace & programme transponder keys on-site. ECU & immobiliser coded. Call 07309 903243.',
   keywords: ['lost car keys Chorlton', 'lost car key replacement Manchester', 'no spare car key locksmith', 'emergency key replacement Chorlton', 'immobiliser key programming'],
   openGraph: {
     title: 'Lost Car Keys Chorlton | ECU & Immobiliser Programmed On-Site',
-    description: 'Lost car keys in Chorlton? No spare? ECU and immobiliser programmed on-site. Call 07388 789881.',
+    description: 'Lost car keys in Chorlton? No spare? ECU and immobiliser programmed on-site. Call 07309 903243.',
     url: 'https://chorltonlocksmiths.com/lost-car-keys-chorlton',
     type: 'website',
     siteName: 'Chorlton Locksmiths',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Lost Car Keys Chorlton | On-Site Replacement',
-    description: 'Lost your car keys in Chorlton with no spare? We replace and programme on-site — call 07388 789881.',
+    description: 'Lost your car keys in Chorlton with no spare? We replace and programme on-site — call 07309 903243.',
   },
   alternates: { canonical: 'https://chorltonlocksmiths.com/lost-car-keys-chorlton' },
   robots: { index: true, follow: true },
@@ -57,7 +57,7 @@ const howToSchema = generateHowToSchema({
   name: 'How to Get a Replacement When You Have Lost Your Car Keys in Chorlton',
   description: 'Steps for getting back into and starting your car after losing all your keys.',
   steps: [
-    { name: 'Call 07388 789881', text: 'Give us your location and vehicle details. We confirm we can help.' },
+    { name: 'Call 07309 903243', text: 'Give us your location and vehicle details. We confirm we can help.' },
     { name: 'We arrive in ~30 minutes', text: 'Our mobile locksmith comes to you in Chorlton.' },
     { name: 'We gain entry', text: 'Non-destructive entry to open the vehicle.' },
     { name: 'New key produced', text: 'Key cut and transponder programmed on-site.' },
@@ -126,9 +126,9 @@ export default function LostCarKeysChorltonPage() {
               We come to your exact location, gain access to your vehicle, and programme a brand-new key on-site —
               faster and cheaper than any main dealer.
             </p>
-            <a href="tel:+447388789881" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
+            <a href="tel:+447309903243" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
               <Phone size={22} />
-              Call 07388 789881
+              Call 07309 903243
             </a>
           </div>
         </Container>
@@ -185,7 +185,7 @@ export default function LostCarKeysChorltonPage() {
               <SectionHeading title="How Lost Car Key Replacement Works in Chorlton" />
               <ol className="space-y-5">
                 {[
-                  { step: '1', title: 'Call 07388 789881', desc: 'Give us your location and vehicle make, model, and year. We confirm we can help.' },
+                  { step: '1', title: 'Call 07309 903243', desc: 'Give us your location and vehicle make, model, and year. We confirm we can help.' },
                   { step: '2', title: 'We Arrive (~30 Minutes)', desc: 'Fully equipped mobile locksmith dispatched to Chorlton immediately.' },
                   { step: '3', title: 'Upfront Quote', desc: 'Fixed price given before any work starts. No hidden charges.' },
                   { step: '4', title: 'Non-Destructive Vehicle Entry', desc: 'We open your car without any damage to bodywork or locks.' },
@@ -217,7 +217,7 @@ export default function LostCarKeysChorltonPage() {
               <p className="text-slate-400 text-sm mb-6">We replace them on-site in Chorlton — no tow, no dealer</p>
               <div className="mb-6">
                 <p className="text-xs text-slate-400 mb-1 uppercase tracking-wider">Call Now</p>
-                <a href="tel:+447388789881" className="text-3xl font-bold text-amber-400 hover:text-amber-300 transition-colors">07388 789881</a>
+                <a href="tel:+447309903243" className="text-3xl font-bold text-amber-400 hover:text-amber-300 transition-colors">07309 903243</a>
               </div>
               <div className="space-y-2 text-sm text-slate-300 mb-8">
                 <p>✓ No spare key needed</p>
@@ -277,9 +277,9 @@ export default function LostCarKeysChorltonPage() {
           <div className="text-center py-4">
             <h2 className="text-2xl font-bold text-slate-950 mb-3">Lost Your Car Keys in Chorlton?</h2>
             <p className="text-slate-600 mb-6 max-w-xl mx-auto">Call us now — we arrive in ~30 minutes and replace your key on-site, cheaper than any dealer.</p>
-            <a href="tel:+447388789881" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
+            <a href="tel:+447309903243" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
               <Phone size={24} />
-              07388 789881
+              07309 903243
             </a>
           </div>
         </Container>

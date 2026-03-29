@@ -13,13 +13,13 @@ import {
 import { Car, Clock, Phone, ShieldCheck, Star } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Car Lockout Chorlton | Locked Out? ~30 Min | 07388 789881',
+  title: 'Car Lockout Chorlton | Locked Out? ~30 Min | 07309 903243',
   description:
-    'Locked out of your car in Chorlton or Didsbury? Non-destructive entry, ~30 min response. Mobile locksmith — no damage. Call 07388 789881 now.',
+    'Locked out of your car in Chorlton or Didsbury? Non-destructive entry, ~30 min response. Mobile locksmith — no damage. Call 07309 903243 now.',
   keywords: ['car lockout Chorlton', 'locked out of car Chorlton', 'car unlock service Manchester', 'emergency car locksmith Chorlton'],
   openGraph: {
     title: 'Car Lockout Chorlton | Non-Destructive Entry in ~30 Min',
-    description: 'Locked out of your car in Chorlton? Mobile locksmith — ~30 min response, professional non-destructive entry. Call 07388 789881.',
+    description: 'Locked out of your car in Chorlton? Mobile locksmith — ~30 min response, professional non-destructive entry. Call 07309 903243.',
     url: 'https://chorltonlocksmiths.com/car-lockout-chorlton',
     type: 'website',
     siteName: 'Chorlton Locksmiths',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Car Lockout Chorlton | ~30 Min Response',
-    description: 'Locked out of your car in Chorlton? We arrive in ~30 min and open it without damage. Call 07388 789881.',
+    description: 'Locked out of your car in Chorlton? We arrive in ~30 min and open it without damage. Call 07309 903243.',
   },
   alternates: { canonical: 'https://chorltonlocksmiths.com/car-lockout-chorlton' },
   robots: { index: true, follow: true },
@@ -57,7 +57,7 @@ const howToSchema = generateHowToSchema({
   name: 'How to Get Back Into Your Locked Car in Chorlton',
   description: 'What happens when you call Chorlton Locksmiths for a car lockout.',
   steps: [
-    { name: 'Call 07388 789881', text: 'Tell us your location and your vehicle make and model.' },
+    { name: 'Call 07309 903243', text: 'Tell us your location and your vehicle make and model.' },
     { name: 'We dispatch immediately', text: 'Our mobile locksmith heads to you — typically 30 minutes in Chorlton.' },
     { name: 'Vehicle assessed', text: 'We confirm the non-destructive entry method appropriate for your car.' },
     { name: 'Non-destructive entry', text: 'We open your car using professional tools — zero damage to bodywork or glass.' },
@@ -84,7 +84,7 @@ const faqs = [
   {
     question: 'How much does a car lockout service cost in Chorlton?',
     answer:
-      'Our pricing is competitive and always quoted upfront before we start. The cost depends on the vehicle make, model, and time of day. Call 07388 789881 for a quick estimate.',
+      'Our pricing is competitive and always quoted upfront before we start. The cost depends on the vehicle make, model, and time of day. Call 07309 903243 for a quick estimate.',
   },
   {
     question: 'Do you open vans as well as cars?',
@@ -125,9 +125,9 @@ export default function CarLockoutChorltonPage() {
               arriving in around 30 minutes, using professional non-destructive tools to get you back in without causing any damage to your vehicle.
               Available 7 days a week across Chorlton and Greater Manchester.
             </p>
-            <a href="tel:+447388789881" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
+            <a href="tel:+447309903243" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
               <Phone size={22} />
-              Call 07388 789881
+              Call 07309 903243
             </a>
           </div>
         </Container>
@@ -183,7 +183,7 @@ export default function CarLockoutChorltonPage() {
                 { title: 'Keys locked inside the car', body: 'The most common lockout — keys on the seat, in the boot, or in the cupholder. We open the door cleanly in minutes.' },
                 { title: 'Lost keys, no spare', body: 'If you have also lost your key we can open the car and then produce a replacement key on-site — see our car key replacement service.' },
                 { title: 'Key broken in the lock', body: 'Key snapped off inside the door lock? We extract the broken piece and open the door without damaging the barrel.' },
-                { title: 'Child or pet locked inside', body: 'An emergency — call us immediately on 07388 789881. We prioritise these situations and aim for the fastest possible response.' },
+                { title: 'Child or pet locked inside', body: 'An emergency — call us immediately on 07309 903243. We prioritise these situations and aim for the fastest possible response.' },
               ].map((s, i) => (
                 <div key={i} className="p-5 bg-slate-50 rounded-xl border border-slate-200">
                   <h3 className="font-bold text-slate-950 mb-1">{s.title}</h3>
@@ -203,7 +203,7 @@ export default function CarLockoutChorltonPage() {
               <SectionHeading title="How Our Car Lockout Service Works" />
               <ol className="space-y-5">
                 {[
-                  { step: '1', title: 'Call 07388 789881', desc: 'Tell us your exact location and vehicle. We confirm our ETA immediately.' },
+                  { step: '1', title: 'Call 07309 903243', desc: 'Tell us your exact location and vehicle. We confirm our ETA immediately.' },
                   { step: '2', title: 'We Arrive in ~30 Minutes', desc: 'Mobile, fully equipped — dispatched straight to you.' },
                   { step: '3', title: 'Fixed Price Given First', desc: 'Upfront quote before any work starts. No hidden charges.' },
                   { step: '4', title: 'Non-Destructive Vehicle Entry', desc: 'Specialist tools open your car safely — no damage, every time.' },
@@ -234,7 +234,7 @@ export default function CarLockoutChorltonPage() {
               <p className="text-slate-400 text-sm mb-6">Call us — we aim to reach Chorlton in 30 minutes</p>
               <div className="mb-6">
                 <p className="text-xs text-slate-400 mb-1 uppercase tracking-wider">Emergency Line</p>
-                <a href="tel:+447388789881" className="text-3xl font-bold text-amber-400 hover:text-amber-300 transition-colors">07388 789881</a>
+                <a href="tel:+447309903243" className="text-3xl font-bold text-amber-400 hover:text-amber-300 transition-colors">07309 903243</a>
               </div>
               <div className="space-y-2 text-sm text-slate-300 mb-8">
                 <p>✓ ~30 min response in Chorlton</p>
@@ -295,9 +295,9 @@ export default function CarLockoutChorltonPage() {
           <div className="text-center py-4">
             <h2 className="text-2xl font-bold text-slate-950 mb-3">Locked Out of Your Car in Chorlton?</h2>
             <p className="text-slate-600 mb-6 max-w-xl mx-auto">Call now — we arrive in around 30 minutes and get you back in without any damage.</p>
-            <a href="tel:+447388789881" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
+            <a href="tel:+447309903243" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
               <Phone size={24} />
-              07388 789881
+              07309 903243
             </a>
           </div>
         </Container>

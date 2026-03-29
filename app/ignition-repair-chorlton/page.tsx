@@ -11,13 +11,13 @@ import {
 import { Wrench, Phone, ShieldCheck, Clock } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Ignition Repair Chorlton | Car Ignition Fix | 07388 789881',
+  title: 'Ignition Repair Chorlton | Car Ignition Fix | 07309 903243',
   description:
-    'Ignition not turning or key stuck in Chorlton? Our mobile locksmith diagnoses and repairs car ignition faults on-site. Call 07388 789881.',
+    'Ignition not turning or key stuck in Chorlton? Our mobile locksmith diagnoses and repairs car ignition faults on-site. Call 07309 903243.',
   keywords: ['ignition repair Chorlton', 'car ignition problem Manchester', 'key stuck in ignition', 'ignition fix locksmith'],
   openGraph: {
     title: 'Ignition Repair Chorlton | Ignition Fault Fixed On-Site',
-    description: 'Car ignition not turning in Chorlton? We repair ignition faults on-site. Mobile, fast response. Call 07388 789881.',
+    description: 'Car ignition not turning in Chorlton? We repair ignition faults on-site. Mobile, fast response. Call 07309 903243.',
     url: 'https://chorltonlocksmiths.com/ignition-repair-chorlton',
     type: 'website',
     siteName: 'Chorlton Locksmiths',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Ignition Repair Chorlton | Car Ignition Fixed On-Site',
-    description: 'Car ignition not turning in Chorlton? We diagnose and repair on-site. Call 07388 789881.',
+    description: 'Car ignition not turning in Chorlton? We diagnose and repair on-site. Call 07309 903243.',
   },
   alternates: { canonical: 'https://chorltonlocksmiths.com/ignition-repair-chorlton' },
   robots: { index: true, follow: true },
@@ -49,7 +49,7 @@ const howToSchema = generateHowToSchema({
   name: 'How We Repair a Car Ignition in Chorlton',
   description: 'Our ignition repair process in Chorlton.',
   steps: [
-    { name: 'Call us', text: 'Ring 07388 789881 and describe the ignition fault. We confirm we can help.' },
+    { name: 'Call us', text: 'Ring 07309 903243 and describe the ignition fault. We confirm we can help.' },
     { name: 'We arrive', text: 'Mobile locksmith reaches Chorlton in ~30 minutes.' },
     { name: 'Diagnosis', text: 'We inspect the barrel, key, and steering lock to identify the root cause.' },
     { name: 'Repair on-site', text: 'Ignition barrel lubricated, adjusted, or repaired with specialist tools.' },
@@ -76,7 +76,7 @@ const faqs = [
   {
     question: 'How much does ignition repair cost in Chorlton?',
     answer:
-      'Pricing depends on the fault and vehicle. We always quote upfront before starting. Repair is generally cheaper than replacement. Call 07388 789881 for an estimate.',
+      'Pricing depends on the fault and vehicle. We always quote upfront before starting. Repair is generally cheaper than replacement. Call 07309 903243 for an estimate.',
   },
   {
     question: 'Can you repair the ignition on any car in Chorlton?',
@@ -122,9 +122,9 @@ export default function IgnitionRepairChorltonPage() {
               Chorlton Locksmiths provides a mobile ignition repair service in Chorlton and across Greater Manchester —
               diagnosing stiff, worn, or seized ignition barrels and resolving the fault on-site without the need to tow your vehicle.
             </p>
-            <a href="tel:+447388789881" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
+            <a href="tel:+447309903243" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
               <Phone size={22} />
-              Call 07388 789881
+              Call 07309 903243
             </a>
           </div>
         </Container>
@@ -179,7 +179,7 @@ export default function IgnitionRepairChorltonPage() {
               <SectionHeading title="How Ignition Repair Works in Chorlton" />
               <ol className="space-y-5">
                 {[
-                  { step: '1', title: 'Call 07388 789881', desc: 'Describe the fault. We advise over the phone and confirm our ETA.' },
+                  { step: '1', title: 'Call 07309 903243', desc: 'Describe the fault. We advise over the phone and confirm our ETA.' },
                   { step: '2', title: 'We Arrive (~30 Minutes)', desc: 'Mobile locksmith dispatched to your Chorlton location immediately.' },
                   { step: '3', title: 'On-Site Diagnosis', desc: 'We inspect the key, barrel, and steering lock to identify the exact fault.' },
                   { step: '4', title: 'Upfront Quote', desc: 'Fixed price given before any work begins.' },
@@ -210,7 +210,7 @@ export default function IgnitionRepairChorltonPage() {
               <p className="text-slate-400 text-sm mb-6">We diagnose and repair on-site — ~30 min response</p>
               <div className="mb-6">
                 <p className="text-xs text-slate-400 mb-1 uppercase tracking-wider">Call Now</p>
-                <a href="tel:+447388789881" className="text-3xl font-bold text-amber-400 hover:text-amber-300 transition-colors">07388 789881</a>
+                <a href="tel:+447309903243" className="text-3xl font-bold text-amber-400 hover:text-amber-300 transition-colors">07309 903243</a>
               </div>
               <div className="space-y-2 text-sm text-slate-300 mb-8">
                 <p>✓ Fault diagnosed on-site</p>
@@ -267,9 +267,9 @@ export default function IgnitionRepairChorltonPage() {
           <div className="text-center py-4">
             <h2 className="text-2xl font-bold text-slate-950 mb-3">Ignition Fault in Chorlton? Call Us Now</h2>
             <p className="text-slate-600 mb-6 max-w-xl mx-auto">We arrive in ~30 minutes and repair your ignition on-site. Fixed price, no surprises.</p>
-            <a href="tel:+447388789881" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
+            <a href="tel:+447309903243" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
               <Phone size={24} />
-              07388 789881
+              07309 903243
             </a>
           </div>
         </Container>

@@ -263,10 +263,10 @@ export default function AreasWeCoverPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+447388789881"
+                href="tel:+447309903243"
                 className="inline-flex items-center justify-center gap-2 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold px-6 py-3 rounded-xl transition-colors"
               >
-                Call 07388 789881
+                Call 07309 903243
               </a>
               <CTAButton href="/contact" variant="secondary" size="lg">
                 Send a Message

@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     template: '%s | Chorlton Locksmiths',
   },
   description:
-    'Trusted emergency locksmith in Chorlton, Manchester. 30–60 min response, 24/7 including weekends & bank holidays. Lock repair, auto locksmith, uPVC specialists. Fully insured. Call 07388 789881.',
+    'Trusted emergency locksmith in Chorlton, Manchester. 30–60 min response, 24/7 including weekends & bank holidays. Lock repair, auto locksmith, uPVC specialists. Fully insured. Call 07309 903243.',
   keywords: [
     'locksmith manchester',
     'emergency locksmith manchester',
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Emergency Locksmith Chorlton Manchester | 24/7 | Chorlton Locksmiths',
     description:
-      'Trusted 24/7 emergency locksmith in Chorlton & Manchester. 30–60 min response, lock repair, auto locksmith, uPVC specialists. Fully insured. Call 07388 789881.',
+      'Trusted 24/7 emergency locksmith in Chorlton & Manchester. 30–60 min response, lock repair, auto locksmith, uPVC specialists. Fully insured. Call 07309 903243.',
     url: 'https://chorltonlocksmiths.com',
     siteName: 'Chorlton Locksmiths',
     type: 'website',
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Emergency Locksmith Chorlton Manchester | 24/7 Fast Response',
-    description: 'Trusted 24/7 emergency locksmith in Chorlton & Manchester. Call 07388 789881 — 30–60 min response guaranteed.',
+    description: 'Trusted 24/7 emergency locksmith in Chorlton & Manchester. Call 07309 903243 — 30–60 min response guaranteed.',
     images: ['/chorlton-locksmith-hero-main.webp'],
   },
   robots: {
@@ -126,7 +126,7 @@ export default function RootLayout({
         <meta property="business:contact_data:region" content="Greater Manchester" />
         <meta property="business:contact_data:postal_code" content="M21 9AN" />
         <meta property="business:contact_data:country_name" content="United Kingdom" />
-        <meta property="business:contact_data:phone_number" content="+447388789881" />
+        <meta property="business:contact_data:phone_number" content="+447309903243" />
 
         {/* Schema Markup */}
         <script

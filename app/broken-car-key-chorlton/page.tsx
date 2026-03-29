@@ -11,13 +11,13 @@ import {
 import { Wrench, Phone, ShieldCheck, Clock } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Broken Car Key Chorlton | Key Extraction Service | 07388 789881',
+  title: 'Broken Car Key Chorlton | Key Extraction Service | 07309 903243',
   description:
-    'Snapped car key in Chorlton? We extract broken keys from locks and ignitions on-site without damage. Fast response. Call 07388 789881.',
+    'Snapped car key in Chorlton? We extract broken keys from locks and ignitions on-site without damage. Fast response. Call 07309 903243.',
   keywords: ['broken car key Chorlton', 'snapped key in ignition', 'broken key removal Manchester', 'car key extraction service'],
   openGraph: {
     title: 'Broken Car Key Chorlton | Key Extracted Without Damage',
-    description: 'Key snapped in your car lock or ignition in Chorlton? We extract it safely on-site. Call 07388 789881.',
+    description: 'Key snapped in your car lock or ignition in Chorlton? We extract it safely on-site. Call 07309 903243.',
     url: 'https://chorltonlocksmiths.com/broken-car-key-chorlton',
     type: 'website',
     siteName: 'Chorlton Locksmiths',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Broken Car Key Chorlton | Key Extracted Without Damage',
-    description: 'Key snapped in your lock or ignition in Chorlton? We extract it safely. Call 07388 789881.',
+    description: 'Key snapped in your lock or ignition in Chorlton? We extract it safely. Call 07309 903243.',
   },
   alternates: { canonical: 'https://chorltonlocksmiths.com/broken-car-key-chorlton' },
   robots: { index: true, follow: true },
@@ -49,7 +49,7 @@ const howToSchema = generateHowToSchema({
   name: 'How We Extract a Broken Car Key in Chorlton',
   description: 'Our broken key extraction process.',
   steps: [
-    { name: 'Call us immediately', text: 'Ring 07388 789881 — do not try to pull or push the broken piece further.' },
+    { name: 'Call us immediately', text: 'Ring 07309 903243 — do not try to pull or push the broken piece further.' },
     { name: 'We arrive', text: 'Mobile locksmith reaches Chorlton in ~30 minutes with specialist extraction tools.' },
     { name: 'Broken piece located', text: 'We assess the position and depth of the broken key in the lock or ignition.' },
     { name: 'Clean extraction', text: 'Broken key removed using precision extraction tools — no barrel damage.' },
@@ -81,7 +81,7 @@ const faqs = [
   {
     question: 'How much does broken key extraction cost in Chorlton?',
     answer:
-      'Pricing depends on the vehicle and the location of the break (door lock or ignition). We always provide a fixed quote before starting. Call 07388 789881 for an estimate.',
+      'Pricing depends on the vehicle and the location of the break (door lock or ignition). We always provide a fixed quote before starting. Call 07309 903243 for an estimate.',
   },
 ]
 
@@ -122,9 +122,9 @@ export default function BrokenCarKeyChorltonPage() {
               driving it deeper and causing expensive barrel damage. Chorlton Locksmiths extracts broken keys using specialist tools, cleanly
               and without damage, then produces a replacement key on-site so you can drive away.
             </p>
-            <a href="tel:+447388789881" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
+            <a href="tel:+447309903243" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
               <Phone size={22} />
-              Call 07388 789881
+              Call 07309 903243
             </a>
           </div>
         </Container>
@@ -178,7 +178,7 @@ export default function BrokenCarKeyChorltonPage() {
               <SectionHeading title="How Broken Key Extraction Works in Chorlton" />
               <ol className="space-y-5">
                 {[
-                  { step: '1', title: 'Call 07388 789881', desc: 'Tell us your location and vehicle. Do not try to pull or push the broken piece.' },
+                  { step: '1', title: 'Call 07309 903243', desc: 'Tell us your location and vehicle. Do not try to pull or push the broken piece.' },
                   { step: '2', title: 'We Arrive (~30 Minutes)', desc: 'Mobile locksmith with extraction tools reaches Chorlton fast.' },
                   { step: '3', title: 'Fixed Quote Given', desc: 'Upfront price before we start — no surprises.' },
                   { step: '4', title: 'Clean Extraction', desc: 'Broken key removed using precision tools without barrel damage.' },
@@ -209,7 +209,7 @@ export default function BrokenCarKeyChorltonPage() {
               <p className="text-slate-400 text-sm mb-6">Don&apos;t try to remove it yourself — call us for safe extraction</p>
               <div className="mb-6">
                 <p className="text-xs text-slate-400 mb-1 uppercase tracking-wider">Call Now</p>
-                <a href="tel:+447388789881" className="text-3xl font-bold text-amber-400 hover:text-amber-300 transition-colors">07388 789881</a>
+                <a href="tel:+447309903243" className="text-3xl font-bold text-amber-400 hover:text-amber-300 transition-colors">07309 903243</a>
               </div>
               <div className="space-y-2 text-sm text-slate-300 mb-8">
                 <p>✓ ~30 min response in Chorlton</p>
@@ -248,9 +248,9 @@ export default function BrokenCarKeyChorltonPage() {
           <div className="text-center py-4">
             <h2 className="text-2xl font-bold text-slate-950 mb-3">Key Snapped in Chorlton? Call Now</h2>
             <p className="text-slate-600 mb-6 max-w-xl mx-auto">We arrive in ~30 minutes, extract the broken key, and produce a replacement on-site.</p>
-            <a href="tel:+447388789881" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
+            <a href="tel:+447309903243" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
               <Phone size={24} />
-              07388 789881
+              07309 903243
             </a>
           </div>
         </Container>

@@ -16,7 +16,7 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Emergency Locksmith Chorlton Manchester | 24/7 Fast Response | Insured',
   description:
-    'Chorlton Locksmiths: trusted 24/7 emergency locksmith in Manchester. 30–60 min response, lock repair, auto locksmith, residential & commercial. Insured professionals. Call 07388 789881.',
+    'Chorlton Locksmiths: trusted 24/7 emergency locksmith in Manchester. 30–60 min response, lock repair, auto locksmith, residential & commercial. Insured professionals. Call 07309 903243.',
   keywords: [
     'locksmith Chorlton',
     'emergency locksmith Manchester',
@@ -36,7 +36,7 @@ const faqs = [
   {
     question: 'Are you available 24/7 for emergency locksmith services in Manchester?',
     answer:
-      'Yes. Chorlton Locksmiths operates 24 hours a day, 7 days a week, including weekends and holidays. We respond to emergency lockouts, lock repairs, and urgent locksmith needs at any time. Call 07388 789881 anytime.',
+      'Yes. Chorlton Locksmiths operates 24 hours a day, 7 days a week, including weekends and holidays. We respond to emergency lockouts, lock repairs, and urgent locksmith needs at any time. Call 07309 903243 anytime.',
   },
   {
     question: 'How fast can a locksmith arrive in Chorlton and Manchester?',
@@ -51,7 +51,7 @@ const faqs = [
   {
     question: 'How much does a locksmith cost in Manchester?',
     answer:
-      'Our rates start from £60-£120 for standard lockouts, lock repairs, and key cutting. Emergency calls may have a small surcharge (+£20-£30). We provide transparent upfront pricing—no hidden fees. Call for a free quote: 07388 789881',
+      'Our rates start from £60-£120 for standard lockouts, lock repairs, and key cutting. Emergency calls may have a small surcharge (+£20-£30). We provide transparent upfront pricing—no hidden fees. Call for a free quote: 07309 903243',
   },
   {
     question: 'Do you specialize in uPVC door locks?',
@@ -96,7 +96,7 @@ const faqs = [
   {
     question: 'How do I contact you for an emergency locksmith?',
     answer:
-      'Call 07388 789881 anytime, day or night. We respond immediately to emergency calls. You can also email hello@chorltonlocksmiths.co.uk or fill out our online quote form.',
+      'Call 07309 903243 anytime, day or night. We respond immediately to emergency calls. You can also email hello@chorltonlocksmiths.co.uk or fill out our online quote form.',
   },
 ]
 
@@ -107,7 +107,7 @@ const breadcrumbSchema = generateBreadcrumbSchema([
 const webPageSchema = generateWebPageSchema({
   url: '/',
   name: 'Emergency Locksmith Chorlton Manchester | 24/7 Fast Response',
-  description: 'Trusted emergency locksmith in Chorlton and Manchester. 30–60 min response, available 24/7 including weekends. Lock repair, auto locksmith, uPVC specialists. Call 07388 789881.',
+  description: 'Trusted emergency locksmith in Chorlton and Manchester. 30–60 min response, available 24/7 including weekends. Lock repair, auto locksmith, uPVC specialists. Call 07309 903243.',
   speakableSelectors: ['h1', 'h2', '.speakable'],
 })
 
@@ -130,7 +130,7 @@ export default function Home() {
       {/* Hero Section - Optimized for Conversions */}
       <HeroSection
         title="Emergency Locksmith in Chorlton & Manchester ✓ 24/7"
-        subtitle="Locked out? Broken lock? Fast response within 30-60 minutes. Professional locksmiths available 24/7. Residential, commercial, and uPVC specialists. Insured & guaranteed work. Call now: 07388 789881"
+        subtitle="Locked out? Broken lock? Fast response within 30-60 minutes. Professional locksmiths available 24/7. Residential, commercial, and uPVC specialists. Insured & guaranteed work. Call now: 07309 903243"
       />
 
       {/* Trust Section - Optimized for Local SEO & AI Extraction */}
@@ -177,7 +177,7 @@ export default function Home() {
                 <strong>Response Time:</strong> 30-60 minutes in most Manchester areas. Available 24/7 including weekends and bank holidays.
               </p>
               <p className="text-lg leading-relaxed text-slate-700">
-                <strong>Contact:</strong> Call <a href="tel:+44 7388 789881" className="text-amber-600 font-bold hover:underline">07388 789881</a> anytime for immediate emergency assistance.
+                <strong>Contact:</strong> Call <a href="tel:+447309903243" className="text-amber-600 font-bold hover:underline">07309 903243</a> anytime for immediate emergency assistance.
               </p>
             </div>
           </div>
@@ -272,7 +272,7 @@ export default function Home() {
         <Container>
           <SectionHeading
             title="Locksmith Service Areas in Manchester & Greater Manchester"
-            subtitle="Fast 30-60 minute response time. Professional emergency locksmith services available throughout Chorlton, Didsbury, Stretford, Sale, Fallowfield, Whalley Range, Moss Side, Old Trafford, and Manchester City Centre. Call 07388 789881 for immediate assistance in your area."
+            subtitle="Fast 30-60 minute response time. Professional emergency locksmith services available throughout Chorlton, Didsbury, Stretford, Sale, Fallowfield, Whalley Range, Moss Side, Old Trafford, and Manchester City Centre. Call 07309 903243 for immediate assistance in your area."
             centered
           />
           <div className="max-w-4xl mx-auto mb-8">

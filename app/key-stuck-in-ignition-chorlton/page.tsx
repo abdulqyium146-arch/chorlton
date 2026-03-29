@@ -11,13 +11,13 @@ import {
 import { Wrench, Phone, ShieldCheck, Clock } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Key Stuck in Ignition Chorlton | Removal & Fix | 07388 789881',
+  title: 'Key Stuck in Ignition Chorlton | Removal & Fix | 07309 903243',
   description:
-    'Key stuck in your car ignition in Chorlton? We remove it safely on-site. Mobile locksmith, ~30 min response. Call 07388 789881 now.',
+    'Key stuck in your car ignition in Chorlton? We remove it safely on-site. Mobile locksmith, ~30 min response. Call 07309 903243 now.',
   keywords: ['key stuck in ignition Chorlton', 'car key jammed ignition', 'ignition key removal Manchester', 'stuck car key fix'],
   openGraph: {
     title: 'Key Stuck in Ignition Chorlton | Safe Removal On-Site',
-    description: 'Key stuck in ignition in Chorlton? We remove it safely without damage. Mobile, ~30 min. Call 07388 789881.',
+    description: 'Key stuck in ignition in Chorlton? We remove it safely without damage. Mobile, ~30 min. Call 07309 903243.',
     url: 'https://chorltonlocksmiths.com/key-stuck-in-ignition-chorlton',
     type: 'website',
     siteName: 'Chorlton Locksmiths',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Key Stuck in Ignition Chorlton | Safe Removal On-Site',
-    description: 'Key jammed in ignition in Chorlton? Don\'t force it — we extract safely. Call 07388 789881.',
+    description: 'Key jammed in ignition in Chorlton? Don\'t force it — we extract safely. Call 07309 903243.',
   },
   alternates: { canonical: 'https://chorltonlocksmiths.com/key-stuck-in-ignition-chorlton' },
   robots: { index: true, follow: true },
@@ -49,7 +49,7 @@ const howToSchema = generateHowToSchema({
   name: 'How We Remove a Key Stuck in the Ignition in Chorlton',
   description: 'Our process for safely extracting a jammed key from a car ignition.',
   steps: [
-    { name: 'Call 07388 789881', text: 'Tell us your location and vehicle make/model. Do not try to force the key.' },
+    { name: 'Call 07309 903243', text: 'Tell us your location and vehicle make/model. Do not try to force the key.' },
     { name: 'We arrive', text: 'Mobile locksmith reaches Chorlton in ~30 minutes with specialist extraction tools.' },
     { name: 'Cause assessed', text: 'We determine if the key is jammed, broken, or if the barrel is seized.' },
     { name: 'Key removed', text: 'Safe, controlled extraction using professional tools — no barrel damage.' },
@@ -66,7 +66,7 @@ const faqs = [
   {
     question: 'Should I try to force my key out of the ignition?',
     answer:
-      'No. Forcing a stuck key risks snapping it inside the barrel, causing far more damage and a significantly more expensive repair. Call 07388 789881 and we will remove it safely with specialist tools.',
+      'No. Forcing a stuck key risks snapping it inside the barrel, causing far more damage and a significantly more expensive repair. Call 07309 903243 and we will remove it safely with specialist tools.',
   },
   {
     question: 'Will you damage the ignition removing the key?',
@@ -81,7 +81,7 @@ const faqs = [
   {
     question: 'How much does key stuck in ignition removal cost in Chorlton?',
     answer:
-      'Pricing depends on the vehicle and the nature of the fault. We always quote upfront before starting any work. Call 07388 789881 for a quick estimate.',
+      'Pricing depends on the vehicle and the nature of the fault. We always quote upfront before starting any work. Call 07309 903243 for a quick estimate.',
   },
 ]
 
@@ -122,9 +122,9 @@ export default function KeyStuckInIgnitionChorltonPage() {
               Chorlton Locksmiths provides a mobile key extraction service, reaching you in around 30 minutes and removing the key safely
               using specialist tools, without damage to your ignition.
             </p>
-            <a href="tel:+447388789881" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
+            <a href="tel:+447309903243" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
               <Phone size={22} />
-              Call 07388 789881
+              Call 07309 903243
             </a>
           </div>
         </Container>
@@ -182,7 +182,7 @@ export default function KeyStuckInIgnitionChorltonPage() {
               <SectionHeading title="How We Remove a Stuck Ignition Key in Chorlton" />
               <ol className="space-y-5">
                 {[
-                  { step: '1', title: 'Call 07388 789881', desc: 'Tell us your location and vehicle. Do not force the key while you wait.' },
+                  { step: '1', title: 'Call 07309 903243', desc: 'Tell us your location and vehicle. Do not force the key while you wait.' },
                   { step: '2', title: 'We Arrive (~30 Minutes)', desc: 'Mobile locksmith with specialist extraction tools dispatched immediately.' },
                   { step: '3', title: 'Cause Identified', desc: 'We check for steering lock, solenoid, barrel wear, and key condition.' },
                   { step: '4', title: 'Safe Extraction', desc: 'Key removed using controlled, professional tools — no barrel damage.' },
@@ -213,7 +213,7 @@ export default function KeyStuckInIgnitionChorltonPage() {
               <p className="text-slate-400 text-sm mb-6">Don&apos;t force it — call us for safe extraction in Chorlton</p>
               <div className="mb-6">
                 <p className="text-xs text-slate-400 mb-1 uppercase tracking-wider">Call Now</p>
-                <a href="tel:+447388789881" className="text-3xl font-bold text-amber-400 hover:text-amber-300 transition-colors">07388 789881</a>
+                <a href="tel:+447309903243" className="text-3xl font-bold text-amber-400 hover:text-amber-300 transition-colors">07309 903243</a>
               </div>
               <div className="space-y-2 text-sm text-slate-300 mb-8">
                 <p>✓ ~30 min response in Chorlton</p>
@@ -252,9 +252,9 @@ export default function KeyStuckInIgnitionChorltonPage() {
           <div className="text-center py-4">
             <h2 className="text-2xl font-bold text-slate-950 mb-3">Key Stuck in Ignition in Chorlton?</h2>
             <p className="text-slate-600 mb-6 max-w-xl mx-auto">Do not force it. Call us — we arrive in ~30 minutes and remove it safely.</p>
-            <a href="tel:+447388789881" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
+            <a href="tel:+447309903243" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
               <Phone size={24} />
-              07388 789881
+              07309 903243
             </a>
           </div>
         </Container>

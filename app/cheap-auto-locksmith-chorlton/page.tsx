@@ -11,13 +11,13 @@ import {
 import { ShieldCheck, Phone, Car, Key } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Cheap Auto Locksmith Chorlton | Affordable Car Locksmith | 07388 789881',
+  title: 'Cheap Auto Locksmith Chorlton | Affordable Car Locksmith | 07309 903243',
   description:
-    'Affordable auto locksmith in Chorlton — competitive pricing, transparent quotes, no hidden fees. Cheaper than a dealer. Call 07388 789881.',
+    'Affordable auto locksmith in Chorlton — competitive pricing, transparent quotes, no hidden fees. Cheaper than a dealer. Call 07309 903243.',
   keywords: ['cheap auto locksmith Chorlton', 'affordable car locksmith Manchester', 'low cost car key replacement', 'budget locksmith service'],
   openGraph: {
     title: 'Cheap Auto Locksmith Chorlton | Transparent, Competitive Pricing',
-    description: 'Affordable auto locksmith in Chorlton. Fixed quotes, no hidden fees. Cheaper than a main dealer. Call 07388 789881.',
+    description: 'Affordable auto locksmith in Chorlton. Fixed quotes, no hidden fees. Cheaper than a main dealer. Call 07309 903243.',
     url: 'https://chorltonlocksmiths.com/cheap-auto-locksmith-chorlton',
     type: 'website',
     siteName: 'Chorlton Locksmiths',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Affordable Auto Locksmith Chorlton | Fixed Price Quotes',
-    description: 'Competitive auto locksmith pricing in Chorlton. Fixed quotes, no hidden fees. Call 07388 789881.',
+    description: 'Competitive auto locksmith pricing in Chorlton. Fixed quotes, no hidden fees. Call 07309 903243.',
   },
   alternates: { canonical: 'https://chorltonlocksmiths.com/cheap-auto-locksmith-chorlton' },
   robots: { index: true, follow: true },
@@ -49,7 +49,7 @@ const howToSchema = generateHowToSchema({
   name: 'How to Get an Affordable Auto Locksmith in Chorlton',
   description: 'How our transparent pricing works.',
   steps: [
-    { name: 'Call for a free estimate', text: 'Ring 07388 789881 — we give you an honest price estimate over the phone.' },
+    { name: 'Call for a free estimate', text: 'Ring 07309 903243 — we give you an honest price estimate over the phone.' },
     { name: 'We arrive', text: 'Mobile locksmith reaches Chorlton in ~30 minutes.' },
     { name: 'Fixed quote confirmed', text: 'Final fixed price confirmed on-site before any work starts — no surprises.' },
     { name: 'Work completed', text: 'Service carried out at the agreed price with no add-on charges.' },
@@ -61,7 +61,7 @@ const faqs = [
   {
     question: 'How much does an auto locksmith cost in Chorlton?',
     answer:
-      'Pricing depends on the vehicle make, model, and the specific service required. A car lockout typically costs less than a full key replacement. We provide a free estimate over the phone and a fixed quote on-site before starting. Call 07388 789881 for an immediate estimate.',
+      'Pricing depends on the vehicle make, model, and the specific service required. A car lockout typically costs less than a full key replacement. We provide a free estimate over the phone and a fixed quote on-site before starting. Call 07309 903243 for an immediate estimate.',
   },
   {
     question: 'Are you cheaper than a main dealer for car keys in Chorlton?',
@@ -76,7 +76,7 @@ const faqs = [
   {
     question: 'Can I get a price estimate before you come out?',
     answer:
-      'Yes. Call 07388 789881 with your vehicle make, model, and the service you need. We will give you a clear phone estimate so there are no surprises before we arrive.',
+      'Yes. Call 07309 903243 with your vehicle make, model, and the service you need. We will give you a clear phone estimate so there are no surprises before we arrive.',
   },
   {
     question: 'Is a cheap locksmith safe to use?',
@@ -122,7 +122,7 @@ export default function CheapAutoLocksmithChorltonPage() {
               for all car and van locksmith services — with fixed quotes before we start and no hidden call-out fees.
               In most cases we are significantly cheaper than a main dealer, and we come to your location.
             </p>
-            <a href="tel:+447388789881" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
+            <a href="tel:+447309903243" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
               <Phone size={22} />
               Call for a Free Estimate
             </a>
@@ -203,7 +203,7 @@ export default function CheapAutoLocksmithChorltonPage() {
             <div>
               <SectionHeading title="Get a Free Estimate From Our Chorlton Auto Locksmith" />
               <p className="text-slate-600 mb-6 text-sm">
-                Call 07388 789881 with your vehicle make, model, year, and the service you need.
+                Call 07309 903243 with your vehicle make, model, year, and the service you need.
                 We give you a clear, honest price estimate over the phone — no obligation, no pressure.
               </p>
               <div className="space-y-3">
@@ -236,7 +236,7 @@ export default function CheapAutoLocksmithChorltonPage() {
               <p className="text-slate-400 text-sm mb-6">Call us for competitive auto locksmith pricing in Chorlton</p>
               <div className="mb-6">
                 <p className="text-xs text-slate-400 mb-1 uppercase tracking-wider">Call Now</p>
-                <a href="tel:+447388789881" className="text-3xl font-bold text-amber-400 hover:text-amber-300 transition-colors">07388 789881</a>
+                <a href="tel:+447309903243" className="text-3xl font-bold text-amber-400 hover:text-amber-300 transition-colors">07309 903243</a>
               </div>
               <div className="space-y-2 text-sm text-slate-300 mb-8">
                 <p>✓ Free phone price estimate</p>
@@ -275,9 +275,9 @@ export default function CheapAutoLocksmithChorltonPage() {
           <div className="text-center py-4">
             <h2 className="text-2xl font-bold text-slate-950 mb-3">Affordable Auto Locksmith in Chorlton — Call for a Free Estimate</h2>
             <p className="text-slate-600 mb-6 max-w-xl mx-auto">Transparent pricing, fixed quotes, no hidden fees. Call now for an honest estimate.</p>
-            <a href="tel:+447388789881" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
+            <a href="tel:+447309903243" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
               <Phone size={24} />
-              07388 789881
+              07309 903243
             </a>
           </div>
         </Container>

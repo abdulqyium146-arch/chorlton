@@ -10,7 +10,7 @@ import { Clock, MapPin, Lock } from 'lucide-react'
 export const metadata: Metadata = {
   title: '24/7 Emergency Locksmith in Manchester | Chorlton Locksmiths',
   description:
-    'Emergency locksmith available 24/7 in Manchester. Fast response for lockouts, lost keys, and urgent lock issues. Call 07388 789881 now.',
+    'Emergency locksmith available 24/7 in Manchester. Fast response for lockouts, lost keys, and urgent lock issues. Call 07309 903243 now.',
 }
 
 const serviceSchema = generateServiceSchema({
@@ -174,7 +174,7 @@ export default function EmergencyLocksmirhPage() {
                   {
                     step: '1',
                     title: 'Call Us Immediately',
-                    desc: 'Ring us on 07388 789881 and describe your situation',
+                    desc: 'Ring us on 07309 903243 and describe your situation',
                   },
                   {
                     step: '2',
@@ -221,10 +221,10 @@ export default function EmergencyLocksmirhPage() {
                 <div>
                   <p className="text-sm text-slate-400 mb-2">EMERGENCY HOTLINE</p>
                   <a
-                    href="tel:+441388789881"
+                    href="tel:+447309903243"
                     className="text-3xl font-bold text-amber-400 hover:text-amber-300 transition-colors"
                   >
-                    07388 789881
+                    07309 903243
                   </a>
                 </div>
                 <p className="text-slate-300 text-sm">

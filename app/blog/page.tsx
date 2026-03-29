@@ -126,7 +126,7 @@ export default function BlogPage() {
               Don't wait for a blog post - if you need emergency locksmith services right now, call us immediately.
             </p>
             <a
-              href="tel:+447388789881"
+              href="tel:+447309903243"
               className="inline-block bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold px-8 py-3 rounded-lg transition-colors"
             >
               Call Now

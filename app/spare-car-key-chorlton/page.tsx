@@ -11,13 +11,13 @@ import {
 import { Key, Phone, ShieldCheck, Clock } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Spare Car Key Chorlton | Duplicate Key Cut On-Site | 07388 789881',
+  title: 'Spare Car Key Chorlton | Duplicate Key Cut On-Site | 07309 903243',
   description:
-    'Get a spare car key cut and programmed in Chorlton. Mobile, on-site service for all major makes. Cheaper than a dealer. Call 07388 789881.',
+    'Get a spare car key cut and programmed in Chorlton. Mobile, on-site service for all major makes. Cheaper than a dealer. Call 07309 903243.',
   keywords: ['spare car key Chorlton', 'duplicate car key Manchester', 'extra car key cutting', 'backup car key service'],
   openGraph: {
     title: 'Spare Car Key Chorlton | Duplicate Key Cut & Programmed On-Site',
-    description: 'Spare car key cut and programmed in Chorlton. Mobile, on-site, all makes. Call 07388 789881.',
+    description: 'Spare car key cut and programmed in Chorlton. Mobile, on-site, all makes. Call 07309 903243.',
     url: 'https://chorltonlocksmiths.com/spare-car-key-chorlton',
     type: 'website',
     siteName: 'Chorlton Locksmiths',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Spare Car Key Chorlton | Duplicate Cut & Programmed',
-    description: 'Get a spare car key cut and programmed in Chorlton. Mobile, on-site. Call 07388 789881.',
+    description: 'Get a spare car key cut and programmed in Chorlton. Mobile, on-site. Call 07309 903243.',
   },
   alternates: { canonical: 'https://chorltonlocksmiths.com/spare-car-key-chorlton' },
   robots: { index: true, follow: true },
@@ -49,7 +49,7 @@ const howToSchema = generateHowToSchema({
   name: 'How to Get a Spare Car Key Cut in Chorlton',
   description: 'Our spare car key cutting and programming process.',
   steps: [
-    { name: 'Call with vehicle details', text: 'Ring 07388 789881 with make, model, and year. We confirm we can produce a spare.' },
+    { name: 'Call with vehicle details', text: 'Ring 07309 903243 with make, model, and year. We confirm we can produce a spare.' },
     { name: 'We arrange a visit', text: 'We come to your home, workplace, or any location in Chorlton.' },
     { name: 'Key blade cut', text: 'Spare key blade cut to your vehicle\'s specification.' },
     { name: 'Transponder programmed', text: 'Chip coded to the vehicle ECU so the spare starts the engine.' },
@@ -71,7 +71,7 @@ const faqs = [
   {
     question: 'How much does a spare car key cost in Chorlton?',
     answer:
-      'Pricing depends on the vehicle make, model, and key type. Modern transponder keys cost more than simple blade keys. We always quote upfront and are significantly cheaper than a main dealer. Call 07388 789881 for an estimate.',
+      'Pricing depends on the vehicle make, model, and key type. Modern transponder keys cost more than simple blade keys. We always quote upfront and are significantly cheaper than a main dealer. Call 07309 903243 for an estimate.',
   },
   {
     question: 'Can you programme a spare key fob as well?',
@@ -122,9 +122,9 @@ export default function SpareCarKeyChorltonPage() {
               on-site in Chorlton for all major makes and models — cheaper than a main dealer and at a location convenient to you.
               One spare key can save you significant money and stress in the future.
             </p>
-            <a href="tel:+447388789881" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
+            <a href="tel:+447309903243" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
               <Phone size={22} />
-              Call 07388 789881
+              Call 07309 903243
             </a>
           </div>
         </Container>
@@ -181,7 +181,7 @@ export default function SpareCarKeyChorltonPage() {
               <SectionHeading title="How We Cut a Spare Car Key in Chorlton" />
               <ol className="space-y-5">
                 {[
-                  { step: '1', title: 'Call 07388 789881', desc: 'Give us your vehicle make, model, and year. We confirm compatibility and arrange a visit.' },
+                  { step: '1', title: 'Call 07309 903243', desc: 'Give us your vehicle make, model, and year. We confirm compatibility and arrange a visit.' },
                   { step: '2', title: 'We Come to You', desc: 'Mobile locksmith visits your home, workplace, or any Chorlton location.' },
                   { step: '3', title: 'Fixed Quote Upfront', desc: 'Transparent price before we start.' },
                   { step: '4', title: 'Spare Key Cut', desc: 'New key blade cut to your vehicle\'s exact specification.' },
@@ -212,7 +212,7 @@ export default function SpareCarKeyChorltonPage() {
               <p className="text-slate-400 text-sm mb-6">We come to you — on-site, cheaper than a dealer</p>
               <div className="mb-6">
                 <p className="text-xs text-slate-400 mb-1 uppercase tracking-wider">Call Now</p>
-                <a href="tel:+447388789881" className="text-3xl font-bold text-amber-400 hover:text-amber-300 transition-colors">07388 789881</a>
+                <a href="tel:+447309903243" className="text-3xl font-bold text-amber-400 hover:text-amber-300 transition-colors">07309 903243</a>
               </div>
               <div className="space-y-2 text-sm text-slate-300 mb-8">
                 <p>✓ Mobile — we come to you</p>
@@ -269,9 +269,9 @@ export default function SpareCarKeyChorltonPage() {
           <div className="text-center py-4">
             <h2 className="text-2xl font-bold text-slate-950 mb-3">Get a Spare Car Key in Chorlton Today</h2>
             <p className="text-slate-600 mb-6 max-w-xl mx-auto">We come to you, cut and programme a spare on-site. One call prevents a costly lockout.</p>
-            <a href="tel:+447388789881" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
+            <a href="tel:+447309903243" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
               <Phone size={24} />
-              07388 789881
+              07309 903243
             </a>
           </div>
         </Container>

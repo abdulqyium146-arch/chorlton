@@ -26,8 +26,8 @@ export const COLORS = {
 
 export const BUSINESS = {
   name: 'Chorlton Locksmiths Limited',
-  phone: '+447388789881',
-  phoneDisplay: '07388 789881',
+  phone: '+447309903243',
+  phoneDisplay: '07309 903243',
   email: 'info@chorltonlocksmiths.co.uk',
   address: '615b Wilbraham Rd, Chorlton-cum-Hardy, Manchester M21 9AN, United Kingdom',
   coordinates: {

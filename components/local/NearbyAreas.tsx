@@ -50,7 +50,7 @@ export function NearbyAreas({ primary = ['Chorlton'], className = '' }: NearbyAr
         ))}
       </p>
       <p className="text-slate-400 text-xs mt-3">
-        Not listed? Call <a href="tel:+447388789881" className="text-amber-600 font-medium hover:text-amber-700">07388 789881</a> — we cover all of Greater Manchester.
+        Not listed? Call <a href="tel:+447309903243" className="text-amber-600 font-medium hover:text-amber-700">07309 903243</a> — we cover all of Greater Manchester.
       </p>
     </div>
   )

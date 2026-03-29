@@ -11,13 +11,13 @@ import {
 import { Car, Phone, MapPin, ShieldCheck, Clock } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Mobile Auto Locksmith Chorlton | We Come to You | 07388 789881',
+  title: 'Mobile Auto Locksmith Chorlton | We Come to You | 07309 903243',
   description:
-    'Mobile auto locksmith in Chorlton — we come to your exact location. Car lockouts, key replacement, and programming on-site. Call 07388 789881.',
+    'Mobile auto locksmith in Chorlton — we come to your exact location. Car lockouts, key replacement, and programming on-site. Call 07309 903243.',
   keywords: ['mobile auto locksmith Chorlton', 'car locksmith near me mobile', 'roadside locksmith Manchester', 'on site car key service'],
   openGraph: {
     title: 'Mobile Auto Locksmith Chorlton | Roadside Car Key Service',
-    description: 'Mobile auto locksmith covering Chorlton and Greater Manchester. We come to you — lockouts, keys, programming. Call 07388 789881.',
+    description: 'Mobile auto locksmith covering Chorlton and Greater Manchester. We come to you — lockouts, keys, programming. Call 07309 903243.',
     url: 'https://chorltonlocksmiths.com/mobile-auto-locksmith-chorlton',
     type: 'website',
     siteName: 'Chorlton Locksmiths',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Mobile Auto Locksmith Chorlton | We Come to You',
-    description: 'Mobile auto locksmith in Chorlton — roadside, car park, or driveway. Call 07388 789881.',
+    description: 'Mobile auto locksmith in Chorlton — roadside, car park, or driveway. Call 07309 903243.',
   },
   alternates: { canonical: 'https://chorltonlocksmiths.com/mobile-auto-locksmith-chorlton' },
   robots: { index: true, follow: true },
@@ -49,7 +49,7 @@ const howToSchema = generateHowToSchema({
   name: 'How Our Mobile Auto Locksmith Service Works in Chorlton',
   description: 'What to expect when you call our mobile auto locksmith in Chorlton.',
   steps: [
-    { name: 'Call us', text: 'Ring 07388 789881 and tell us your exact location and vehicle details.' },
+    { name: 'Call us', text: 'Ring 07309 903243 and tell us your exact location and vehicle details.' },
     { name: 'We navigate to you', text: 'Our mobile locksmith drives to your precise location anywhere in Chorlton or Greater Manchester.' },
     { name: 'We set up on-site', text: 'All equipment unloaded and work carried out at your location — no workshop visit needed.' },
     { name: 'Service completed', text: 'Lockout resolved, key replaced, or programming completed entirely at the roadside.' },
@@ -81,7 +81,7 @@ const faqs = [
   {
     question: 'Do you cover areas outside Chorlton?',
     answer:
-      'Yes. We are a mobile service covering all of Greater Manchester including Didsbury, Stretford, Sale, Whalley Range, Fallowfield, Hulme, Old Trafford, Salford, and the city centre. Call 07388 789881 to confirm your specific area.',
+      'Yes. We are a mobile service covering all of Greater Manchester including Didsbury, Stretford, Sale, Whalley Range, Fallowfield, Hulme, Old Trafford, Salford, and the city centre. Call 07309 903243 to confirm your specific area.',
   },
 ]
 
@@ -128,9 +128,9 @@ export default function MobileAutoLocksmithChorltonPage() {
               on-site. Roadside, car park, driveway, or workplace — no tow truck, no workshop visit, no dealer appointment.
               We cover Chorlton and all of Greater Manchester, typically arriving in around 30 minutes.
             </p>
-            <a href="tel:+447388789881" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
+            <a href="tel:+447309903243" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
               <Phone size={22} />
-              Call 07388 789881
+              Call 07309 903243
             </a>
           </div>
         </Container>
@@ -176,7 +176,7 @@ export default function MobileAutoLocksmithChorltonPage() {
                 Areas We Cover from Chorlton
               </h3>
               <p className="text-slate-600 text-sm leading-relaxed">{COVERAGE.join(' · ')}</p>
-              <p className="text-slate-500 text-xs mt-2">Not on the list? Call 07388 789881 — we cover all of Greater Manchester.</p>
+              <p className="text-slate-500 text-xs mt-2">Not on the list? Call 07309 903243 — we cover all of Greater Manchester.</p>
             </div>
           </div>
         </Container>
@@ -214,7 +214,7 @@ export default function MobileAutoLocksmithChorltonPage() {
               <SectionHeading title="How Our Mobile Auto Locksmith Service Works" />
               <ol className="space-y-5">
                 {[
-                  { step: '1', title: 'Call 07388 789881', desc: 'Tell us your exact location and vehicle details. We confirm our ETA.' },
+                  { step: '1', title: 'Call 07309 903243', desc: 'Tell us your exact location and vehicle details. We confirm our ETA.' },
                   { step: '2', title: 'We Drive to You', desc: 'Our mobile locksmith navigates to your precise location — roadside, car park, or driveway.' },
                   { step: '3', title: 'Fixed Quote On Arrival', desc: 'Upfront price confirmed before we start any work.' },
                   { step: '4', title: 'Work Done On-Site', desc: 'Complete service carried out at your location — no workshop needed.' },
@@ -245,7 +245,7 @@ export default function MobileAutoLocksmithChorltonPage() {
               <p className="text-slate-400 text-sm mb-6">We come to you — ~30 min response, 7 days a week</p>
               <div className="mb-6">
                 <p className="text-xs text-slate-400 mb-1 uppercase tracking-wider">Call Now</p>
-                <a href="tel:+447388789881" className="text-3xl font-bold text-amber-400 hover:text-amber-300 transition-colors">07388 789881</a>
+                <a href="tel:+447309903243" className="text-3xl font-bold text-amber-400 hover:text-amber-300 transition-colors">07309 903243</a>
               </div>
               <div className="space-y-2 text-sm text-slate-300 mb-8">
                 <p>✓ We come to your exact location</p>
@@ -305,9 +305,9 @@ export default function MobileAutoLocksmithChorltonPage() {
           <div className="text-center py-4">
             <h2 className="text-2xl font-bold text-slate-950 mb-3">Need a Mobile Auto Locksmith in Chorlton?</h2>
             <p className="text-slate-600 mb-6 max-w-xl mx-auto">We come to you in ~30 minutes — roadside, car park, or driveway. Call now.</p>
-            <a href="tel:+447388789881" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
+            <a href="tel:+447309903243" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
               <Phone size={24} />
-              07388 789881
+              07309 903243
             </a>
           </div>
         </Container>

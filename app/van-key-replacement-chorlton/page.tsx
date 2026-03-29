@@ -11,13 +11,13 @@ import {
 import { Key, Phone, Clock, ShieldCheck } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Van Key Replacement Chorlton | Transit & Sprinter Keys | 07388 789881',
+  title: 'Van Key Replacement Chorlton | Transit & Sprinter Keys | 07309 903243',
   description:
-    'Lost van keys in Chorlton? We replace and programme keys on-site for Ford Transit, Mercedes Sprinter, Vauxhall Vivaro and more. Call 07388 789881.',
+    'Lost van keys in Chorlton? We replace and programme keys on-site for Ford Transit, Mercedes Sprinter, Vauxhall Vivaro and more. Call 07309 903243.',
   keywords: ['van key replacement Chorlton', 'lost van keys Manchester', 'spare van key cutting', 'van remote key programming'],
   openGraph: {
     title: 'Van Key Replacement Chorlton | Cut & Programmed On-Site',
-    description: 'Lost your van keys in Chorlton? We replace and programme them on-site for all commercial vans. Call 07388 789881.',
+    description: 'Lost your van keys in Chorlton? We replace and programme them on-site for all commercial vans. Call 07309 903243.',
     url: 'https://chorltonlocksmiths.com/van-key-replacement-chorlton',
     type: 'website',
     siteName: 'Chorlton Locksmiths',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Van Key Replacement Chorlton | Cut & Programmed On-Site',
-    description: 'Lost van keys in Chorlton? We replace and programme on-site for all commercial vans. Call 07388 789881.',
+    description: 'Lost van keys in Chorlton? We replace and programme on-site for all commercial vans. Call 07309 903243.',
   },
   alternates: { canonical: 'https://chorltonlocksmiths.com/van-key-replacement-chorlton' },
   robots: { index: true, follow: true },
@@ -49,7 +49,7 @@ const howToSchema = generateHowToSchema({
   name: 'How We Replace Van Keys in Chorlton',
   description: 'Our van key replacement process.',
   steps: [
-    { name: 'Call with van details', text: 'Ring 07388 789881 with make, model, and year.' },
+    { name: 'Call with van details', text: 'Ring 07309 903243 with make, model, and year.' },
     { name: 'We confirm', text: 'We verify we have the correct equipment for your van.' },
     { name: 'We arrive', text: 'Mobile locksmith reaches Chorlton in ~30 minutes.' },
     { name: 'Key cut and programmed', text: 'New key blade cut and transponder programmed to your van on-site.' },
@@ -122,9 +122,9 @@ export default function VanKeyReplacementChorltonPage() {
               we come to your location with key-cutting equipment and programming software to produce a replacement key on-site for your
               Ford Transit, Mercedes Sprinter, Vauxhall Vivaro, or other commercial vehicle.
             </p>
-            <a href="tel:+447388789881" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
+            <a href="tel:+447309903243" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
               <Phone size={22} />
-              Call 07388 789881
+              Call 07309 903243
             </a>
           </div>
         </Container>
@@ -180,7 +180,7 @@ export default function VanKeyReplacementChorltonPage() {
               <SectionHeading title="How Van Key Replacement Works in Chorlton" />
               <ol className="space-y-5">
                 {[
-                  { step: '1', title: 'Call 07388 789881', desc: 'Give us your van make, model, and year. We confirm capability and ETA.' },
+                  { step: '1', title: 'Call 07309 903243', desc: 'Give us your van make, model, and year. We confirm capability and ETA.' },
                   { step: '2', title: 'We Arrive (~30 Minutes)', desc: 'Mobile locksmith dispatched immediately to Chorlton.' },
                   { step: '3', title: 'Fixed Quote Upfront', desc: 'Transparent price before any work begins — no surprises.' },
                   { step: '4', title: 'Key Cut & Programmed', desc: 'New van key produced and programmed on-site.' },
@@ -211,7 +211,7 @@ export default function VanKeyReplacementChorltonPage() {
               <p className="text-slate-400 text-sm mb-6">On-site replacement — all commercial vans</p>
               <div className="mb-6">
                 <p className="text-xs text-slate-400 mb-1 uppercase tracking-wider">Call Now</p>
-                <a href="tel:+447388789881" className="text-3xl font-bold text-amber-400 hover:text-amber-300 transition-colors">07388 789881</a>
+                <a href="tel:+447309903243" className="text-3xl font-bold text-amber-400 hover:text-amber-300 transition-colors">07309 903243</a>
               </div>
               <div className="space-y-2 text-sm text-slate-300 mb-8">
                 <p>✓ ~30 min response in Chorlton</p>
@@ -250,9 +250,9 @@ export default function VanKeyReplacementChorltonPage() {
           <div className="text-center py-4">
             <h2 className="text-2xl font-bold text-slate-950 mb-3">Need Van Keys Replaced in Chorlton?</h2>
             <p className="text-slate-600 mb-6 max-w-xl mx-auto">Call now — we arrive in ~30 minutes and replace your van key on-site.</p>
-            <a href="tel:+447388789881" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
+            <a href="tel:+447309903243" className="inline-flex items-center gap-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold text-xl px-8 py-4 rounded-xl transition-colors">
               <Phone size={24} />
-              07388 789881
+              07309 903243
             </a>
           </div>
         </Container>
