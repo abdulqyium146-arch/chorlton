@@ -367,6 +367,47 @@ export default function Home() {
         </Container>
       </Section>
 
+      {/* ── Auto Locksmith Chorlton Hub — internal link cluster for Googlebot ── */}
+      <Section>
+        <Container>
+          <SectionHeading
+            title="Auto Locksmith Chorlton — Car & Van Locksmith Services"
+            subtitle="Mobile auto locksmith covering Chorlton, Didsbury, Stretford, Sale and all Manchester. ~30 min response."
+            centered
+          />
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
+            {[
+              { label: 'Auto Locksmith Chorlton', href: '/auto-locksmith-chorlton', desc: 'Mobile car & van locksmith — all makes, ~30 min response' },
+              { label: 'Car Key Replacement', href: '/car-key-replacement-chorlton', desc: 'On-site transponder key cutting & programming' },
+              { label: 'Car Lockout Chorlton', href: '/car-lockout-chorlton', desc: 'Locked out of your car? Non-destructive entry' },
+              { label: 'Lost Car Keys Chorlton', href: '/lost-car-keys-chorlton', desc: 'All keys lost — new key programmed on-site' },
+              { label: 'Van Locksmith Chorlton', href: '/van-locksmith-chorlton', desc: 'Transit, Sprinter, Vivaro & all commercial vans' },
+              { label: '24 Hour Auto Locksmith', href: '/24-hour-auto-locksmith-chorlton', desc: '24/7 emergency auto locksmith — nights & weekends' },
+              { label: 'Car Key Programming', href: '/car-key-programming-chorlton', desc: 'Transponder & immobiliser key programming' },
+              { label: 'Ignition Repair Chorlton', href: '/ignition-repair-chorlton', desc: 'Key won\'t turn? Ignition barrel repair & replacement' },
+              { label: 'Mobile Auto Locksmith', href: '/mobile-auto-locksmith-chorlton', desc: 'Fully mobile — we come to your location' },
+            ].map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="group flex flex-col gap-1 p-4 bg-white border border-slate-200 rounded-xl hover:border-amber-400 hover:shadow-md transition-all"
+              >
+                <span className="font-bold text-slate-950 group-hover:text-amber-600 transition-colors text-sm">{item.label}</span>
+                <span className="text-slate-500 text-xs leading-relaxed">{item.desc}</span>
+              </Link>
+            ))}
+          </div>
+          <div className="mt-6 text-center">
+            <Link
+              href="/auto-locksmith-chorlton"
+              className="inline-flex items-center gap-2 bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold px-6 py-3 rounded-lg transition-colors text-sm"
+            >
+              View All Auto Locksmith Services →
+            </Link>
+          </div>
+        </Container>
+      </Section>
+
       {/* Final CTA - Conversion Optimized */}
       <Section backgroundVariant="dark">
         <Container>

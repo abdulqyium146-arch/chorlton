@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import Link from 'next/link'
 import { HeroSection } from '@/components/hero/HeroSection'
 import { Section } from '@/components/layout/Section'
 import { Container } from '@/components/layout/Container'
@@ -79,38 +78,33 @@ export default function BlogPage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
             {blogPosts.map((post, idx) => (
-              <Link
+              <div
                 key={idx}
-                href={`/blog/${post.slug}`}
-                className="group h-full"
+                className="h-full p-6 bg-white border border-slate-200 rounded-lg flex flex-col"
               >
-                <div className="h-full p-6 bg-white border border-slate-200 rounded-lg hover:shadow-lg hover:border-amber-400 transition-all duration-300 flex flex-col">
-                  <div className="flex items-center justify-between mb-3">
-                    <span className="text-xs font-semibold text-amber-600 bg-amber-50 px-3 py-1 rounded-full">
-                      {post.readTime}
-                    </span>
-                    <span className="text-xs text-slate-500">
-                      {new Date(post.date).toLocaleDateString('en-GB', {
-                        year: 'numeric',
-                        month: 'short',
-                        day: 'numeric',
-                      })}
-                    </span>
-                  </div>
-
-                  <h3 className="text-lg font-bold text-slate-950 mb-2 group-hover:text-amber-600 transition-colors">
-                    {post.title}
-                  </h3>
-
-                  <p className="text-slate-600 text-sm mb-4 flex-grow">
-                    {post.excerpt}
-                  </p>
-
-                  <div className="text-amber-600 font-semibold text-sm group-hover:translate-x-1 transition-transform">
-                    Read More →
-                  </div>
+                <div className="flex items-center justify-between mb-3">
+                  <span className="text-xs font-semibold text-amber-600 bg-amber-50 px-3 py-1 rounded-full">
+                    {post.readTime}
+                  </span>
+                  <span className="text-xs text-slate-500">
+                    {new Date(post.date).toLocaleDateString('en-GB', {
+                      year: 'numeric',
+                      month: 'short',
+                      day: 'numeric',
+                    })}
+                  </span>
                 </div>
-              </Link>
+
+                <h3 className="text-lg font-bold text-slate-950 mb-2">
+                  {post.title}
+                </h3>
+
+                <p className="text-slate-600 text-sm mb-4 flex-grow">
+                  {post.excerpt}
+                </p>
+
+                <span className="text-slate-400 text-sm font-medium">Coming soon</span>
+              </div>
             ))}
           </div>
         </Container>

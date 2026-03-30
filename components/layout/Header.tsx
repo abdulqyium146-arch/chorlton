@@ -13,9 +13,9 @@ export function Header() {
   const navLinks = [
     { label: 'Home', href: '/' },
     { label: 'Services', href: '/services' },
+    { label: 'Auto Locksmith', href: '/auto-locksmith-chorlton' },
     { label: 'About', href: '/about' },
     { label: 'Areas', href: '/areas-we-cover' },
-    { label: 'Partners', href: '/partners' },
     { label: 'Blog', href: '/blog' },
     { label: 'Contact', href: '/contact' },
   ]

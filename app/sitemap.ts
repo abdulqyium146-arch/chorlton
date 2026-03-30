@@ -45,9 +45,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/partners`,
-      lastModified,
+      lastModified: new Date('2026-03-30'),
       changeFrequency: 'monthly',
-      priority: 0.8,
+      priority: 0.5,
     },
   ]
 

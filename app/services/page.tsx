@@ -6,8 +6,6 @@ import { SectionHeading } from '@/components/layout/SectionHeading'
 import { ServiceGrid } from '@/components/services/ServiceGrid'
 import { CTAButton } from '@/components/cta/CTAButton'
 
-export const dynamic = 'force-dynamic'
-
 export const metadata: Metadata = {
   title: 'Locksmith Services in Manchester | Chorlton Locksmiths',
   description:
