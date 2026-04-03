@@ -249,6 +249,30 @@ export default function VanLocksmithChorltonPage() {
         </Container>
       </Section>
 
+      <Section>
+        <Container>
+          <div className="p-5 bg-slate-50 rounded-xl border border-slate-100">
+            <p className="text-sm text-slate-600 font-medium mb-3">More auto locksmith services in Chorlton:</p>
+            <div className="flex flex-wrap gap-x-4 gap-y-2 text-sm">
+              {[
+                { label: 'Auto Locksmith Chorlton', href: '/auto-locksmith-chorlton' },
+                { label: 'Van Key Replacement', href: '/van-key-replacement-chorlton' },
+                { label: 'Car Key Replacement', href: '/car-key-replacement-chorlton' },
+                { label: 'Car Lockout Chorlton', href: '/car-lockout-chorlton' },
+                { label: 'Lost Car Keys', href: '/lost-car-keys-chorlton' },
+                { label: '24 Hour Auto Locksmith', href: '/24-hour-auto-locksmith-chorlton' },
+                { label: 'Mobile Auto Locksmith', href: '/mobile-auto-locksmith-chorlton' },
+                { label: 'Ignition Repair', href: '/ignition-repair-chorlton' },
+              ].map((link) => (
+                <Link key={link.href} href={link.href} className="text-amber-600 hover:text-amber-700 underline underline-offset-2">
+                  {link.label}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </Container>
+      </Section>
+
       <Section backgroundVariant="accent">
         <Container>
           <div className="text-center py-4">

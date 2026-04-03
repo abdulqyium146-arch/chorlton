@@ -173,8 +173,44 @@ export default function AreasWeCoverPage() {
                 className="p-5 bg-gradient-to-br from-slate-50 to-white border border-slate-200 rounded-xl hover:shadow-md hover:border-amber-400 transition-all"
               >
                 <h2 className="text-lg font-bold text-slate-950 mb-1">{area.name}</h2>
-                <p className="text-slate-600 text-sm leading-relaxed">{area.description}</p>
+                <p className="text-slate-600 text-sm leading-relaxed mb-3">{area.description}</p>
+                <Link href="/services/emergency-locksmith-manchester" className="text-amber-600 hover:text-amber-700 text-xs font-medium underline underline-offset-2">
+                  Emergency locksmith →
+                </Link>
               </article>
+            ))}
+          </div>
+        </Container>
+      </Section>
+
+      {/* Auto Locksmith Chorlton — dedicated cluster */}
+      <Section>
+        <Container>
+          <SectionHeading
+            title="Auto Locksmith Services in Chorlton"
+            subtitle="Our specialist auto locksmith hub in Chorlton covers car lockouts, key replacement, programming and more across all of Manchester"
+            centered
+          />
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 mt-8 max-w-4xl mx-auto">
+            {[
+              { name: 'Auto Locksmith Chorlton', href: '/auto-locksmith-chorlton' },
+              { name: 'Car Key Replacement Chorlton', href: '/car-key-replacement-chorlton' },
+              { name: 'Car Lockout Chorlton', href: '/car-lockout-chorlton' },
+              { name: 'Lost Car Keys Chorlton', href: '/lost-car-keys-chorlton' },
+              { name: 'Van Locksmith Chorlton', href: '/van-locksmith-chorlton' },
+              { name: 'Car Key Programming Chorlton', href: '/car-key-programming-chorlton' },
+              { name: '24 Hour Auto Locksmith', href: '/24-hour-auto-locksmith-chorlton' },
+              { name: 'Ignition Repair Chorlton', href: '/ignition-repair-chorlton' },
+              { name: 'Mobile Auto Locksmith', href: '/mobile-auto-locksmith-chorlton' },
+            ].map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="flex items-center gap-3 p-4 bg-amber-50 border border-amber-200 rounded-lg hover:border-amber-400 hover:shadow-sm transition-all text-slate-950 font-medium text-sm"
+              >
+                <span className="w-2 h-2 rounded-full bg-amber-400 flex-shrink-0" />
+                {item.name}
+              </Link>
             ))}
           </div>
         </Container>

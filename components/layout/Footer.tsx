@@ -77,36 +77,15 @@ export function Footer() {
           <div>
             <h4 className="font-semibold text-white mb-4">Auto Locksmith Chorlton</h4>
             <ul className="space-y-2 text-sm">
-              <li>
-                <Link href="/auto-locksmith-chorlton" className="text-slate-400 hover:text-amber-400 transition-colors">
-                  Auto Locksmith Chorlton
-                </Link>
-              </li>
-              <li>
-                <Link href="/car-key-replacement-chorlton" className="text-slate-400 hover:text-amber-400 transition-colors">
-                  Car Key Replacement
-                </Link>
-              </li>
-              <li>
-                <Link href="/car-lockout-chorlton" className="text-slate-400 hover:text-amber-400 transition-colors">
-                  Car Lockout
-                </Link>
-              </li>
-              <li>
-                <Link href="/lost-car-keys-chorlton" className="text-slate-400 hover:text-amber-400 transition-colors">
-                  Lost Car Keys
-                </Link>
-              </li>
-              <li>
-                <Link href="/24-hour-auto-locksmith-chorlton" className="text-slate-400 hover:text-amber-400 transition-colors">
-                  24 Hour Auto Locksmith
-                </Link>
-              </li>
-              <li>
-                <Link href="/van-locksmith-chorlton" className="text-slate-400 hover:text-amber-400 transition-colors">
-                  Van Locksmith
-                </Link>
-              </li>
+              <li><Link href="/auto-locksmith-chorlton" className="text-slate-400 hover:text-amber-400 transition-colors">Auto Locksmith Chorlton</Link></li>
+              <li><Link href="/car-key-replacement-chorlton" className="text-slate-400 hover:text-amber-400 transition-colors">Car Key Replacement</Link></li>
+              <li><Link href="/car-lockout-chorlton" className="text-slate-400 hover:text-amber-400 transition-colors">Car Lockout Chorlton</Link></li>
+              <li><Link href="/lost-car-keys-chorlton" className="text-slate-400 hover:text-amber-400 transition-colors">Lost Car Keys</Link></li>
+              <li><Link href="/van-locksmith-chorlton" className="text-slate-400 hover:text-amber-400 transition-colors">Van Locksmith Chorlton</Link></li>
+              <li><Link href="/24-hour-auto-locksmith-chorlton" className="text-slate-400 hover:text-amber-400 transition-colors">24 Hour Auto Locksmith</Link></li>
+              <li><Link href="/car-key-programming-chorlton" className="text-slate-400 hover:text-amber-400 transition-colors">Car Key Programming</Link></li>
+              <li><Link href="/ignition-repair-chorlton" className="text-slate-400 hover:text-amber-400 transition-colors">Ignition Repair Chorlton</Link></li>
+              <li><Link href="/mobile-auto-locksmith-chorlton" className="text-slate-400 hover:text-amber-400 transition-colors">Mobile Auto Locksmith</Link></li>
             </ul>
           </div>
 
@@ -222,15 +201,18 @@ export function Footer() {
 
         {/* Service Areas */}
         <div className="py-8 border-t border-slate-800">
-          <h4 className="font-semibold text-white mb-3 text-sm">Service Areas</h4>
+          <h4 className="font-semibold text-white mb-3 text-sm">
+            <Link href="/areas-we-cover" className="hover:text-amber-400 transition-colors">Service Areas</Link>
+          </h4>
           <div className="flex flex-wrap gap-2">
             {SERVICE_AREAS.map((area) => (
-              <span
+              <Link
                 key={area}
+                href="/areas-we-cover"
                 className="text-xs bg-slate-800 text-slate-300 px-3 py-1 rounded-full hover:bg-amber-400 hover:text-slate-950 transition-colors"
               >
                 {area}
-              </span>
+              </Link>
             ))}
           </div>
         </div>

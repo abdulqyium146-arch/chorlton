@@ -7,6 +7,7 @@ import { CTAButton } from '@/components/cta/CTAButton'
 import { QuoteForm } from '@/components/forms/QuoteForm'
 import { generateServiceSchema } from '@/lib/schema'
 import { Home, Shield, Key, Wrench } from 'lucide-react'
+import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Residential Locksmith in Manchester | Home Security Solutions',
@@ -99,6 +100,30 @@ export default function ResidentialLocksmirhPage() {
                 </ul>
               </div>
             ))}
+          </div>
+        </Container>
+      </Section>
+
+      {/* Internal link — Chorlton auto locksmith cluster */}
+      <Section>
+        <Container>
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-xl font-bold text-slate-950 mb-2">Auto Locksmith Services in Chorlton</h2>
+            <p className="text-slate-600 text-sm mb-5">Need an auto locksmith in Chorlton or Manchester? Our specialist car and van locksmith team covers all makes.</p>
+            <div className="flex flex-wrap gap-3">
+              {[
+                { label: 'Auto Locksmith Chorlton', href: '/auto-locksmith-chorlton' },
+                { label: 'Car Key Replacement', href: '/car-key-replacement-chorlton' },
+                { label: 'Car Lockout Chorlton', href: '/car-lockout-chorlton' },
+                { label: 'Lost Car Keys', href: '/lost-car-keys-chorlton' },
+                { label: 'Van Locksmith', href: '/van-locksmith-chorlton' },
+                { label: '24 Hour Auto Locksmith', href: '/24-hour-auto-locksmith-chorlton' },
+              ].map((item) => (
+                <Link key={item.href} href={item.href} className="text-sm bg-amber-50 border border-amber-200 text-slate-950 font-medium px-4 py-2 rounded-lg hover:bg-amber-400 hover:border-amber-400 transition-colors">
+                  {item.label}
+                </Link>
+              ))}
+            </div>
           </div>
         </Container>
       </Section>

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 import { HeroSection } from '@/components/hero/HeroSection'
 import { Section } from '@/components/layout/Section'
 import { Container } from '@/components/layout/Container'
@@ -116,6 +117,38 @@ export default function AboutPage() {
             centered
           />
           <TrustBadges />
+        </Container>
+      </Section>
+
+      <Section>
+        <Container>
+          <SectionHeading
+            title="Our Locksmith Services"
+            subtitle="Professional locksmith services across Chorlton and all of Greater Manchester"
+            centered
+          />
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
+            {[
+              { label: 'Emergency Locksmith Manchester', href: '/services/emergency-locksmith-manchester' },
+              { label: 'Auto Locksmith Chorlton', href: '/auto-locksmith-chorlton' },
+              { label: 'Car Key Replacement Chorlton', href: '/car-key-replacement-chorlton' },
+              { label: 'Residential Locksmith Manchester', href: '/services/residential-locksmith-manchester' },
+              { label: 'Commercial Locksmith Manchester', href: '/services/commercial-locksmith-manchester' },
+              { label: 'Lock Repair Manchester', href: '/services/lock-repair-manchester' },
+              { label: 'uPVC Door Lock Specialist', href: '/services/upvc-door-lock-specialist' },
+              { label: 'Van Locksmith Chorlton', href: '/van-locksmith-chorlton' },
+              { label: 'Car Lockout Chorlton', href: '/car-lockout-chorlton' },
+            ].map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="flex items-center gap-3 p-4 bg-white border border-slate-200 rounded-xl hover:border-amber-400 hover:shadow-sm transition-all text-slate-950 font-medium text-sm"
+              >
+                <span className="w-2 h-2 rounded-full bg-amber-400 flex-shrink-0" />
+                {item.label}
+              </Link>
+            ))}
+          </div>
         </Container>
       </Section>
     </>
