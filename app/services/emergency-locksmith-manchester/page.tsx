@@ -9,37 +9,37 @@ import { Clock, MapPin, Lock } from 'lucide-react'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: '24/7 Emergency Locksmith in Manchester | Chorlton Locksmiths',
+  title: '24/7 Emergency Auto Locksmith in Manchester | Car & Van Lockout',
   description:
-    'Emergency locksmith available 24/7 in Manchester. Fast response for lockouts, lost keys, and urgent lock issues. Call 07309 903243 now.',
+    'Emergency auto locksmith available 24/7 in Manchester. Fast response for car lockouts, van lockouts, lost keys, and urgent vehicle lock issues. Call 07309 903243 now.',
 }
 
 const serviceSchema = generateServiceSchema({
-  name: 'Emergency Locksmith',
-  description: 'Available 24/7 for emergency lockouts and urgent lock issues in Manchester',
+  name: 'Emergency Auto Locksmith',
+  description: 'Available 24/7 for emergency car and van lockouts and urgent automotive lock issues in Manchester',
   url: '/services/emergency-locksmith-manchester',
 })
 
 const faqs = [
   {
-    question: 'How quickly can you arrive for an emergency?',
+    question: 'How quickly can you arrive for an emergency auto lockout?',
     answer:
-      'We aim to arrive within 30-60 minutes depending on your location in the Manchester area. Call for immediate assistance.',
+      'We aim to arrive within 30-60 minutes depending on your location in the Manchester area. Call immediately for fastest dispatch.',
   },
   {
-    question: 'Do you offer emergency services outside business hours?',
+    question: 'Do you offer 24/7 emergency auto locksmith services?',
     answer:
-      'Yes, our emergency locksmith service is available 24/7, including nights, weekends, and bank holidays.',
+      'Yes, our emergency auto locksmith service is available 24/7, including nights, weekends, and bank holidays.',
   },
   {
-    question: 'What do I need to prove I live in the property?',
+    question: 'What do I need to prove I own the vehicle?',
     answer:
-      'For security reasons, we require proof of residency such as a utility bill, tenancy agreement, or ID matching the property address.',
+      'For security reasons, we require proof of vehicle ownership such as your driving license, vehicle registration document, or insurance certificate with a matching vehicle registration.',
   },
   {
-    question: 'Can you unlock my car?',
+    question: 'Can you open any type of car or van?',
     answer:
-      'Yes, we provide vehicle lockout services for cars and vans throughout Manchester.',
+      'Yes, we provide emergency auto lockout services for all makes and models of cars, vans, and commercial vehicles throughout Manchester.',
   },
 ]
 
@@ -62,8 +62,8 @@ export default function EmergencyLocksmirhPage() {
       />
 
       <HeroSection
-        title="Emergency Locksmith Services - Available 24/7"
-        subtitle="Locked out? Lost your keys? We're here to help. Fast response, professional service, fair pricing."
+        title="24/7 Emergency Auto Locksmith Services — Manchester"
+        subtitle="Car or van locked? Lost your keys? We're here to help. Fast mobile response, professional service, fair pricing. Call 07309 903243 now."
       />
 
       <Section>
@@ -117,41 +117,41 @@ export default function EmergencyLocksmirhPage() {
       <Section backgroundVariant="accent">
         <Container>
           <SectionHeading
-            title="When You Need Emergency Locksmith Services"
-            subtitle="Common situations where our 24/7 service makes all the difference"
+            title="When You Need Emergency Auto Locksmith Services"
+            subtitle="Common situations where our 24/7 mobile service makes all the difference"
             centered
           />
           <div className="grid md:grid-cols-2 gap-6">
             {[
               {
-                title: 'Locked Out of Your Home',
-                description:
-                  'Whether you forgot your keys or they\'re locked inside, we can get you back in quickly and safely.',
-              },
-              {
-                title: 'Lost or Stolen Keys',
-                description:
-                  'If you\'ve lost your keys or suspect they\'ve been stolen, we can rekey your locks for security.',
-              },
-              {
-                title: 'Broken Lock',
-                description:
-                  'A broken lock leaves you vulnerable. We repair or replace damaged locks quickly.',
-              },
-              {
-                title: 'Stuck Key',
-                description:
-                  'Keys that break inside locks require special techniques to remove safely.',
-              },
-              {
                 title: 'Locked Out of Your Car',
                 description:
-                  'We provide automotive locksmith services for cars and vans locked throughout Manchester.',
+                  'Keys locked inside your car? We arrive quickly and open your vehicle safely without damage.',
               },
               {
-                title: 'Property After Break-In',
+                title: 'Locked Out of Your Van',
                 description:
-                  'After a break-in, secure your property quickly. We can repair and upgrade locks immediately.',
+                  'Commercial vans locked with keys inside? We handle Transit, Sprinter, Vivaro and all van types.',
+              },
+              {
+                title: 'Lost All Your Car Keys',
+                description:
+                  'If you\'ve lost all your keys, we create new transponder keys and program them on-site.',
+              },
+              {
+                title: 'Broken Key in Lock',
+                description:
+                  'Keys that break inside ignitions or door locks require special techniques to remove safely.',
+              },
+              {
+                title: 'Key Fob Not Working',
+                description:
+                  'Faulty key fob or broken remote? We can program new fobs or provide spare keys immediately.',
+              },
+              {
+                title: 'Ignition Problems',
+                description:
+                  'Key won\'t turn in ignition? We repair or replace faulty ignition barrels quickly.',
               },
             ].map((item, idx) => (
               <div key={idx} className="p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
@@ -168,34 +168,34 @@ export default function EmergencyLocksmirhPage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <SectionHeading
-                title="Our Emergency Locksmith Process"
+                title="Our Emergency Auto Locksmith Process"
               />
               <div className="space-y-4">
                 {[
                   {
                     step: '1',
                     title: 'Call Us Immediately',
-                    desc: 'Ring us on 07309 903243 and describe your situation',
+                    desc: 'Ring us on 07309 903243 and describe your vehicle and situation',
                   },
                   {
                     step: '2',
                     title: 'We Arrive Quickly',
-                    desc: 'Our locksmiths arrive within 30-60 minutes in most cases',
+                    desc: 'Our mobile auto locksmiths arrive within 30-60 minutes in most cases',
                   },
                   {
                     step: '3',
                     title: 'Professional Assessment',
-                    desc: 'We assess the lock and discuss the best solution with you',
+                    desc: 'We assess your vehicle lock and discuss the best solution with you',
                   },
                   {
                     step: '4',
                     title: 'Upfront Pricing',
-                    desc: 'We quote the cost before proceeding with any work',
+                    desc: 'We provide a firm quote before proceeding with any work',
                   },
                   {
                     step: '5',
-                    title: 'Quick Resolution',
-                    desc: 'We efficiently open, repair, or replace the lock',
+                    title: 'Non-Destructive Entry',
+                    desc: 'We open your car or van using professional techniques without damage',
                   },
                   {
                     step: '6',
@@ -217,10 +217,10 @@ export default function EmergencyLocksmirhPage() {
             </div>
 
             <div className="bg-slate-950 text-white rounded-xl p-8">
-              <h3 className="text-2xl font-bold mb-6">Emergency Help Now</h3>
+              <h3 className="text-2xl font-bold mb-6">Emergency Auto Locksmith — Call Now</h3>
               <div className="space-y-4 mb-8">
                 <div>
-                  <p className="text-sm text-slate-400 mb-2">EMERGENCY HOTLINE</p>
+                  <p className="text-sm text-slate-400 mb-2">24/7 MOBILE AUTO LOCKSMITH</p>
                   <a
                     href="tel:+447309903243"
                     className="text-3xl font-bold text-amber-400 hover:text-amber-300 transition-colors"
@@ -229,7 +229,7 @@ export default function EmergencyLocksmirhPage() {
                   </a>
                 </div>
                 <p className="text-slate-300 text-sm">
-                  Available 24 hours a day, 7 days a week for emergency locksmith needs.
+                  Available 24 hours a day, 7 days a week for emergency auto locksmith needs. Fast mobile response across Manchester.
                 </p>
               </div>
               <QuoteForm />

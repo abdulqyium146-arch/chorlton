@@ -8,17 +8,17 @@ import { TrustBadges } from '@/components/trust/TrustBadges'
 import { BUSINESS } from '@/lib/theme'
 
 export const metadata: Metadata = {
-  title: 'About Chorlton Locksmiths | Professional Manchester Locksmith',
+  title: 'About Chorlton Locksmiths | Professional Auto Locksmith Manchester',
   description:
-    'Learn about Chorlton Locksmiths. Over 15 years of professional locksmith experience serving Manchester residents with trusted, affordable locksmith services.',
+    'Learn about Chorlton Locksmiths mobile auto locksmith service. Over 15 years of professional automotive locksmith experience serving Manchester drivers with trusted, affordable 24/7 services.',
 }
 
 export default function AboutPage() {
   return (
     <>
       <HeroSection
-        title="About Chorlton Locksmiths"
-        subtitle="Professional locksmith services with over 15 years of experience serving the Manchester community"
+        title="About Chorlton Locksmiths Auto Locksmith Service"
+        subtitle="Professional mobile auto locksmith service with over 15 years of experience serving drivers across the Manchester community"
       />
 
       <Section>
@@ -27,7 +27,7 @@ export default function AboutPage() {
             <div className="prose prose-sm sm:prose lg:prose-lg max-w-none">
               <h2 className="text-3xl font-bold text-slate-950 mb-4">Our Story</h2>
               <p className="text-lg text-slate-700 mb-6">
-                Chorlton Locksmiths was established over 15 years ago with a simple mission: to provide fast, reliable, and affordable locksmith services to residents and businesses throughout Manchester. What started as a small local operation has grown into one of the most trusted locksmith services in the area.
+                Chorlton Locksmiths was established over 15 years ago with a simple mission: to provide fast, reliable, and affordable mobile auto locksmith services to drivers throughout Manchester. What started as a small local operation has grown into one of the most trusted auto locksmith services in the area, specializing in emergency car and van lockouts, key replacement, key programming, and comprehensive vehicle security solutions.
               </p>
 
               <h2 className="text-3xl font-bold text-slate-950 mb-4 mt-8">Our Values</h2>
@@ -57,31 +57,37 @@ export default function AboutPage() {
                 <li className="flex gap-3">
                   <span className="text-amber-400 font-bold flex-shrink-0">✓</span>
                   <span className="text-slate-700">
-                    <strong>Local to Chorlton:</strong> We're based in the community we serve, ensuring fast response times
+                    <strong>Mobile Auto Locksmith:</strong> We come directly to your car or van location across Manchester
                   </span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-amber-400 font-bold flex-shrink-0">✓</span>
                   <span className="text-slate-700">
-                    <strong>Available 24/7:</strong> Emergency locksmith services whenever you need them
+                    <strong>24/7 Emergency Service:</strong> Available any time, day or night, including weekends and holidays
                   </span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-amber-400 font-bold flex-shrink-0">✓</span>
                   <span className="text-slate-700">
-                    <strong>Professional & Insured:</strong> All work is completed to the highest standards
+                    <strong>Professional & Insured:</strong> All work is completed by qualified technicians with comprehensive insurance
                   </span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-amber-400 font-bold flex-shrink-0">✓</span>
                   <span className="text-slate-700">
-                    <strong>Fair Pricing:</strong> No hidden charges - we quote upfront, always
+                    <strong>Fair Pricing:</strong> No hidden charges - we provide transparent quotes upfront
                   </span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-amber-400 font-bold flex-shrink-0">✓</span>
                   <span className="text-slate-700">
-                    <strong>Customer Focused:</strong> Your satisfaction is our priority
+                    <strong>Customer Focused:</strong> Your satisfaction is our priority - guaranteed work on all vehicles
+                  </span>
+                </li>
+                <li className="flex gap-3">
+                  <span className="text-amber-400 font-bold flex-shrink-0">✓</span>
+                  <span className="text-slate-700">
+                    <strong>All Vehicles Covered:</strong> Cars, vans, trucks, and commercial vehicles — all makes and models
                   </span>
                 </li>
               </ul>
@@ -123,21 +129,21 @@ export default function AboutPage() {
       <Section>
         <Container>
           <SectionHeading
-            title="Our Locksmith Services"
-            subtitle="Professional locksmith services across Chorlton and all of Greater Manchester"
+            title="Our Auto Locksmith Services"
+            subtitle="Professional mobile auto locksmith services across Chorlton and all of Greater Manchester"
             centered
           />
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
             {[
-              { label: 'Emergency Locksmith Manchester', href: '/services/emergency-locksmith-manchester' },
+              { label: 'Emergency Auto Locksmith', href: '/services/emergency-locksmith-manchester' },
               { label: 'Auto Locksmith Chorlton', href: '/auto-locksmith-chorlton' },
-              { label: 'Car Key Replacement Chorlton', href: '/car-key-replacement-chorlton' },
-              { label: 'Residential Locksmith Manchester', href: '/services/residential-locksmith-manchester' },
-              { label: 'Commercial Locksmith Manchester', href: '/services/commercial-locksmith-manchester' },
-              { label: 'Lock Repair Manchester', href: '/services/lock-repair-manchester' },
-              { label: 'uPVC Door Lock Specialist', href: '/services/upvc-door-lock-specialist' },
-              { label: 'Van Locksmith Chorlton', href: '/van-locksmith-chorlton' },
+              { label: 'Car Key Replacement', href: '/car-key-replacement-chorlton' },
               { label: 'Car Lockout Chorlton', href: '/car-lockout-chorlton' },
+              { label: 'Lost Car Keys', href: '/lost-car-keys-chorlton' },
+              { label: 'Van Locksmith Chorlton', href: '/van-locksmith-chorlton' },
+              { label: 'Car Key Programming', href: '/car-key-programming-chorlton' },
+              { label: 'Ignition Repair Chorlton', href: '/ignition-repair-chorlton' },
+              { label: 'Mobile Auto Locksmith', href: '/mobile-auto-locksmith-chorlton' },
             ].map((item) => (
               <Link
                 key={item.href}

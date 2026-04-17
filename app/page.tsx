@@ -14,89 +14,89 @@ import { Phone, Shield, Zap, MapPin, Award, ExternalLink } from 'lucide-react'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Emergency Locksmith Chorlton Manchester | 24/7 Fast Response | Insured',
+  title: 'Auto Locksmith Chorlton Manchester | 24/7 Car & Van Lockout | Fast Response',
   description:
-    'Chorlton Locksmiths: trusted 24/7 emergency locksmith in Manchester. 30–60 min response, lock repair, auto locksmith, residential & commercial. Insured professionals. Call 07309 903243.',
+    'Mobile auto locksmith in Chorlton & Manchester. 24/7 emergency car & van lockouts, key replacement, key programming, and ignition repair. 30-60 min response. Insured professionals. Call 07309 903243.',
   keywords: [
-    'locksmith Chorlton',
-    'emergency locksmith Manchester',
-    '24/7 locksmith Manchester',
-    'lock repair Chorlton',
-    'residential locksmith Manchester',
-    'commercial locksmith Manchester',
-    'uPVC door lock repair',
-    'locksmith Didsbury',
-    'locksmith Stretford',
-    'locksmith Sale',
+    'auto locksmith Chorlton',
+    'car locksmith Manchester',
+    'auto locksmith Manchester',
+    'car lockout Chorlton',
+    'van locksmith Manchester',
+    'emergency car locksmith',
+    'mobile auto locksmith',
+    'car key replacement Manchester',
+    'car key programming',
+    'vehicle locksmith near me',
   ],
 }
 
 // ⭐ AI/LLM OPTIMIZED FAQ SECTION
 const faqs = [
   {
-    question: 'Are you available 24/7 for emergency locksmith services in Manchester?',
+    question: 'Are you available 24/7 for emergency auto locksmith services?',
     answer:
-      'Yes. Chorlton Locksmiths operates 24 hours a day, 7 days a week, including weekends and holidays. We respond to emergency lockouts, lock repairs, and urgent locksmith needs at any time. Call 07309 903243 anytime.',
+      'Yes. Chorlton Locksmiths operates 24 hours a day, 7 days a week, including weekends and holidays. We respond to emergency car and van lockouts, lost keys, broken key extraction, and urgent automotive lock needs at any time. Call 07309 903243 anytime.',
   },
   {
-    question: 'How fast can a locksmith arrive in Chorlton and Manchester?',
+    question: 'How fast can an auto locksmith arrive in Manchester?',
     answer:
-      'Typical response time: 30-60 minutes in Chorlton, Didsbury, Stretford, Sale, and Manchester City Centre. We prioritize emergency calls and dispatch the nearest qualified locksmith to your location.',
+      'Typical response time: 30-60 minutes in Chorlton, Didsbury, Stretford, Sale, and Manchester City Centre. We have a mobile fleet and dispatch the nearest qualified auto locksmith to your location. For emergency situations, we prioritize fastest dispatch.',
   },
   {
-    question: 'Can you open a locked door without damage?',
+    question: 'Can you open a locked car without damage?',
     answer:
-      'Yes. Our professional locksmiths use modern non-destructive techniques to open locks with minimal to no damage. We only resort to drilling locks as a last resort, and we discuss options upfront.',
+      'Yes. Our professional auto locksmiths use modern non-destructive techniques to open vehicles with minimal to no damage to the bodywork, glass, or locks. We only resort to drilling as a last resort and always discuss options upfront.',
   },
   {
-    question: 'How much does a locksmith cost in Manchester?',
+    question: 'How much does an auto locksmith cost in Manchester?',
     answer:
-      'Our rates start from £60-£120 for standard lockouts, lock repairs, and key cutting. Emergency calls may have a small surcharge (+£20-£30). We provide transparent upfront pricing—no hidden fees. Call for a free quote: 07309 903243',
+      'Our rates start from £60-£150 for standard car and van lockouts, depending on the make and model. Key cutting and programming starts from £80-£200. Emergency calls may have a small surcharge. We provide transparent upfront pricing—no hidden fees. Call for a free quote: 07309 903243',
   },
   {
-    question: 'Do you specialize in uPVC door locks?',
+    question: 'Can you help if I\'ve lost all my car keys?',
     answer:
-      'Yes. We are uPVC door lock specialists. We repair, replace, and maintain Euro cylinder locks, multipoint locks, and all uPVC/PVCu door mechanisms. Common issues include sticky locks, misaligned doors, and worn cylinders—we fix them all.',
+      'Yes. If you\'ve lost all your car keys, we can create new transponder keys and program them on-site. We can typically do this for most vehicles within 30-60 minutes. We\'ll need proof of ownership and ID. Call us immediately for assistance.',
   },
   {
-    question: 'What types of locksmith services do you offer?',
+    question: 'What types of auto locksmith services do you offer?',
     answer:
-      'Emergency lockouts (homes & cars), lock repair, lock replacement, key cutting, uPVC door lock repair, residential security, commercial lock systems, and master key solutions. We serve homes, businesses, rental properties, and landlords.',
+      'Emergency car and van lockouts, spare key cutting and programming, transponder key programming, broken key extraction, lost key replacement, ignition repair and replacement, key fob programming, and mobile auto locksmith services. We serve all makes and models.',
   },
   {
-    question: 'Are your locksmiths qualified and insured?',
+    question: 'Are your auto locksmiths qualified and insured?',
     answer:
-      'Yes. All Chorlton Locksmiths technicians are fully qualified professionals with comprehensive insurance covering all work. We guarantee our service and stand behind every job.',
+      'Yes. All Chorlton Locksmiths auto technicians are fully qualified professionals with comprehensive insurance covering all work. We guarantee our service and stand behind every job. We work on all vehicle types and models.',
   },
   {
-    question: 'What areas do you cover?',
+    question: 'What areas do you cover for auto locksmith services?',
     answer:
-      'We serve Chorlton, Didsbury, Fallowfield, Whalley Range, Stretford, Sale, Moss Side, Old Trafford, and Manchester City Centre. We provide fast response throughout greater Manchester.',
+      'We serve Chorlton, Didsbury, Fallowfield, Whalley Range, Stretford, Sale, Moss Side, Old Trafford, and Manchester City Centre. We provide fast response throughout greater Manchester for all automotive locksmith needs.',
   },
   {
-    question: 'Do you offer emergency locksmith services on weekends and bank holidays?',
+    question: 'Do you offer emergency auto locksmith services on weekends?',
     answer:
-      'Yes. We operate 24/7 including all weekends and UK bank holidays. Emergency rates apply outside standard hours, but we maintain transparent pricing.',
+      'Yes. We operate 24/7 including all weekends and UK bank holidays. Emergency auto locksmith services available any day or time. Emergency rates apply outside standard hours, but we maintain transparent pricing.',
   },
   {
-    question: 'Can you help if I am locked out of my home, car, or office?',
+    question: 'Can you help if I am locked out of my car or van?',
     answer:
-      'Yes. We handle residential lockouts (homes, apartments, sheds), vehicle lockouts, and commercial lockouts (offices, shops, warehouses). Our technicians are equipped for all lock types.',
+      'Yes. We handle all types of vehicle lockouts - cars, vans, trucks, and commercial vehicles. Our technicians are equipped with professional auto locksmith tools and experience working on all makes and models. We provide non-destructive entry whenever possible.',
   },
   {
-    question: 'Do you offer key cutting services?',
+    question: 'Do you offer car key programming services?',
     answer:
-      'Yes. We cut keys for homes, offices, padlocks, and vehicles. We also offer master key systems and spare key cutting while you wait.',
+      'Yes. We program transponder keys (chip keys), key fobs, and remote keys for most vehicle makes and models. We can program new keys on-site using our mobile equipment. Turnaround is typically 30-60 minutes.',
   },
   {
-    question: 'Are there any warranties on your locksmith work?',
+    question: 'Are there any warranties on your auto locksmith work?',
     answer:
-      'Yes. All our locksmith services are fully guaranteed. If there are issues with our work, we return at no additional cost to fix them.',
+      'Yes. All our auto locksmith services are fully guaranteed. If there are issues with our work, we return at no additional cost to fix them. We stand behind our professional service 100%.',
   },
   {
-    question: 'How do I contact you for an emergency locksmith?',
+    question: 'How do I contact you for emergency auto locksmith help?',
     answer:
-      'Call 07309 903243 anytime, day or night. We respond immediately to emergency calls. You can also email hello@chorltonlocksmiths.co.uk or fill out our online quote form.',
+      'Call 07309 903243 anytime, day or night. We respond immediately to emergency calls and will give you an accurate ETA. You can also email hello@chorltonlocksmiths.co.uk or fill out our online quote form. Mobile service means we come to your location.',
   },
 ]
 
@@ -106,8 +106,8 @@ const breadcrumbSchema = generateBreadcrumbSchema([
 ])
 const webPageSchema = generateWebPageSchema({
   url: '/',
-  name: 'Emergency Locksmith Chorlton Manchester | 24/7 Fast Response',
-  description: 'Trusted emergency locksmith in Chorlton and Manchester. 30–60 min response, available 24/7 including weekends. Lock repair, auto locksmith, uPVC specialists. Call 07309 903243.',
+  name: 'Auto Locksmith Chorlton Manchester | 24/7 Car & Van Lockout Service',
+  description: 'Mobile auto locksmith in Chorlton and Manchester. 24/7 emergency car and van lockouts, key replacement, key programming. 30–60 min response. Insured professionals. Call 07309 903243.',
   speakableSelectors: ['h1', 'h2', '.speakable'],
 })
 
@@ -129,16 +129,16 @@ export default function Home() {
 
       {/* Hero Section - Optimized for Conversions */}
       <HeroSection
-        title="Emergency Locksmith in Chorlton & Manchester ✓ 24/7"
-        subtitle="Locked out? Broken lock? Fast response within 30-60 minutes. Professional locksmiths available 24/7. Residential, commercial, and uPVC specialists. Insured & guaranteed work. Call now: 07309 903243"
+        title="Auto Locksmith Chorlton Manchester — 24/7 Mobile Service ✓"
+        subtitle="Locked out of your car or van? Fast 30-60 minute response in Manchester. Non-destructive entry, key cutting, key programming, and emergency auto lockout relief. Available 24/7. Call 07309 903243 now."
       />
 
       {/* Trust Section - Optimized for Local SEO & AI Extraction */}
       <Section backgroundVariant="accent">
         <Container>
           <SectionHeading
-            title="Why Trust Chorlton Locksmiths? Manchester's #1 Local Emergency Locksmith"
-            subtitle="Trusted by 150+ Manchester residents. Serving Chorlton, Didsbury, Stretford, Sale, Fallowfield, Whalley Range, Moss Side, Old Trafford, and Manchester City Centre with professional, affordable locksmith services. 24/7 Available. Fully Insured. Fast Response."
+            title="Auto Locksmith Manchester — Manchester's #1 Mobile Car & Van Service"
+            subtitle="Trusted by drivers across Manchester. Fast 30-60 minute response. 24/7 emergency auto locksmith for car and van lockouts, key replacement, and key programming. Serving Chorlton, Didsbury, Stretford, Sale, and all of Greater Manchester."
             centered
             className="speakable"
           />
@@ -150,8 +150,8 @@ export default function Home() {
       <Section>
         <Container>
           <SectionHeading
-            title="Professional Locksmith Services in Chorlton, Manchester & Surrounding Areas"
-            subtitle="Emergency lockouts, lock repair, lock replacement, uPVC door specialist services, and comprehensive security solutions for residential and commercial properties. Available 24/7 in Didsbury, Stretford, Sale, Fallowfield, and Manchester City Centre."
+            title="Auto Locksmith Services in Chorlton, Manchester & Surrounding Areas"
+            subtitle="24/7 emergency car and van lockouts, key cutting, key programming, ignition repair, and comprehensive automotive security solutions. Available in Didsbury, Stretford, Sale, Fallowfield, and Manchester City Centre."
             centered
           />
           <ServiceGrid />
@@ -162,22 +162,22 @@ export default function Home() {
       <Section backgroundVariant="light">
         <Container>
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold mb-6 text-slate-950">About Chorlton Locksmiths – Quick Overview</h2>
+            <h2 className="text-3xl font-bold mb-6 text-slate-950">Auto Locksmith Manchester – Quick Overview</h2>
             <div className="bg-white border-2 border-amber-200 rounded-lg p-8 space-y-4">
               <p className="text-lg leading-relaxed text-slate-700">
-                <strong>Chorlton Locksmiths Limited</strong> is a trusted, locally-based emergency locksmith service in Manchester, UK. We provide 24/7 locksmith solutions for residential, commercial, and vehicle lockouts.
+                <strong>Chorlton Locksmiths Limited</strong> is a trusted, locally-based mobile auto locksmith service in Manchester, UK. We provide 24/7 automotive locksmith solutions for car lockouts, van lockouts, key replacement, and emergency automotive access.
               </p>
               <p className="text-lg leading-relaxed text-slate-700">
-                <strong>Service Areas:</strong> Chorlton, Didsbury, Fallowfield, Whalley Range, Stretford, Sale, Moss Side, Old Trafford, and Manchester City Centre.
+                <strong>Service Areas:</strong> Chorlton, Didsbury, Fallowfield, Whalley Range, Stretford, Sale, Moss Side, Old Trafford, and Manchester City Centre. We serve all of Greater Manchester.
               </p>
               <p className="text-lg leading-relaxed text-slate-700">
-                <strong>Core Services:</strong> Emergency lockouts, lock repair, lock replacement, uPVC door lock repair, key cutting, and commercial security solutions.
+                <strong>Core Services:</strong> Emergency car and van lockouts, spare key cutting and programming, transponder key programming, broken key extraction, lost key replacement, ignition repair and replacement.
               </p>
               <p className="text-lg leading-relaxed text-slate-700">
-                <strong>Response Time:</strong> 30-60 minutes in most Manchester areas. Available 24/7 including weekends and bank holidays.
+                <strong>Response Time:</strong> 30-60 minutes in most Manchester areas. Mobile service means we come to your location. Available 24/7 including weekends and bank holidays.
               </p>
               <p className="text-lg leading-relaxed text-slate-700">
-                <strong>Contact:</strong> Call <a href="tel:+447309903243" className="text-amber-600 font-bold hover:underline">07309 903243</a> anytime for immediate emergency assistance.
+                <strong>Contact:</strong> Call <a href="tel:+447309903243" className="text-amber-600 font-bold hover:underline">07309 903243</a> anytime for immediate emergency auto locksmith assistance.
               </p>
             </div>
           </div>
@@ -188,18 +188,18 @@ export default function Home() {
       <Section>
         <Container>
           <SectionHeading
-            title="Key Facts About Chorlton Locksmiths"
-            subtitle="Why we're Manchester's trusted emergency locksmith"
+            title="Key Facts About Auto Locksmith Chorlton"
+            subtitle="Why we're Manchester's trusted mobile auto locksmith service"
             centered
           />
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { icon: '24/7', title: 'Available 24/7', desc: 'Emergency locksmith services every day, including weekends and holidays.' },
-              { icon: '⏱️', title: 'Fast Response', desc: 'Typical arrival time: 30-60 minutes in Chorlton, Didsbury, Stretford, Sale, and Manchester City Centre.' },
-              { icon: '✓', title: 'Professional & Insured', desc: 'Fully qualified technicians with comprehensive insurance covering all work.' },
-              { icon: '🔧', title: 'Non-Destructive', desc: 'Modern techniques to open locks with minimal damage. Transparent upfront pricing.' },
-              { icon: '🏠', title: 'All Property Types', desc: 'Homes, apartments, offices, shops, warehouses, and vehicle lockouts.' },
-              { icon: '⭐', title: '4.6★ Rated', desc: 'Trusted by 150+ Manchester residents with Google reviews and ratings.' },
+              { icon: '24/7', title: '24/7 Emergency Service', desc: 'Mobile auto locksmith available every day, including weekends and bank holidays.' },
+              { icon: '⏱️', title: 'Fast Response', desc: 'Typical arrival: 30-60 minutes in Chorlton, Didsbury, Stretford, Sale, and Manchester City Centre.' },
+              { icon: '✓', title: 'Professional & Insured', desc: 'Fully qualified technicians with comprehensive insurance covering all vehicle types.' },
+              { icon: '🔧', title: 'Non-Destructive Entry', desc: 'Professional techniques to open vehicles without damage. Mobile service to your location.' },
+              { icon: '🚗', title: 'All Vehicles', desc: 'Cars, vans, trucks, commercial vehicles. All makes and models covered.' },
+              { icon: '⭐', title: '4.6★ Rated', desc: 'Trusted by drivers across Manchester with verified customer reviews and ratings.' },
             ].map((fact, idx) => (
               <div key={idx} className="bg-slate-50 border border-slate-200 rounded-lg p-6 hover:border-amber-400 transition-colors">
                 <div className="text-3xl mb-3">{fact.icon}</div>
@@ -217,19 +217,22 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <SectionHeading
-                title="Why Choose Chorlton Locksmiths for Emergency Locksmith Services?"
-                subtitle="Over 15 years of trusted locksmith experience serving Chorlton, Manchester, and the surrounding areas. Fully qualified, insured professionals available 24/7."
+                title="Why Choose Chorlton Locksmiths for Mobile Auto Locksmith Services?"
+                subtitle="Over 15 years of trusted auto locksmith experience serving drivers across Chorlton, Manchester, and the surrounding areas. Fully qualified, insured professionals available 24/7 for your automotive emergency."
               />
               <ul className="space-y-4">
                 {[
-                  'Local to Chorlton - 30-60 minute response time in Manchester',
-                  'Fast, professional, and affordable locksmith services',
-                  'Available for emergency lockouts 24/7 including weekends & bank holidays',
-                  'Trusted by 150+ Manchester residents with 4.6★ Google rating',
-                  'Modern non-destructive techniques with minimal damage',
-                  'All work fully guaranteed - we return at no charge if issues arise',
-                  'Specialists in uPVC door locks, Euro cylinders, and multipoint locks',
-                  'Serve Chorlton, Didsbury, Stretford, Sale, Fallowfield, Old Trafford & Manchester City Centre',
+                  'Mobile service — we come to your car or van location',
+                  '30-60 minute response time across Greater Manchester',
+                  'Fast, professional, and affordable auto locksmith services',
+                  '24/7 emergency auto locksmith including weekends & bank holidays',
+                  'Trusted by drivers with 4.6★ rating',
+                  'Non-destructive vehicle entry techniques',
+                  'All car and van makes and models covered',
+                  'On-site key cutting and transponder key programming',
+                  'Broken key extraction and ignition repair',
+                  'Serve Chorlton, Didsbury, Stretford, Sale, Fallowfield, and Manchester City Centre',
+                  'All work fully guaranteed—we return at no charge if issues arise',
                 ].map((item, idx) => (
                   <li key={idx} className="flex gap-3">
                     <span className="text-amber-400 font-bold">✓</span>
@@ -259,8 +262,8 @@ export default function Home() {
       <Section>
         <Container>
           <SectionHeading
-            title="What Chorlton, Didsbury & Manchester Residents Say"
-            subtitle={`Rated 4.6★ with ${BUSINESS.reviews}+ verified Google reviews. Real customers from Chorlton, Stretford, Sale, and Manchester share their locksmith experiences.`}
+            title="What Drivers in Manchester Say About Our Auto Locksmith Service"
+            subtitle={`Rated 4.6★ with ${BUSINESS.reviews}+ verified reviews. Real customers from Chorlton, Stretford, Sale, and Manchester share their emergency auto locksmith experiences.`}
             centered
           />
           <TestimonialSection />
@@ -271,13 +274,13 @@ export default function Home() {
       <Section backgroundVariant="accent">
         <Container>
           <SectionHeading
-            title="Locksmith Service Areas in Manchester & Greater Manchester"
-            subtitle="Fast 30-60 minute response time. Professional emergency locksmith services available throughout Chorlton, Didsbury, Stretford, Sale, Fallowfield, Whalley Range, Moss Side, Old Trafford, and Manchester City Centre. Call 07309 903243 for immediate assistance in your area."
+            title="Auto Locksmith Service Areas — Manchester & Greater Manchester"
+            subtitle="Fast 30-60 minute mobile response time. Professional emergency auto locksmith services available throughout Chorlton, Didsbury, Stretford, Sale, Fallowfield, Whalley Range, Moss Side, Old Trafford, and Manchester City Centre. Call 07309 903243 for immediate assistance in your area."
             centered
           />
           <div className="max-w-4xl mx-auto mb-8">
             <p className="text-center text-slate-700 mb-6">
-              We provide 24/7 emergency locksmith services covering all major areas in and around Manchester. Whether you need immediate lockout assistance, lock repair, or professional locksmith services in Chorlton, Stretford, Sale, or Manchester City Centre, our local team is ready to help. Fast response times and professional service guaranteed.
+              We provide 24/7 mobile auto locksmith services covering all major areas in and around Manchester. Whether you need immediate car lockout assistance, van lockout relief, key replacement, or professional key programming in Chorlton, Stretford, Sale, or Manchester City Centre, our local mobile team is ready to help. Fast response times and professional automotive locksmith service guaranteed.
             </p>
           </div>
           <div className="flex flex-wrap justify-center gap-3">
@@ -297,8 +300,8 @@ export default function Home() {
       <Section>
         <Container>
           <SectionHeading
-            title="Frequently Asked Questions About Chorlton Locksmiths Manchester"
-            subtitle="Common questions about emergency locksmith services, pricing, uPVC door lock repair, service areas, and how to contact us. Get answers about lockouts, lock repair, and professional locksmith solutions in Chorlton, Manchester, Didsbury, Stretford, and Sale."
+            title="Frequently Asked Questions About Auto Locksmith Manchester"
+            subtitle="Common questions about emergency car and van lockouts, key replacement, key programming, pricing, service areas, and how to contact our 24/7 mobile auto locksmith team. Get answers about vehicle lockouts and professional automotive lock solutions."
             centered
           />
           <div className="max-w-3xl mx-auto space-y-4">
@@ -413,13 +416,13 @@ export default function Home() {
         <Container>
           <div className="text-center max-w-3xl mx-auto">
             <h2 className="text-4xl sm:text-5xl font-bold mb-4">
-              Locked Out in Chorlton, Manchester? Need Emergency Locksmith Now?
+              Locked Out of Your Car or Van? Emergency Auto Locksmith Now
             </h2>
             <p className="text-lg sm:text-xl text-slate-300 mb-4">
-              Professional emergency locksmith available 24/7. Fast 30-60 minute response time in Chorlton, Didsbury, Stretford, Sale, and Manchester City Centre.
+              Professional mobile auto locksmith available 24/7. Fast 30-60 minute response time in Chorlton, Didsbury, Stretford, Sale, and Manchester City Centre.
             </p>
             <p className="text-lg text-amber-300 font-semibold mb-8">
-              Don't wait for help. Call us now for immediate locksmith assistance. Emergency lockouts, lock repair, uPVC door locks - we handle it all.
+              Don't wait for help. Call us now for immediate auto locksmith assistance. Car lockouts, van lockouts, key replacement, and key programming available around the clock.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -434,7 +437,7 @@ export default function Home() {
               </CTAButton>
             </div>
             <p className="text-sm text-slate-400 mt-6">
-              Available 24/7, including weekends and bank holidays • Fully insured professionals • No hidden fees • Guaranteed work
+              24/7 Mobile Auto Locksmith • All Makes & Models • Insured Professionals • Non-Destructive Entry • No Hidden Fees
             </p>
           </div>
         </Container>

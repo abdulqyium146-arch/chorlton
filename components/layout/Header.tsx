@@ -15,8 +15,6 @@ export function Header() {
     { label: 'Services', href: '/services' },
     { label: 'Auto Locksmith', href: '/auto-locksmith-chorlton' },
     { label: 'About', href: '/about' },
-    { label: 'Areas', href: '/areas-we-cover' },
-    { label: 'Blog', href: '/blog' },
     { label: 'Contact', href: '/contact' },
   ]
 

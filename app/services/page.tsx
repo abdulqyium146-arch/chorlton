@@ -7,24 +7,24 @@ import { ServiceGrid } from '@/components/services/ServiceGrid'
 import { CTAButton } from '@/components/cta/CTAButton'
 
 export const metadata: Metadata = {
-  title: 'Locksmith Services in Manchester | Chorlton Locksmiths',
+  title: 'Auto Locksmith Services in Manchester | Car & Van Lockout Services',
   description:
-    'Professional locksmith services including emergency response, residential, commercial, lock repair and replacement. Serving Manchester 24/7.',
+    'Professional auto locksmith services including 24/7 emergency response, car lockouts, van lockouts, key replacement, key programming, and ignition repair. Serving Manchester. Call 07309 903243.',
 }
 
 export default function ServicesPage() {
   return (
     <>
       <HeroSection
-        title="Professional Locksmith Services"
-        subtitle="From emergency lockouts to comprehensive security solutions, we have you covered."
+        title="Professional Auto Locksmith Services"
+        subtitle="From emergency car and van lockouts to comprehensive vehicle security solutions, we have you covered with mobile service across Manchester."
       />
 
       <Section>
         <Container>
           <SectionHeading
-            title="Our Locksmith Services"
-            subtitle="Complete range of locksmith solutions for residential and commercial properties"
+            title="Our Auto Locksmith Services"
+            subtitle="Complete range of mobile auto locksmith solutions for all vehicles"
             centered
           />
           <ServiceGrid />
@@ -38,7 +38,7 @@ export default function ServicesPage() {
               Don't See What You're Looking For?
             </h2>
             <p className="text-lg text-slate-700 mb-8 max-w-2xl mx-auto">
-              We offer a wide range of locksmith services. Contact us to discuss your specific needs.
+              We offer a wide range of auto locksmith services for cars, vans, and commercial vehicles. Contact us to discuss your specific automotive locksmith needs.
             </p>
             <CTAButton href="/contact" variant="primary" size="lg">
               Get In Touch
