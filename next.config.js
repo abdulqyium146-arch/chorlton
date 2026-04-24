@@ -1,8 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Explicit build ID generator — required in Next.js 16 (falls back to nanoid)
-  generateBuildId: async () => null,
-
   // Image optimization
   images: {
     formats: ['image/avif', 'image/webp'],

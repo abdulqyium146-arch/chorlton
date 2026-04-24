@@ -661,8 +661,37 @@ export default function AutoLocksmithDidsburyPage() {
       {/* ── Internal link cluster ── */}
       <Section backgroundVariant="accent">
         <Container>
-          <div className="max-w-3xl mx-auto">
-            <p className="text-sm font-semibold text-slate-700 mb-3">Related auto locksmith services:</p>
+          <div className="max-w-4xl mx-auto">
+            <p className="text-sm font-semibold text-slate-700 mb-3">Didsbury auto locksmith services:</p>
+            <div className="flex flex-wrap gap-3 mb-6">
+              {[
+                { label: 'Car Lockout Didsbury', href: '/car-lockout-didsbury' },
+                { label: 'Car Key Replacement Didsbury', href: '/car-key-replacement-didsbury' },
+                { label: 'Lost Car Keys Didsbury', href: '/lost-car-keys-didsbury' },
+                { label: 'Van Locksmith Didsbury', href: '/van-locksmith-didsbury' },
+                { label: '24 Hour Auto Locksmith Didsbury', href: '/24-hour-auto-locksmith-didsbury' },
+                { label: 'Car Key Programming Didsbury', href: '/car-key-programming-didsbury' },
+                { label: 'Ignition Repair Didsbury', href: '/ignition-repair-didsbury' },
+                { label: 'Car Key Fob Repair Didsbury', href: '/car-key-fob-repair-didsbury' },
+                { label: 'Spare Car Key Didsbury', href: '/spare-car-key-didsbury' },
+                { label: 'Mobile Auto Locksmith Didsbury', href: '/mobile-auto-locksmith-didsbury' },
+                { label: 'Broken Car Key Didsbury', href: '/broken-car-key-didsbury' },
+                { label: 'Van Key Replacement Didsbury', href: '/van-key-replacement-didsbury' },
+                { label: 'Ignition Replacement Didsbury', href: '/ignition-replacement-didsbury' },
+                { label: 'Key Stuck in Ignition Didsbury', href: '/key-stuck-in-ignition-didsbury' },
+                { label: 'Car Key Repair Didsbury', href: '/car-key-repair-didsbury' },
+                { label: 'Affordable Auto Locksmith Didsbury', href: '/cheap-auto-locksmith-didsbury' },
+              ].map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className="text-sm bg-white border border-slate-200 text-slate-950 font-medium px-4 py-2 rounded-lg hover:bg-amber-400 hover:border-amber-400 transition-colors"
+                >
+                  {item.label}
+                </Link>
+              ))}
+            </div>
+            <p className="text-sm font-semibold text-slate-700 mb-3">Also serving Chorlton:</p>
             <div className="flex flex-wrap gap-3">
               {[
                 { label: 'Auto Locksmith Chorlton', href: '/auto-locksmith-chorlton' },
@@ -670,14 +699,12 @@ export default function AutoLocksmithDidsburyPage() {
                 { label: 'Car Lockout Chorlton', href: '/car-lockout-chorlton' },
                 { label: 'Lost Car Keys Chorlton', href: '/lost-car-keys-chorlton' },
                 { label: 'Van Locksmith Chorlton', href: '/van-locksmith-chorlton' },
-                { label: '24 Hour Auto Locksmith', href: '/24-hour-auto-locksmith-chorlton' },
                 { label: 'Auto Locksmith Manchester', href: '/services/auto-locksmith-manchester' },
-                { label: 'Mobile Auto Locksmith', href: '/mobile-auto-locksmith-chorlton' },
               ].map((item) => (
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="text-sm bg-white border border-slate-200 text-slate-950 font-medium px-4 py-2 rounded-lg hover:bg-amber-400 hover:border-amber-400 transition-colors"
+                  className="text-sm bg-slate-50 border border-slate-200 text-slate-700 font-medium px-4 py-2 rounded-lg hover:bg-amber-400 hover:border-amber-400 hover:text-slate-950 transition-colors"
                 >
                   {item.label}
                 </Link>

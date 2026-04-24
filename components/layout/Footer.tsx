@@ -87,6 +87,11 @@ export function Footer() {
               <li><Link href="/ignition-repair-chorlton" className="text-slate-400 hover:text-amber-400 transition-colors">Ignition Repair Chorlton</Link></li>
               <li><Link href="/mobile-auto-locksmith-chorlton" className="text-slate-400 hover:text-amber-400 transition-colors">Mobile Auto Locksmith</Link></li>
               <li><Link href="/auto-locksmith-didsbury" className="text-slate-400 hover:text-amber-400 transition-colors">Auto Locksmith Didsbury</Link></li>
+              <li><Link href="/car-lockout-didsbury" className="text-slate-400 hover:text-amber-400 transition-colors">Car Lockout Didsbury</Link></li>
+              <li><Link href="/car-key-replacement-didsbury" className="text-slate-400 hover:text-amber-400 transition-colors">Car Key Replacement Didsbury</Link></li>
+              <li><Link href="/lost-car-keys-didsbury" className="text-slate-400 hover:text-amber-400 transition-colors">Lost Car Keys Didsbury</Link></li>
+              <li><Link href="/van-locksmith-didsbury" className="text-slate-400 hover:text-amber-400 transition-colors">Van Locksmith Didsbury</Link></li>
+              <li><Link href="/24-hour-auto-locksmith-didsbury" className="text-slate-400 hover:text-amber-400 transition-colors">24 Hour Locksmith Didsbury</Link></li>
             </ul>
           </div>
 
