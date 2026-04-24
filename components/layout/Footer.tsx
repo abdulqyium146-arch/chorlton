@@ -86,6 +86,7 @@ export function Footer() {
               <li><Link href="/car-key-programming-chorlton" className="text-slate-400 hover:text-amber-400 transition-colors">Car Key Programming</Link></li>
               <li><Link href="/ignition-repair-chorlton" className="text-slate-400 hover:text-amber-400 transition-colors">Ignition Repair Chorlton</Link></li>
               <li><Link href="/mobile-auto-locksmith-chorlton" className="text-slate-400 hover:text-amber-400 transition-colors">Mobile Auto Locksmith</Link></li>
+              <li><Link href="/auto-locksmith-didsbury" className="text-slate-400 hover:text-amber-400 transition-colors">Auto Locksmith Didsbury</Link></li>
             </ul>
           </div>
 

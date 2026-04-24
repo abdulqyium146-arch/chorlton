@@ -78,6 +78,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/24-hour-auto-locksmith-chorlton`, priority: 0.85 },
     { url: `${baseUrl}/cheap-auto-locksmith-chorlton`, priority: 0.8 },
     { url: `${baseUrl}/mobile-auto-locksmith-chorlton`, priority: 0.8 },
+    // Didsbury location pages
+    { url: `${baseUrl}/auto-locksmith-didsbury`, priority: 0.9 },
   ].map((page) => ({
     ...page,
     lastModified,
